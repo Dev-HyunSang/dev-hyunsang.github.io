@@ -2,6 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://hyunsang.dev/</loc><lastmod>2023-12-23T13:48:07&#43;09:00</lastmod></url><url>
+            <loc>http://hyunsang.dev/posts/</loc><lastmod>2023-12-23T13:48:07&#43;09:00</lastmod></url><url>
+            <loc>http://hyunsang.dev/posts/2023-representational/</loc><lastmod>2023-12-23T13:48:07&#43;09:00</lastmod></url><url>
+            <loc>http://hyunsang.dev/about/</loc></url><url>
             <loc>http://hyunsang.dev/categories/</loc></url><url>
-            <loc>http://hyunsang.dev/</loc></url><url>
             <loc>http://hyunsang.dev/tags/</loc></url></urlset>

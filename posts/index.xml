@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>HyunSang Park</title>
-        <link>http://hyunsang.dev/</link>
-        <description>Cyber Security · Software Engineering</description>
+        <title>All Posts - HyunSang Park</title>
+        <link>http://hyunsang.dev/posts/</link>
+        <description>All Posts | HyunSang Park</description>
         <generator>Hugo -- gohugo.io</generator><language>kr</language><managingEditor>me@hyunsang.dev (HyunSang Park)</managingEditor>
-            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Sat, 23 Dec 2023 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="http://hyunsang.dev/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Sat, 23 Dec 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://hyunsang.dev/posts/" rel="self" type="application/rss+xml" /><item>
     <title>다사다난 했던 2023년의 회고</title>
     <link>http://hyunsang.dev/posts/2023-representational/</link>
     <pubDate>Sat, 23 Dec 2023 00:00:00 &#43;0000</pubDate>
