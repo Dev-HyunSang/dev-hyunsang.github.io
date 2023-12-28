@@ -4,33 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략 - HyunSang Park</title><meta name="Description" content="Cyber Security · Software Engineering"><meta property="og:title" content="Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략" />
-<meta property="og:description" content="백엔드 공부를 하면서 어떻게 하면 트래픽을 다루고 큰 서비스를 하고 있는 회사에서는 어떻게 트래픽을 다루고 서비스를 만드는지에 궁금했습니다. 좋은 자료를 찾던 도중" />
+        <title>초보자가 웹 해킹을 공부하는 방법 - HyunSang Park</title><meta name="Description" content="Cyber Security · Software Engineering"><meta property="og:title" content="초보자가 웹 해킹을 공부하는 방법" />
+<meta property="og:description" content="안녕하세요. 박현상입니다. 어떻게 하면 웹 해킹을 공부할 수 있을지, 어떻게 하면 실력을 늘릴 수 있을지에 대해 많은 고민을 하고 계신 분들이 있을 것이라 생각이 듭니다" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://hyunsang.dev/posts/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic/" /><meta property="og:image" content="http://hyunsang.dev/logo.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-12-24T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-12-24T18:38:42+09:00" /><meta property="og:site_name" content="HyunSang Park" />
+<meta property="og:url" content="http://hyunsang.dev/posts/how-study-hacking/" /><meta property="og:image" content="http://hyunsang.dev/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-28T00:00:00+00:00" /><meta property="og:site_name" content="HyunSang Park" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://hyunsang.dev/logo.png" /><meta name="twitter:title" content="Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략"/>
-<meta name="twitter:description" content="백엔드 공부를 하면서 어떻게 하면 트래픽을 다루고 큰 서비스를 하고 있는 회사에서는 어떻게 트래픽을 다루고 서비스를 만드는지에 궁금했습니다. 좋은 자료를 찾던 도중"/>
+<meta name="twitter:image" content="http://hyunsang.dev/logo.png" /><meta name="twitter:title" content="초보자가 웹 해킹을 공부하는 방법"/>
+<meta name="twitter:description" content="안녕하세요. 박현상입니다. 어떻게 하면 웹 해킹을 공부할 수 있을지, 어떻게 하면 실력을 늘릴 수 있을지에 대해 많은 고민을 하고 계신 분들이 있을 것이라 생각이 듭니다"/>
 <meta name="twitter:site" content="@dev_hyunsang"/>
 <meta name="application-name" content="박현상, HyunSang Park">
 <meta name="apple-mobile-web-app-title" content="박현상, HyunSang Park"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://hyunsang.dev/posts/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic/" /><link rel="prev" href="http://hyunsang.dev/posts/join-the-army/" /><link rel="next" href="http://hyunsang.dev/posts/how-study-hacking/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://hyunsang.dev/posts/how-study-hacking/" /><link rel="prev" href="http://hyunsang.dev/posts/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략",
+        "headline": "초보자가 웹 해킹을 공부하는 방법",
         "inLanguage": "kr",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/hyunsang.dev\/posts\/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic\/"
-        },"genre": "posts","keywords": "백엔드, 서비스","wordcount":  304 ,
-        "url": "http:\/\/hyunsang.dev\/posts\/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic\/","datePublished": "2023-12-24T00:00:00+00:00","dateModified": "2023-12-24T18:38:42+09:00","license": "HyunSang Park","publisher": {
+            "@id": "http:\/\/hyunsang.dev\/posts\/how-study-hacking\/"
+        },"genre": "posts","keywords": "Web Hacking, Study","wordcount":  1064 ,
+        "url": "http:\/\/hyunsang.dev\/posts\/how-study-hacking\/","datePublished": "2023-12-28T00:00:00+00:00","dateModified": "2023-12-28T00:00:00+00:00","license": "HyunSang Park","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -101,10 +101,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략</h1><h2 class="single-subtitle">쿠팡에서는 어떻게 대규모 트래픽을 다루는가</h2><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="https://hyunsang.dev" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>HyunSang</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>컨퍼런스</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-12-24">2023-12-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;304 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">초보자가 웹 해킹을 공부하는 방법</h1><h2 class="single-subtitle">어떻게 하면 웹 해킹을 하고 공부할 수 있을까요?</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://hyunsang.dev" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>HyunSang</a></span>&nbsp;<span class="post-category">included in <a href="/categories/hacking/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Hacking</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-12-28">2023-12-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1064 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -112,49 +112,47 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#topic1---core-serving-platform">Topic1 - Core Serving Platform</a></li>
+    <li><a href="#일단-모든-해킹은-프로그래밍에서-시작된다">일단, 모든 해킹은 프로그래밍에서 시작된다.</a></li>
+    <li><a href="#꾸준히-자주-살펴보는-취약점">꾸준히, 자주 살펴보는 취약점.</a></li>
+    <li><a href="#끈기를-가지고-ctf-도전하기">끈기를 가지고 CTF 도전하기</a></li>
+    <li><a href="#맺으며">맺으며</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>백엔드 공부를 하면서 어떻게 하면 트래픽을 다루고 큰 서비스를 하고 있는 회사에서는 어떻게 트래픽을 다루고 서비스를 만드는지에 궁금했습니다.<br>
-좋은 자료를 찾던 도중 쿠팡 Reveal2021에서 <code>쿠팡의 대규모 트래픽을 다루는 백엔드 전략</code>을 보고 많은 점들을 배우게 되었습니다.</p>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/qzHjK1-07fI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<h2 id="topic1---core-serving-platform">Topic1 - Core Serving Platform</h2>
+            </div><div class="content" id="content"><p>안녕하세요. 박현상입니다.<br>
+어떻게 하면 웹 해킹을 공부할 수 있을지, 어떻게 하면 실력을 늘릴 수 있을지에 대해 많은 고민을 하고 계신 분들이 있을 것이라 생각이 듭니다.<br>
+이러한 고민들을 조금이나마 해결할 수 있도록 제 경험을 바탕으로 적어보겠습니다.</p>
+<p><strong>제 개인적인 생각을 적었습니다. 개인마다의 생각이 다를 수 있으며, 개인마다 공부하는 취향이 다를 수도 있습니다.</strong><br>
+<strong>자신에게 맞는 공부법과 로드맵을 걸쳐서 공부하시면 좋겠습니다.</strong></p>
+<h2 id="일단-모든-해킹은-프로그래밍에서-시작된다">일단, 모든 해킹은 프로그래밍에서 시작된다.</h2>
+<p>우리가 수학을 공부하면 사칙연산을 공부하듯이, 웹 해킹을 공부하기 위해서는 프로그래밍을 기본적으로 알아야 합니다.<br>
+프론트엔드, 백엔드 상관 없이 프로그래밍 공부를 하셔야 합니다. 해킹 대회라고 불리는 CTF(Capture the Flag)에서도 마찬가지로 해당 문제에서 서술한 기술들을 알아야 풀어볼 수 있습니다.</p>
+<p>사용되는 공격기법에 따라서 사용되는 프로그래밍 언어와 프레임워크가 달라지는 경우도 있습니다.<br>
+예시로 XSS(Corss Site Scripting)의 경우 JavaScript를 사용하고, SSTI(Server Side Template Injection)의 경우 어떤 언어의 템플릿 엔진을 사용하는지에 따라서 달라집니다.<br>
+때에 따라선 오픈소스를 사용하는 경우 코드를 잘 살펴보고 공부하시는 것을 추천드립니다.</p>
+<p>기본적으로 코드를 읽고, 동작방식을 이해하고 동작하는 방식 중에서 어떤 부분이 취약한지를 파악하는 능력이 중요합니다.<br>
+개인적으로 많은 것들을 알고 배우면 좋습니다. 때론 많은 지식이 너무나도 좋은 도구이자 무기가 될 수 있습니다.</p>
 <ul>
-<li><strong>Circumstances : growth At Scale</strong>
-<ul>
-<li>쿠팡은 2018년도와 비교하여 4배 이상 성장함.</li>
-<li>고객들을 만족시키기 위한 로켓배송, 로켓프레쉬 등을 다양한 서비스 존재.</li>
+<li><strong>프로그래밍 언어:</strong> <code>Python</code>, <code>PHP</code>, <code>JavaScript(Node.js Express)</code> 등.</li>
+<li><strong>데이터베이스:</strong> <code>MySQL</code>, <code>MongoDB</code> 등.</li>
+<li><strong>부가적인 기술:</strong> <code>Docker</code>, <code>HTML</code> 등.</li>
 </ul>
-</li>
-<li><strong>What Circumstances : e-Commerce Data</strong>
-<ul>
-<li>Aggregate from Multiple Domain Data</li>
-<li>Change Frequently and Instantly</li>
-<li>The more Displayed, The more Sales</li>
-<li>쿠팡은 다른 이커머스와 다르게 상품을 구매하여 직배송하는 서비스를 하고 있음. =&gt; 로켓배송, 로켓프레쉬 등이 있음.
-<ul>
-<li>이러한 서비스를 MSA(MicroService Architecture)를 하고 있음.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><strong>If we don&rsquo;t have systematic solution for these issues</strong>
-<ul>
-<li>Each backend service should guarantee highly available</li>
-<li>Business complexity will be led to produtivity loss</li>
-</ul>
-</li>
-</ul>
+<h2 id="꾸준히-자주-살펴보는-취약점">꾸준히, 자주 살펴보는 취약점.</h2>
+<p>제가 종종 해킹대회에 나가면 취약점을 사용하여 문제를 풀어야하는 경우가 많습니다.<br>
+속칭 레거시(Legacy)와 관련된 문제에서 많이 나옵니다. 오픈소스 프레임워크인 경우 PR(Pull Request)에서 취약점과 관련된 논의를 찾아볼 수 있으니 살펴보는 것을 추천드립니다.</p>
+<p>최근에 제가 살펴본 취약점 참고 자료를 함께 작성해 보겠습니다.
+<a href="https://www.cve.org/CVERecord?id=CVE-2022-0235" target="_blank" rel="noopener noreffer ">CVE-2022-0235</a>, <a href="https://huntr.com/bounties/d26ab655-38d6-48b3-be15-f9ad6b6ae6f7/" target="_blank" rel="noopener noreffer ">Exposure of Sensitive Information to an Unauthorized Actor in node-fetch/node-fetch</a>를 살펴봤습니다.</p>
+<p><a href="https://cve.org" target="_blank" rel="noopener noreffer "><code>cve.org</code></a>와 <a href="https://huntr.com/" target="_blank" rel="noopener noreffer "><code>huntr.com</code></a>를 살펴보면 항상 많은 것들을 배울 수 있습니다.</p>
+<h2 id="끈기를-가지고-ctf-도전하기">끈기를 가지고 CTF 도전하기</h2>
+<p>CTF는 자신이 모르는 지식을 알 수 있는 좋은 기회입니다.<br>
+평소에도 CTF를 풀어보시는 것을 추천 드립니다. 모르는 문제에 대해서 더 관심을 가지고 찾아보며 성장할 수 있기에 중요합니다.<br>
+저는 최근에 <a href="https://dreamhack.io/" target="_blank" rel="noopener noreffer ">DreamHack</a>을 자주 이용하고 있습니다. DreamHack 이 외에도 <a href="https://webhacking.kr/" target="_blank" rel="noopener noreffer ">Webhacking.kr</a> 등이 있으니 한 번 살펴보시며, 공부를 하시는 것을 추천드립니다.</p>
+<h2 id="맺으며">맺으며</h2>
+<p>항상 끈기있게 공부하는 게 제일 힘들고 잘 지치는 듯 합니다. 꾸준히 공부하면서, 자기와 맞는 공부법을 찾아보시면 좋겠습니다.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2023-12-24&nbsp;<a class="git-hash" href="https://github.com/dev-hyunsang/dev-hyunsang.github.io/commit/a0dba0faa5b0e3e975b09f56f2a646302809099e" target="_blank" title="commit by HyunSang Park(me@hyunsang.dev) a0dba0faa5b0e3e975b09f56f2a646302809099e: 20231224: 쿠팡의 대규모 트래픽을 다루는 백엔드 전략 / 육군 정보보호병 지원 방법">
-                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>a0dba0f</a></span>
+                <span>Updated on 2023-12-28</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -165,14 +163,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%EB%B0%B1%EC%97%94%EB%93%9C/">백엔드</a>,&nbsp;<a href="/tags/%EC%84%9C%EB%B9%84%EC%8A%A4/">서비스</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/web-hacking/">Web Hacking</a>,&nbsp;<a href="/tags/study/">Study</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/join-the-army/" class="prev" rel="prev" title="육군 정보보호병 지원 방법"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>육군 정보보호병 지원 방법</a>
-            <a href="/posts/how-study-hacking/" class="next" rel="next" title="초보자가 웹 해킹을 공부하는 방법">초보자가 웹 해킹을 공부하는 방법<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/reveal2021-coupang-back-end-strategy-to-handle-massive-traffic/" class="prev" rel="prev" title="Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Reveal2021 - 쿠팡의 대규모 트래픽을 다루는 백앤드 전략</a></div>
 </div>
 </article></div>
             </main></div>
