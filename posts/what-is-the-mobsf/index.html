@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>MobSF이 무엇인지와 어떻게 설치할까? - HyunSang Park</title><meta name="Description" content="Cyber Security Researching · Software Engineering"><meta property="og:title" content="MobSF이 무엇인지와 어떻게 설치할까?" />
+<meta property="og:description" content="안녕하세요. 박현상입니다. 최근에 관심이 있는 모바일 보안에 관련된 정적분석 자동화 MobSF 프레임워크에 대해서 알아보고자 합니다. MobSF이란? Mobile Security Framework (MobSF) is a" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hyunsang.dev/posts/what-is-the-mobsf/" /><meta property="og:image" content="http://hyunsang.dev/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-21T00:00:00+00:00" /><meta property="og:site_name" content="HyunSang Park" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://hyunsang.dev/logo.png" /><meta name="twitter:title" content="MobSF이 무엇인지와 어떻게 설치할까?"/>
+<meta name="twitter:description" content="안녕하세요. 박현상입니다. 최근에 관심이 있는 모바일 보안에 관련된 정적분석 자동화 MobSF 프레임워크에 대해서 알아보고자 합니다. MobSF이란? Mobile Security Framework (MobSF) is a"/>
+<meta name="twitter:site" content="@dev_hyunsang"/>
+<meta name="application-name" content="박현상, HyunSang Park">
+<meta name="apple-mobile-web-app-title" content="박현상, HyunSang Park"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://hyunsang.dev/posts/what-is-the-mobsf/" /><link rel="prev" href="http://hyunsang.dev/posts/persistent-nation-state-hacking-attacks/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "MobSF이 무엇인지와 어떻게 설치할까?",
+        "inLanguage": "kr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/hyunsang.dev\/posts\/what-is-the-mobsf\/"
+        },"genre": "posts","keywords": "Mobile, Cyber Security","wordcount":  828 ,
+        "url": "http:\/\/hyunsang.dev\/posts\/what-is-the-mobsf\/","datePublished": "2024-02-21T00:00:00+00:00","dateModified": "2024-02-21T00:00:00+00:00","license": "HyunSang Park","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "HyunSang"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="HyunSang Park">박현상, HyunSang Park</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/hacking/"> Hacking </a><a class="menu-item" href="/til/"> TIL </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="HyunSang Park">박현상, HyunSang Park</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/hacking/" title="">Hacking</a><a class="menu-item" href="/til/" title="">TIL</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">MobSF이 무엇인지와 어떻게 설치할까?</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://hyunsang.dev" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>HyunSang</a></span>&nbsp;<span class="post-category">included in <a href="/categories/mobile-security/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Mobile Security</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-21">2024-02-21</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;828 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#mobsf이란">MobSF이란?</a></li>
+    <li><a href="#installation-on-docker">Installation on Docker</a></li>
+    <li><a href="#android-emulator-설치-및-설정">Android Emulator 설치 및 설정</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>안녕하세요. 박현상입니다.<br>
+최근에 관심이 있는 모바일 보안에 관련된 정적분석 자동화 MobSF 프레임워크에 대해서 알아보고자 합니다.</p>
+<h2 id="mobsf이란">MobSF이란?</h2>
+<blockquote>
+<p><strong>Mobile Security Framework (MobSF)</strong> is a security research platform for mobile applications in Android, iOS and Windows Mobile. MobSF can be used for a variety of use cases such as mobile application security, penetration testing, malware analysis, and privacy analysis. The Static Analyzer supports popular mobile app binaries like APK, IPA, APPX and source code. Meanwhile, the Dynamic Analyzer supports both Android and iOS applications and offers a platform for interactive instrumented testing, runtime data and network traffic analysis. MobSF seamlessly integrates with your DevSecOps or CI/CD pipeline, facilitated by REST APIs and CLI tools, enhancing your security workflow with ease.<br>
+<strong>MobSF(Mobile Security Framework)</strong> 는 Android, iOS 및 Windows Mobile의 모바일 애플리케이션을 위한 보안 연구 플랫폼입니다. MobSF는 모바일 애플리케이션 보안, 침투 테스트, 멀웨어 분석 및 개인 정보 보호 분석과 같은 다양한 사용 사례에 사용될 수 있습니다. Static Analyzer는 APK, IPA, APPX 및 소스 코드와 같은 인기 있는 모바일 앱 바이너리를 지원합니다. 한편 Dynamic Analyzer는 Android 및 iOS 애플리케이션을 모두 지원하며 대화형 계측 테스트, 런타임 데이터 및 네트워크 트래픽 분석을 위한 플랫폼을 제공합니다. MobSF는 REST API 및 CLI 도구에 의해 촉진되는 DevSecops 또는 CI/CD 파이프라인과 원활하게 통합되어 보안 워크플로우를 쉽게 향상시킵니다. - <a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF" target="_blank" rel="noopener noreffer ">MobSF/Mobile-Security-Framework-MobSF</a></p>
+</blockquote>
+<p>공식 홈페이지에서는 이렇게 설명하고 있습니다. MobSF(Mobile Security Framework)는 Android, iOS 및 Windows Mobile의 보마일 애플리케이션을 자동으로 분석하는 플랫폼입니다. 정적/동적 분석을 지원하고 있습니다.</p>
+<h2 id="installation-on-docker">Installation on Docker</h2>
+<p>예전에는 소스코드를 직접 다운로드 하여 환경을 구성하여 구동하였지만 현재는 Docker를 이용하여 손쉽게 구동할 수 있습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ docker pull opensecurity/mobile-security-framework-mobsf:latest
+</span></span><span style="display:flex;"><span>$ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
+</span></span></code></pre></div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/posts/mobsf/01.png"
+        data-srcset="/images/posts/mobsf/01.png, /images/posts/mobsf/01.png 1.5x, /images/posts/mobsf/01.png 2x"
+        data-sizes="auto"
+        alt="/images/posts/mobsf/01.png"
+        title="Main Page" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/posts/mobsf/02.png"
+        data-srcset="/images/posts/mobsf/02.png, /images/posts/mobsf/02.png 1.5x, /images/posts/mobsf/02.png 2x"
+        data-sizes="auto"
+        alt="/images/posts/mobsf/02.png"
+        title="Main Page" /></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/posts/mobsf/03.png"
+        data-srcset="/images/posts/mobsf/03.png, /images/posts/mobsf/03.png 1.5x, /images/posts/mobsf/03.png 2x"
+        data-sizes="auto"
+        alt="/images/posts/mobsf/03.png"
+        title="Main Page" /></p>
+<h2 id="android-emulator-설치-및-설정">Android Emulator 설치 및 설정</h2>
+<p>동적 분석기를 사용하기 위해서는 Android Emulator가 설치가 되어 있어야지만 사용할 수 있는 기능입니다.<br>
+동적 분석기를 사용할 때에는 Docker 실행 명령어를 추가하여 실행 해야합니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ 
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ emulator -list-avds
+</span></span><span style="display:flex;"><span>Pixel_7_Pro_API_28
+</span></span><span style="display:flex;"><span>Pixel_7_Pro_API_33
+</span></span><span style="display:flex;"><span>$ emulator -avd Pixel_7_Pro_API_28 -writable-system -no-snapshot
+</span></span></code></pre></div><p><strong>주의사항이 있습니다.</strong> 에뮬레이터 설치하면서 API 28 버전 이상에서는 지원을 하지 않습니다.<br>
+최신 버전의 API를 사용할 경우 MobSF를 사용할 수 없습니다.</p>
+<blockquote>
+<p>Only Android images upto API 28 is supported! Newer Android AVDs does not offer a writable /system and hence cannot work with MobSF.<br>
+API 28까지의 Android 이미지만 지원합니다! 더 새로운 Android AVD는 쓰기 가능/시스템을 제공하지 않으므로 MobSF와 함께 작업할 수 없습니다.</p>
+</blockquote>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/posts/mobsf/06.png"
+        data-srcset="/images/posts/mobsf/06.png, /images/posts/mobsf/06.png 1.5x, /images/posts/mobsf/06.png 2x"
+        data-sizes="auto"
+        alt="/images/posts/mobsf/06.png"
+        title="Main Page" /></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-02-21</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/mobile/">Mobile</a>,&nbsp;<a href="/tags/cyber-security/">Cyber Security</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/persistent-nation-state-hacking-attacks/" class="prev" rel="prev" title="사회적 혼란을 위한 지속적인 국가 배후 사이버 공격"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>사회적 혼란을 위한 지속적인 국가 배후 사이버 공격</a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

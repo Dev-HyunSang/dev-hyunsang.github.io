@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>ChatGPT를 이용한 랜섬웨어 개발하기 - HyunSang Park</title><meta name="Description" content="Cyber Security Researching · Software Engineering"><meta property="og:title" content="ChatGPT를 이용한 랜섬웨어 개발하기" />
+<meta property="og:description" content="안녕하세요. 박현상입니다. 이번 글에선 ChatGPT를 이용하여 랜섬웨어가 개발이 가능한지 확인해 보고자 합니다. 들어가기 앞서서. 본 글은 국방과 보안 - C" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/developing-ransomware-with-chatgpt/" /><meta property="og:image" content="http://localhost:1313/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-05T00:00:00+00:00" /><meta property="og:site_name" content="HyunSang Park" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/logo.png" /><meta name="twitter:title" content="ChatGPT를 이용한 랜섬웨어 개발하기"/>
+<meta name="twitter:description" content="안녕하세요. 박현상입니다. 이번 글에선 ChatGPT를 이용하여 랜섬웨어가 개발이 가능한지 확인해 보고자 합니다. 들어가기 앞서서. 본 글은 국방과 보안 - C"/>
+<meta name="twitter:site" content="@dev_hyunsang"/>
+<meta name="application-name" content="박현상, HyunSang Park">
+<meta name="apple-mobile-web-app-title" content="박현상, HyunSang Park"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/developing-ransomware-with-chatgpt/" /><link rel="prev" href="http://localhost:1313/posts/2024-01-roka-infomation-securiity/" /><link rel="next" href="http://localhost:1313/posts/persistent-nation-state-hacking-attacks/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "ChatGPT를 이용한 랜섬웨어 개발하기",
+        "inLanguage": "kr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/developing-ransomware-with-chatgpt\/"
+        },"genre": "posts","wordcount":  2270 ,
+        "url": "http:\/\/localhost:1313\/posts\/developing-ransomware-with-chatgpt\/","datePublished": "2024-02-05T00:00:00+00:00","dateModified": "2024-02-05T00:00:00+00:00","license": "HyunSang Park","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "HyunSang Park"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="HyunSang Park">박현상, HyunSang Park</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/hacking/"> Hacking </a><a class="menu-item" href="/til/"> TIL </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="HyunSang Park">박현상, HyunSang Park</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/hacking/" title="">Hacking</a><a class="menu-item" href="/til/" title="">TIL</a><a class="menu-item" href="/about" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">ChatGPT를 이용한 랜섬웨어 개발하기</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://hyunsang.dev" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>HyunSang Park</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-05">2024-02-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;2270 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#들어가기-앞서서">들어가기 앞서서.</a></li>
+    <li><a href="#랜섬웨어-동작-과정">랜섬웨어 동작 과정</a></li>
+    <li><a href="#과연-chatgpt를-이용하여-랜섬웨어를-개발할-수-있을까">과연, ChatGPT를 이용하여 랜섬웨어를 개발할 수 있을까?</a>
+      <ul>
+        <li><a href="#걸림돌">걸림돌</a></li>
+        <li><a href="#랜섬웨어-개발을-위한-프롬프트-작성">랜섬웨어 개발을 위한 프롬프트 작성</a></li>
+        <li><a href="#1-뮤텍스-생성">1. 뮤텍스 생성</a></li>
+        <li><a href="#7-랜섬노트-파일-생성">7. 랜섬노트 파일 생성</a></li>
+        <li><a href="#8-messagebox-띄우기">8. MessageBox 띄우기</a></li>
+      </ul>
+    </li>
+    <li><a href="#edrendpoint-detection-and-reponse에서는">EDR(Endpoint Detection and Reponse)에서는?</a></li>
+    <li><a href="#참고-문헌">참고 문헌</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>안녕하세요. 박현상입니다.<br>
+이번 글에선 ChatGPT를 이용하여 랜섬웨어가 개발이 가능한지 확인해 보고자 합니다.</p>
+<h2 id="들어가기-앞서서">들어가기 앞서서.</h2>
+<p>본 글은 <a href="" rel="">국방과 보안 - ChatGPT와 랜섬웨어 : 제작과정과 행위분석 중심으로</a>를 토대로 작성되었습니다.<br>
+<strong>본 글을 통하여 악의적인 행위를 하여 다른 사람의 컴퓨터를 암호화 혹은 해킹하는 행위를 절대로 하지 말아주시기 바라며, 악위적인 행위는 관련 법령에 의거하여 처벌 받을 수 있습니다.</strong><br>
+<strong>또한 본 글의 작성자는 일체 악의적인 행위에 대한 책임을 지지 않습니다.</strong></p>
+<h2 id="랜섬웨어-동작-과정">랜섬웨어 동작 과정</h2>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://csrc.kaist.ac.kr/blog/wp-content/uploads/2021/03/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8_011-1.png"
+        data-srcset="https://csrc.kaist.ac.kr/blog/wp-content/uploads/2021/03/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8_011-1.png, https://csrc.kaist.ac.kr/blog/wp-content/uploads/2021/03/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8_011-1.png 1.5x, https://csrc.kaist.ac.kr/blog/wp-content/uploads/2021/03/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8_011-1.png 2x"
+        data-sizes="auto"
+        alt="https://csrc.kaist.ac.kr/blog/wp-content/uploads/2021/03/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8_011-1.png"
+        title="랜섬웨어 동작 순서" /></p>
+<p><a href="https://csrc.kaist.ac.kr/blog/2021/03/29/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EC%9D%98-%EB%8F%99%ED%96%A5%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%98%95-conti-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0/" target="_blank" rel="noopener noreffer ">KAIST CSRC Weblog - 랜섬웨어의 동향과 서비스형 Conti 동작 원리 살펴보기</a>에서 이미지 발췌함.</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/posts/Ransomware-diagram.png"
+        data-srcset="/images/posts/Ransomware-diagram.png, /images/posts/Ransomware-diagram.png 1.5x, /images/posts/Ransomware-diagram.png 2x"
+        data-sizes="auto"
+        alt="/images/posts/Ransomware-diagram.png"
+        title="랜섬웨어 실행 흐름도" /></p>
+<p><a href="" rel="">국방과 보안 - ChatGPT와 랜섬웨어 : 제작과정과 행위분석 중심으로</a>에서 이미지 발췌함.</p>
+<p>공격의 시발이 되는 공격 벡터의 경우 피해자는 자신도 모르게 악성 사이트에 접속되어 랜섬웨어에 감염되거나, 출처가 불분명한 메일과 소프트웨어를 다운로드 받아 실행하는 경우 랜섬웨어에 감염 등 다양한 공격 경로로 랜섬웨어에 감염될 수 있습니다.<br>
+최근에는 동일한 네트워크에 있는 컴퓨터들을 동시에 감염시키는 방식으로 랜섬웨어가 확산되는 경우도 있습니다.</p>
+<p>피해자가 랜섬웨어 감염을 인지하지 못한 상태에서 랜섬웨어를 실행하는 경우 PC의 모든 파일이 암호화되며, 암호화된 파일을 복호화하기 위해서는 피해자는 비트코인 등 가상화폐를 이용하여 몸값을 지불하는 방식을 사용하고 있습니다.</p>
+<p>하지만 이러한 몸값을 지불한다고 하여서 완전히 복호화 된다는 보장이 없기 때문에, 섣불리 몸값을 지불하는 것은 옳지 않은 방법이기 때문에 유의 바랍니다.</p>
+<h2 id="과연-chatgpt를-이용하여-랜섬웨어를-개발할-수-있을까">과연, ChatGPT를 이용하여 랜섬웨어를 개발할 수 있을까?</h2>
+<h3 id="걸림돌">걸림돌</h3>
+<p>직접적으로 랜섬웨어 만들어 주라는 명령을 하는 경우 ChatGPT는 이를 거부합니다.<br>
+부적절한 행위의 경우 ChatGPT는 이를 거부하며, 이러한 행위를 하지 않도록 유도하고 있습니다.<br>
+하지만 각 단계별로 랜섬웨어를 개발하는 방법을 ChatGPT에게 물어봐서 이를 개발하는 것은 가능합니다.</p>
+<h3 id="랜섬웨어-개발을-위한-프롬프트-작성">랜섬웨어 개발을 위한 프롬프트 작성</h3>
+<ol>
+<li>뮤텍스 생성 시에는 시스템의 볼륨 시얼 정보를 쉬프트 연산한 값을 <a href="" rel="">Salsa20</a> 알고리즘으로 암호화한 결괏값을 뮤텍스 이름으로 사용하는 파이썬 코드 제작을 요청합니다.</li>
+<li>프로세스 강제 종료 시에는 프로세스 강제 종료 목록이 담긴 파일 리스트 생성 후 이를 강제 종료하는 파이썬 코드 제작을 요청합니다.</li>
+<li>파일 시스템 수집 시에는 감염할 PC의 시스템 사용자 정보를 수집하는 코드 제작을 요청합니다.</li>
+<li>특정 확장자 파일 검색 시에는 감염할 PC 사용자의 모든 파일을 탐색할 수 있게 경로를 지정한 후, [지정한 파일 확장자 목록]을 가진 파일을 검색하여 [지정한 파일 확정자 목록]을 <code>files</code> 변수에 저장하는 파이썬 코드 제작을 요청합니다.</li>
+<li>파일 암호화 시에는 <code>files</code> 변수에 있는 파일 경로에 [지정한 파일 확장자 목록]을 가진 파일을 AES256으로 암호화한 후, 암호화에 사용한 키를 RSA로 재암호화 하는 파이썬 코드 제작을 요청합니다.</li>
+<li>볼륨 섀도우 복사본 삭제 시에는 지금까지 제작된 코드에 볼륨 섀도우 복사본을 삭제하는 코드 삽입을 요청한다.</li>
+<li>랜섬노트 파일 생성 시에는 바탕화면에 &ldquo;readme&rdquo; 이름으로 텍스트 파일 생성 후, 금전 요구 및 관련 지시 사항의 내용이 들어가도록 파이썬 코드 제작을 요청합니다.</li>
+<li>랜섬노트 실행창 생성 시에는 PC 감염을 완료한 이후 랜섬노트를 자동으로 데스크톱에 뛰우기 위하여 MessageBox 함수를 이용하여 대화상자를 표시하는 파이썬 코드 제작을 요청합니다.</li>
+</ol>
+<p>논문에서는 Python을 사용하였지만 본 글에서는 Go언어를 사용하여 개발하였습니다.<br>
+실제로도 악성코드를 Go언어를 사용하여 개발하는 경우가 많아지고 있습니다.</p>
+<ul>
+<li><a href="https://zdnet.co.kr/view/?no=20210301162457" target="_blank" rel="noopener noreffer ">프로그래밍언어 ‘고’ 기반 악성코드 4년간 20배 증가</a></li>
+<li><a href="https://asec.ahnlab.com/ko/30707/" target="_blank" rel="noopener noreffer ">웹하드를 통해 유포 중인 DDoS IRC Bot 악성코드 (GoLang)</a></li>
+<li><a href="https://isarc.tachyonlab.com/4159" target="_blank" rel="noopener noreffer ">GO 언어로 제작된 악성코드 Klingon RAT</a></li>
+</ul>
+<h3 id="1-뮤텍스-생성">1. 뮤텍스 생성</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;crypto/cipher&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;crypto/rand&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;encoding/binary&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;sync&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;time&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;golang.org/x/crypto/salsa20&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 뮤텍스 생성
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mutex</span> <span style="color:#a6e22e">sync</span>.<span style="color:#a6e22e">Mutex</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 시스템의 볼륨 시리얼 정보 가져오기 (임의의 값으로 대체)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">volumeSerial</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">getVolumeSerial</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 쉬프트 연산 및 Salsa20 알고리즘으로 암호화
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">encryptedValue</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">encryptValue</span>(<span style="color:#a6e22e">volumeSerial</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 뮤텍스 이름 설정
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">mutexName</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;encrypted_mutex_%x&#34;</span>, <span style="color:#a6e22e">encryptedValue</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 뮤텍스 사용 예제
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">go</span> <span style="color:#66d9ef">func</span>() {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">mutex</span>.<span style="color:#a6e22e">Lock</span>()
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Critical Section: Do something important!&#34;</span>)
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">mutex</span>.<span style="color:#a6e22e">Unlock</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 메인 루프
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// 뮤텍스 잠금 시도
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#a6e22e">mutex</span>.<span style="color:#a6e22e">Lock</span>()
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Main Loop: Accessing Critical Section...&#34;</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">mutex</span>.<span style="color:#a6e22e">Unlock</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Sleep</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Second</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 임의의 볼륨 시리얼 정보 반환 (실제로는 시스템에서 얻어와야 함)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">getVolumeSerial</span>() <span style="color:#66d9ef">uint32</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">123456789</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// 값 쉬프트 및 Salsa20으로 암호화
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">encryptValue</span>(<span style="color:#a6e22e">value</span> <span style="color:#66d9ef">uint32</span>) []<span style="color:#66d9ef">byte</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 32비트 값을 바이트 배열로 변환
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">valueBytes</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">byte</span>, <span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">binary</span>.<span style="color:#a6e22e">LittleEndian</span>.<span style="color:#a6e22e">PutUint32</span>(<span style="color:#a6e22e">valueBytes</span>, <span style="color:#a6e22e">value</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 쉬프트 연산
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">valueBytes</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">valueBytes</span>[<span style="color:#a6e22e">i</span>] = <span style="color:#a6e22e">valueBytes</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Salsa20 암호화
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">key</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">byte</span>, <span style="color:#ae81ff">32</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">rand</span>.<span style="color:#a6e22e">Read</span>(<span style="color:#a6e22e">key</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;암호화 키 생성 오류:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">cipher</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">salsa20</span>.<span style="color:#a6e22e">New</span>(<span style="color:#a6e22e">key</span>, <span style="color:#66d9ef">nil</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Salsa20 암호화기 생성 오류:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">encryptedValue</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">byte</span>, len(<span style="color:#a6e22e">valueBytes</span>))
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">cipher</span>.<span style="color:#a6e22e">XORKeyStream</span>(<span style="color:#a6e22e">encryptedValue</span>, <span style="color:#a6e22e">valueBytes</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">encryptedValue</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><strong>몇몇 과정은 악용의</strong></p>
+<h3 id="7-랜섬노트-파일-생성">7. 랜섬노트 파일 생성</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;io/ioutil&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;os&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;path/filepath&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 바탕화면 경로 가져오기
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">desktop</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">UserHomeDir</span>()
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;바탕화면 경로를 가져올 수 없습니다:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 파일 경로 설정
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">filePath</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">filepath</span>.<span style="color:#a6e22e">Join</span>(<span style="color:#a6e22e">desktop</span>, <span style="color:#e6db74">&#34;readme.txt&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 파일 내용 작성
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">content</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">`당신의 일부 파일이 암호화 되었습니다.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">해당 파일을 복구하고 싶다면 다음과 같은 요구사항을 만족시킨 후, 하단에 있는 이메일 주소로 연락주세요.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">금액: 2BTC
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">계좌: 1N3QWNrh4aw3QFjdyV7wNR96seXNjAX7Qc
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">제한시간: 2024-02-13 PM 12:00
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">이메일: me@hyunsang.dev
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 파일 생성 및 쓰기
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#a6e22e">err</span> = <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">WriteFile</span>(<span style="color:#a6e22e">filePath</span>, []byte(<span style="color:#a6e22e">content</span>), <span style="color:#ae81ff">0644</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;파일을 생성하거나 쓸 수 없습니다:&#34;</span>, <span style="color:#a6e22e">err</span>)
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;readme.txt 파일이 바탕화면에 생성되었습니다.&#34;</span>)
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="8-messagebox-띄우기">8. MessageBox 띄우기</h3>
+<p><code>lxn/walk</code>를 패키지를 이용하였습니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> (
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;fmt&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;log&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#34;github.com/lxn/walk&#34;</span>
+</span></span><span style="display:flex;"><span>	. <span style="color:#e6db74">&#34;github.com/lxn/walk/declarative&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// 윈도우 생성
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">mw</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">walk</span>.<span style="color:#a6e22e">MainWindow</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">MainWindow</span>{
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">AssignTo</span>: <span style="color:#f92672">&amp;</span><span style="color:#a6e22e">mw</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Title</span>:    <span style="color:#e6db74">&#34;MessageBox 예제&#34;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Size</span>:     <span style="color:#a6e22e">Size</span>{<span style="color:#ae81ff">300</span>, <span style="color:#ae81ff">200</span>},
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Layout</span>:   <span style="color:#a6e22e">VBox</span>{},
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">Children</span>: []<span style="color:#a6e22e">Widget</span>{
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">PushButton</span>{
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">Text</span>: <span style="color:#e6db74">&#34;MessageBox 띄우기&#34;</span>,
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">OnClicked</span>: <span style="color:#66d9ef">func</span>() {
+</span></span><span style="display:flex;"><span>					<span style="color:#75715e">// MessageBox 띄우기
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>					<span style="color:#a6e22e">walk</span>.<span style="color:#a6e22e">MsgBox</span>(<span style="color:#a6e22e">mw</span>, <span style="color:#e6db74">&#34;알림&#34;</span>, <span style="color:#e6db74">&#34;안녕하세요!&#34;</span>, <span style="color:#a6e22e">walk</span>.<span style="color:#a6e22e">MsgBoxOK</span>|<span style="color:#a6e22e">walk</span>.<span style="color:#a6e22e">MsgBoxIconInformation</span>)
+</span></span><span style="display:flex;"><span>				},
+</span></span><span style="display:flex;"><span>			},
+</span></span><span style="display:flex;"><span>		},
+</span></span><span style="display:flex;"><span>	}.<span style="color:#a6e22e">Run</span>()
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="edrendpoint-detection-and-reponse에서는">EDR(Endpoint Detection and Reponse)에서는?</h2>
+<p>OPEN EDR를 사용하여 ChatGPT를 이용하여 개발한 랜섬웨어가 과연 랜섬웨어로 판단하는지 확인하고자 합니다.</p>
+<h2 id="참고-문헌">참고 문헌</h2>
+<ul>
+<li><a href="https://csrc.kaist.ac.kr/blog/2021/03/29/%EB%9E%9C%EC%84%AC%EC%9B%A8%EC%96%B4%EC%9D%98-%EB%8F%99%ED%96%A5%EA%B3%BC-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%98%95-conti-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0/" target="_blank" rel="noopener noreffer ">KAIST CSRC Weblog - 랜섬웨어의 동향과 서비스형 Conti 동작 원리 살펴보기</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-02-05</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/2024-01-roka-infomation-securiity/" class="prev" rel="prev" title="2024년도 1회차 육군 정보보호병 합격 후기"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>2024년도 1회차 육군 정보보호병 합격 후기</a>
+            <a href="/posts/persistent-nation-state-hacking-attacks/" class="next" rel="next" title="사회적 혼란을 위한 지속적인 국가 배후 사이버 공격">사회적 혼란을 위한 지속적인 국가 배후 사이버 공격<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
