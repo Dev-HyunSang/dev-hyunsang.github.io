@@ -4,7 +4,15 @@
         <link>http://hyunsang.dev/tags/cyber-security/</link>
         <description>Cyber Security - Tag - HyunSang Park</description>
         <generator>Hugo -- gohugo.io</generator><language>kr</language><managingEditor>me@hyunsang.dev (HyunSang Park)</managingEditor>
-            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://hyunsang.dev/tags/cyber-security/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Mon, 26 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://hyunsang.dev/tags/cyber-security/" rel="self" type="application/rss+xml" /><item>
+    <title>OWASP MASTG - Overview</title>
+    <link>http://hyunsang.dev/posts/owasp-moblie-reversing-overview/</link>
+    <pubDate>Mon, 26 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>HyunSang</author>
+    <guid>http://hyunsang.dev/posts/owasp-moblie-reversing-overview/</guid>
+    <description><![CDATA[본 게시물은 OWASP MASTG(Mobile Application Security Testing Guide)를 보면서 작성했습니다. 영어를 한국어로 번역하여 작성하였으며, 오역이 있을 수도 있습니다. 안녕하세요. 박현상입니다.]]></description>
+</item>
+<item>
     <title>다양한 목적을 달성하기 위한 북한의 사이버 공격</title>
     <link>http://hyunsang.dev/posts/north-korea-cyberattacks-to-achieve-various-objectives/</link>
     <pubDate>Fri, 23 Feb 2024 00:00:00 &#43;0000</pubDate>
