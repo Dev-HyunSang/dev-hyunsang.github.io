@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>삶의 목적 - Tag - HyunSang Park</title>
+        <link>http://localhost:1313/tags/%EC%82%B6%EC%9D%98-%EB%AA%A9%EC%A0%81/</link>
+        <description>삶의 목적 - Tag - HyunSang Park</description>
+        <generator>Hugo -- gohugo.io</generator><language>kr</language><managingEditor>me@hyunsang.dev (HyunSang Park)</managingEditor>
+            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Mon, 04 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%EC%82%B6%EC%9D%98-%EB%AA%A9%EC%A0%81/" rel="self" type="application/rss+xml" /><item>
+    <title>마음가짐에서 나오는 힘</title>
+    <link>http://localhost:1313/posts/%EB%A7%88%EC%9D%8C%EA%B0%80%EC%A7%90%EC%97%90%EC%84%9C-%EB%82%98%EC%98%A4%EB%8A%94-%ED%9E%98/</link>
+    <pubDate>Mon, 04 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>HyunSang</author>
+    <guid>http://localhost:1313/posts/%EB%A7%88%EC%9D%8C%EA%B0%80%EC%A7%90%EC%97%90%EC%84%9C-%EB%82%98%EC%98%A4%EB%8A%94-%ED%9E%98/</guid>
+    <description><![CDATA[안녕하세요. 박현상입니다. 오늘은 제가 여러가지를 경험하면서, 그리고 책을 읽으면서 느꼈던 마음가짐에 대해 적어보려고 합니다. 안중근 의사의 유목 중 하나인 인]]></description>
+</item>
+</channel>
+</rss>

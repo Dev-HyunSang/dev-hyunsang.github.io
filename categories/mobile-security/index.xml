@@ -1,23 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Mobile Security - Category - HyunSang Park</title>
-        <link>http://hyunsang.dev/categories/mobile-security/</link>
+        <link>http://localhost:1313/categories/mobile-security/</link>
         <description>Mobile Security - Category - HyunSang Park</description>
         <generator>Hugo -- gohugo.io</generator><language>kr</language><managingEditor>me@hyunsang.dev (HyunSang Park)</managingEditor>
-            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Mon, 26 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://hyunsang.dev/categories/mobile-security/" rel="self" type="application/rss+xml" /><item>
-    <title>OWASP MASTG - Overview</title>
-    <link>http://hyunsang.dev/posts/owasp-moblie-reversing-overview/</link>
-    <pubDate>Mon, 26 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>HyunSang</author>
-    <guid>http://hyunsang.dev/posts/owasp-moblie-reversing-overview/</guid>
-    <description><![CDATA[본 게시물은 OWASP MASTG(Mobile Application Security Testing Guide)를 보면서 작성했습니다. 영어를 한국어로 번역하여 작성하였으며, 오역이 있을 수도 있습니다. 안녕하세요. 박현상입니다.]]></description>
-</item>
-<item>
+            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Wed, 21 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/mobile-security/" rel="self" type="application/rss+xml" /><item>
     <title>MobSF이 무엇인지와 어떻게 설치할까?</title>
-    <link>http://hyunsang.dev/posts/what-is-the-mobsf/</link>
+    <link>http://localhost:1313/posts/what-is-the-mobsf/</link>
     <pubDate>Wed, 21 Feb 2024 00:00:00 &#43;0000</pubDate>
     <author>HyunSang</author>
-    <guid>http://hyunsang.dev/posts/what-is-the-mobsf/</guid>
+    <guid>http://localhost:1313/posts/what-is-the-mobsf/</guid>
     <description><![CDATA[안녕하세요. 박현상입니다. 최근에 관심이 있는 모바일 보안에 관련된 정적분석 자동화 MobSF 프레임워크에 대해서 알아보고자 합니다. MobSF이란? Mobile Security Framework (MobSF) is a]]></description>
 </item>
 </channel>

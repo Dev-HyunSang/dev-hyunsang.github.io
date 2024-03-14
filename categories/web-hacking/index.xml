@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Web Hacking - Category - HyunSang Park</title>
+        <link>http://localhost:1313/categories/web-hacking/</link>
+        <description>Web Hacking - Category - HyunSang Park</description>
+        <generator>Hugo -- gohugo.io</generator><language>kr</language><managingEditor>me@hyunsang.dev (HyunSang Park)</managingEditor>
+            <webMaster>me@hyunsang.dev (HyunSang Park)</webMaster><copyright>HyunSang Park</copyright><lastBuildDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/categories/web-hacking/" rel="self" type="application/rss+xml" /><item>
+    <title>잘 쓰면 안전한 서비스, 잘못 쓰면 보안 취약점 - JSON Web Token의 대하여.</title>
+    <link>http://localhost:1313/posts/vulnerability-in-json-web-token/</link>
+    <pubDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>HyunSang</author>
+    <guid>http://localhost:1313/posts/vulnerability-in-json-web-token/</guid>
+    <description><![CDATA[안녕하세요. 박현상입니다. 대부분의 서비스에서 사용되고 있는 인증 체계인 JWT(JSON Web Token)에 대하여 다루어 보겠습니다. JWT(JSON Web Token)이란? JSON Web Tok]]></description>
+</item>
+</channel>
+</rss>
