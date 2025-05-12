@@ -1,6 +1,7 @@
 ---
 title: "[육군 정보보호병] 2024년도 1회차 합격 후기"
 date: 2024-01-20
+categorys: "군 복무"
 tags: ["군 복무"]
 author: "HyunSang Eval Park"
 showToc: true

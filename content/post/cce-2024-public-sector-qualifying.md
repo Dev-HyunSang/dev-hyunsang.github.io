@@ -1,6 +1,7 @@
 ---
 title: "2024 사이버방어공격대회(CCE) 공공부문으로 참여하며."
 date: 2024-08-04
+categorys: "CTF"
 tags: ["군 복무", "CTF"]
 author: "HyunSang Eval Park"
 showToc: true
