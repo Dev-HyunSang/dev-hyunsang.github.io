@@ -100,7 +100,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/dev-hyunsang.github.io/content"
+    URL: "https://github.com/dev-hyunsang/dev-hyunsang.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -147,3 +147,7 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+# Deply GitHub Page
+caches:
+  images:
+    dir: :cacheDir/images
