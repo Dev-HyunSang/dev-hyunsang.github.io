@@ -1,5 +1,14 @@
 # dev-hyunsang.github.io
 
+## GET STARTED
+- `config.yml`에 아래 코드를 추가하길 바람.
+
+```yml
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
+```
+
 ## ETC
 
 ## Why not basic command Update?

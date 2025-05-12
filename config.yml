@@ -1,6 +1,6 @@
 baseURL: "https://hyunsang.dev"
 title: HyunSang Eval Park
-paginate: 5
+pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -12,12 +12,16 @@ minify:
   disableXML: true
   minifyOutput: true
 
+module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: HyunSang Eval Park
   description: "Cyber Security"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: [Blog, Portfolio, Software Enginner, Cyber Security]
+  author: HyunSang Eval Park
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -34,11 +38,11 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -72,15 +76,15 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "HyunSang Eval Park"
-    Content: Welcome to my blog
+    Content: 사이버 보안과 법에 관심이 많습니다 :-)
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: mailto:me@hyunsang.dev
+    - name: linkedin
+      url: https://www.linkedin.com/in/parkhyunsang/
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/dev-hyunsang"
 
   analytics:
     google:
@@ -96,14 +100,14 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/dev-hyunsang.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
-    isCaseSensitive: false
+    isCaseSensitive: true
     shouldSort: true
     location: 0
     distance: 1000
@@ -121,15 +125,23 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: search
+      name: search
+      url: /search/
       weight: 30
+    - identifier: about
+      name: about
+      url: /about
+      weight: 40
+    # - identifier: example
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
-    noClasses: false
+    noClasses: true
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
