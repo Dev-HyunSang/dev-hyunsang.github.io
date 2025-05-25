@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 category: ""
-tags: ["first"]
+tags: [""]
 author: "HyunSang Eval Park"
 showToc: true
 TocOpen: true
@@ -10,7 +10,7 @@ draft: false
 hidemeta: false
 comments: true
 disableHLJS: false # to disable highlightjs
-disableShare: true
+disableShare: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: false
