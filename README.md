@@ -9,6 +9,11 @@ module:
   - path: github.com/adityatelange/hugo-PaperMod
 ```
 
+### 새로운 블로그 글 만들기
+```shell
+hugo new --kind post ./content/post/<filename>
+```
+
 ### GitHub Action을 통한 `github.io` 자동 배포
 
 커밋 시 자동으로 동작하여 사용하고 있는 `github.io`에 배포됩니다.
