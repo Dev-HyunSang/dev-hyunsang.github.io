@@ -23,6 +23,10 @@ summary: "about"
 > ***행운의 여신은 용기 있는 자, 강한 자, 대범한 자에게 다가가서 그를 돕는다.***  
 > <포르미오> 중.
 
+> 내 언어의 한계는 내 세계의 한계를 의미한다.  
+> Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.  
+> 루트비히 비트겐슈타인, <논리철학 논고> 중
+
 ## 이러한 경험이 있습니다.
 
 ### Work
