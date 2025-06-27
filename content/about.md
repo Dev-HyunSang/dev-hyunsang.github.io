@@ -3,6 +3,8 @@ title: "About Me"
 layout: "home"
 url: "/about"
 summary: "about"
+showToc: false
+TocOpen: false
 ---
 ## 박현상은•••
 학부에서 정보보호학을 공부하고 있습니다.  
