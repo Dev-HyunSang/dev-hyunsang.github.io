@@ -31,4 +31,4 @@ TocOpen: false
 
 간단한 커피챗을 하고 싶으시다면 연락 주시면 감사하겠습니다 :-)
 
-E-mail. [me@hyunsang.dev](mailto:me@hyunsang.dev) • [park.hyunsang@sch.ac.kr](mailto:park.hyunsang@sch.ac.kr]
+E-mail. [me@hyunsang.dev](mailto:me@hyunsang.dev) • [park.hyunsang@sch.ac.kr](mailto:park.hyunsang@sch.ac.kr)
