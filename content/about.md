@@ -7,9 +7,11 @@ showToc: false
 TocOpen: false
 ---
 ## 박현상은...
+
 학부에서 정보보호를 전공하고 있습니다.  
 문학과 법학을 좋아하며, 사진 찍는 취미가 있습니다.  
-여행을 다니며,
+법학에선 우리 일상에서 자주 일어나는 범죄에 대해 고찰하며, 공부하고 있습니다.  
+일상에서, 그리고 여행을 다니며, 음악을 들으면서 사진을 찍는 것을 좋아합니다.
 
 ## Motto
 
@@ -21,8 +23,7 @@ TocOpen: false
 > ***Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.***  
 > 루트비히 비트겐슈타인, <논리철학 논고> 중
 
-## Contact
-다양한 분들과 만나서 다양한 논제에 대해서 이야기하는 것을 좋아합니다.  
-논제가 없어도 괜찮습니다. 컴퓨터 과학(정보보호)과 법에 대해 이야기하실 분들은 아래 연락처로 연락 주시면 감사하겠습니다.
+## 고견을 여쭙습니다.
+법학과 정보보호학 관련된 다양한 고견을 여쭙고자 노력하고 있습니다.  
 
 - Email. [me@hyunsang.dev](mailto:me@hyunsang.dev) & [park.hyunsang@sch.ac.kr](mailto:park.hyunsang@sch.ac.kr)
