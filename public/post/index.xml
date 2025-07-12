@@ -1,37 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on HyunSang Eval Park</title>
+    <title>Posts on HyunSang Park</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on HyunSang Eval Park</description>
+    <description>Recent content in Posts on HyunSang Park</description>
     <image>
-      <title>HyunSang Eval Park</title>
+      <title>HyunSang Park</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.147.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Jun 2025 08:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 01:03:29 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>교제 관계에서의 범죄에 대하여</title>
-      <link>http://localhost:1313/post/%EA%B5%90%EC%A0%9C-%EA%B4%80%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EB%B2%94%EC%A3%84%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/</link>
-      <pubDate>Sat, 21 Jun 2025 08:48:26 +0000</pubDate>
-      <guid>http://localhost:1313/post/%EA%B5%90%EC%A0%9C-%EA%B4%80%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EB%B2%94%EC%A3%84%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/</guid>
+      <title>수사단계에서의 진술조서</title>
+      <link>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</link>
+      <pubDate>Sat, 12 Jul 2025 01:03:29 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;최근 우리 사회에서의 교제 관계에서의 교제 폭력·살인이 사회적 이슈로 대두 되고 있으며, 지속적으로 범죄가 증가하는 추새를 보이고 있음.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;본 게시글에선 교제폭력·살인에 대해서 다루고, 스토킹범죄에 대해서도 다루고자 한다.&lt;/p&gt;
+&lt;li&gt;본 글은 수사(조사)단계에서의 진술조서, 압수수색검증조서에 대해서 서술하며, 판결을 참고하여 작성한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;본 글은 작성자는 변호사가 아니며, 법적인 변호가 필요한 경우에는 법무사, 변호인 등에게 도움을 받길 바란다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;조서의-작성방법&#34;&gt;조서의 작성방법&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;형사소송법 제48조(조서의 작성 방법) ① 피고인, 피의자, 증인, 감정인, 통역인 또는 번역인을 신문(訊問)하는 때에는 신문에 참여한 법원사무관등이 조서를 작성하여야 한다.&lt;br&gt;
+② 조서에는 다음 각 호의 사항을 기재하여야 한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;피고인, 피의자, 증인, 감정인, 통역인 또는 번역인의 진술&lt;/li&gt;
+&lt;li&gt;증인, 감정인, 통역인 또는 번역인이 선서를 하지 아니한 때에는 그 사유&lt;br&gt;
+③ 조서는 진술자에게 읽어 주거나 열람하게 하여 기재 내용이 정확한지를 물어야 한다.&lt;br&gt;
+④ 진술자가 조서에 대하여 추가, 삭제 또는 변경의 청구를 한 때에는 그 진술내용을 조서에 기재하여야 한다.&lt;br&gt;
+⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;br&gt;
+⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;
+⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;동법 제49조(검증 등의 조서) ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;
+②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;
+③압수조서에는 품종, 외형상의 특징과 수량을 기재하여야 한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>민법에서의 취소권</title>
+      <link>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</link>
+      <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</guid>
+      <description>&lt;p&gt;민법에서 보장하고 있는 취소에 대한 권리에 대해서 알아본다.&lt;/p&gt;
+&lt;h2 id=&#34;취소권자&#34;&gt;취소권자&lt;/h2&gt;
+&lt;h3 id=&#34;1-제한능력자&#34;&gt;1. 제한능력자&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;제한능력자는 자기가 한 것으로서 취소할 수 있는 행위를 스스로 단독으로 취소할 수 있으며, 그것은 확정적으로 효력을 발생한다.
+&lt;ul&gt;
+&lt;li&gt;미성년자 / 피성년후견인 / 피한정후견인(동의 위반)는 취소할 수 있다.&lt;/li&gt;
+&lt;li&gt;피한정후견인의 경우 동의가 필요한 법률행위에 대하여 피한정후견인이 한정후견인의 동의 없이 법률행위를 한 경우에는 취소할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;우리-사회에서의&#34;&gt;우리 사회에서의&lt;/h2&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;민법 제10조(피성년후견인의 행위와 취소)&lt;/strong&gt; ① 피성년후견인의 법률행위는 취소할 수 있다.&lt;br&gt;
+② 제1항에도 불구하고 가정법원은 취소할 수 없는 피성년후견인의 법률행위의 범위를 정할 수 있다.&lt;br&gt;
+③ 가정법원은 본인, 배우자, 4촌 이내의 친족, 성년후견인, 성년후견감독인, 검사 또는 지방자치단체의 장의 청구에 의하여 제2항의 범위를 변경할 수 있다.&lt;br&gt;
+④ 제1항에도 불구하고 일용품의 구입 등 일상생활에 필요하고 그 대가가 과도하지 아니한 법률행위는 성년후견인이 취소할 수 없다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025년 기록</title>
       <link>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
       <description>&lt;h2 id=&#34;2025년에-읽은-책&#34;&gt;2025년에 읽은 책&lt;/h2&gt;
 &lt;ol&gt;
@@ -86,6 +120,27 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;영화:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>교제 관계에서의 범죄에 대하여</title>
+      <link>http://localhost:1313/post/%EA%B5%90%EC%A0%9C-%EA%B4%80%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EB%B2%94%EC%A3%84%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/</link>
+      <pubDate>Sat, 21 Jun 2025 08:48:26 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EA%B5%90%EC%A0%9C-%EA%B4%80%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EB%B2%94%EC%A3%84%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;최근 우리 사회에서의 교제 관계에서의 교제 폭력·살인이 사회적 이슈로 대두 되고 있으며, 지속적으로 범죄가 증가하는 추새를 보이고 있음.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;본 게시글에선 교제폭력 · 살인에 대해서 다루고, 스토킹범죄에 대해서도 다루고자 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;본 게시글은 법적인 효력이 없으며, 전문적인 법적 조력이 필요한 경우 변호사 · 사법경찰관에게 도움을 받길 바란다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;우리-사회에서의-교제폭력--살인-사례&#34;&gt;우리 사회에서의 교제폭력 · 살인 사례&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;25년 6월 경 &amp;lsquo;대구 스토킹 살인사건&amp;rsquo;이 일어났다. 사귀다 헤어진 전 여자친구를 스토킹하고 가스배관을 타고 주거지에 침입하여 살해한 경우이다.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>[작성중] 육군 정보보호병 회고 (24-1기)</title>
