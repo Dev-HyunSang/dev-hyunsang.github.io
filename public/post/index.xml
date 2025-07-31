@@ -9,63 +9,14 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.2</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Jul 2025 01:03:29 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>수사단계에서의 진술조서</title>
-      <link>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</link>
-      <pubDate>Sat, 12 Jul 2025 01:03:29 +0000</pubDate>
-      <guid>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;본 글은 수사(조사)단계에서의 진술조서, 압수수색검증조서에 대해서 서술하며, 판결을 참고하여 작성한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;본 글은 작성자는 변호사가 아니며, 법적인 변호가 필요한 경우에는 법무사, 변호인 등에게 도움을 받길 바란다.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;조서의-작성방법&#34;&gt;조서의 작성방법&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;형사소송법 제48조(조서의 작성 방법) ① 피고인, 피의자, 증인, 감정인, 통역인 또는 번역인을 신문(訊問)하는 때에는 신문에 참여한 법원사무관등이 조서를 작성하여야 한다.&lt;br&gt;
-② 조서에는 다음 각 호의 사항을 기재하여야 한다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;피고인, 피의자, 증인, 감정인, 통역인 또는 번역인의 진술&lt;/li&gt;
-&lt;li&gt;증인, 감정인, 통역인 또는 번역인이 선서를 하지 아니한 때에는 그 사유&lt;br&gt;
-③ 조서는 진술자에게 읽어 주거나 열람하게 하여 기재 내용이 정확한지를 물어야 한다.&lt;br&gt;
-④ 진술자가 조서에 대하여 추가, 삭제 또는 변경의 청구를 한 때에는 그 진술내용을 조서에 기재하여야 한다.&lt;br&gt;
-⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;br&gt;
-⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;
-⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;
-&lt;/ol&gt;&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;동법 제49조(검증 등의 조서) ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;
-②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;
-③압수조서에는 품종, 외형상의 특징과 수량을 기재하여야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>민법에서의 취소권</title>
-      <link>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</link>
-      <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
-      <guid>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</guid>
-      <description>&lt;p&gt;민법에서 보장하고 있는 취소에 대한 권리에 대해서 알아본다.&lt;/p&gt;
-&lt;h2 id=&#34;취소권자&#34;&gt;취소권자&lt;/h2&gt;
-&lt;h3 id=&#34;1-제한능력자&#34;&gt;1. 제한능력자&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;제한능력자는 자기가 한 것으로서 취소할 수 있는 행위를 스스로 단독으로 취소할 수 있으며, 그것은 확정적으로 효력을 발생한다.
-&lt;ul&gt;
-&lt;li&gt;미성년자 / 피성년후견인 / 피한정후견인(동의 위반)는 취소할 수 있다.&lt;/li&gt;
-&lt;li&gt;피한정후견인의 경우 동의가 필요한 법률행위에 대하여 피한정후견인이 한정후견인의 동의 없이 법률행위를 한 경우에는 취소할 수 있다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;민법 제10조(피성년후견인의 행위와 취소)&lt;/strong&gt; ① 피성년후견인의 법률행위는 취소할 수 있다.&lt;br&gt;
-② 제1항에도 불구하고 가정법원은 취소할 수 없는 피성년후견인의 법률행위의 범위를 정할 수 있다.&lt;br&gt;
-③ 가정법원은 본인, 배우자, 4촌 이내의 친족, 성년후견인, 성년후견감독인, 검사 또는 지방자치단체의 장의 청구에 의하여 제2항의 범위를 변경할 수 있다.&lt;br&gt;
-④ 제1항에도 불구하고 일용품의 구입 등 일상생활에 필요하고 그 대가가 과도하지 아니한 법률행위는 성년후견인이 취소할 수 없다.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>2025년 기록</title>
       <link>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
       <description>&lt;h2 id=&#34;2025년에-읽은-책&#34;&gt;2025년에 읽은 책&lt;/h2&gt;
 &lt;ol&gt;
@@ -116,10 +67,70 @@
 &lt;li&gt;19금 액션 시리즈인 만큼 ㅈ&amp;hellip;잔인하다&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;2025.07 - 더 피트&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;영화:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>긍정적, 그리고 겸손함</title>
+      <link>http://localhost:1313/post/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</link>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</guid>
+      <description>&lt;p&gt;나는 살아감에 있어서 항상 긍정적으로 살아가고자 한다. 그게 누가 되었건, 내가 싫어하는 사람에게 조차도 긍정적인 마인드로 대하고자 한다. 항상 긍정적으로 누군가를 대하면, 좋은 결과가 있으리라 믿는다.&lt;/p&gt;
+&lt;p&gt;우리 옛말엔 &amp;ldquo;웃는 얼굴에 침 못 뱉는다&amp;quot;라는 말이 있듯이 내가 긍정적으로 누군가에게 힘과 도움이 된다면, 그것으로 내 긍정의 임무는 완수되었다라고 생각한다.&lt;/p&gt;
+&lt;p&gt;내 자신에게 긍정적이지 않고 우울하고 내 자신을 믿지 못하고 자책한다면 발전할 수 없지 않을까?&lt;br&gt;
+우리 인간은 때로 이미 경험을 한 누군가의 조언이 필요하고, 그러한 조언을 얻기 위해선, 그 사람에게 신뢰를 얻고 긍정적이고 겸손하게 다가야한다고 생각한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>수사단계에서의 진술조서</title>
+      <link>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</link>
+      <pubDate>Sat, 12 Jul 2025 01:03:29 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;본 글은 수사(조사)단계에서의 진술조서, 압수수색검증조서에 대해서 서술하며, 판결을 참고하여 작성한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;본 글은 작성자는 변호사가 아니며, 법적인 변호가 필요한 경우에는 법무사, 변호인 등에게 도움을 받길 바란다.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;조서의-작성방법&#34;&gt;조서의 작성방법&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;형사소송법 제48조(조서의 작성 방법)&lt;/strong&gt; ① 피고인, 피의자, 증인, 감정인, 통역인 또는 번역인을 신문(訊問)하는 때에는 신문에 참여한 법원사무관등이 조서를 작성하여야 한다.&lt;br&gt;
+② 조서에는 다음 각 호의 사항을 기재하여야 한다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;피고인, 피의자, 증인, 감정인, 통역인 또는 번역인의 진술&lt;/li&gt;
+&lt;li&gt;증인, 감정인, 통역인 또는 번역인이 선서를 하지 아니한 때에는 그 사유&lt;br&gt;
+&lt;strong&gt;③ 조서는 진술자에게 읽어 주거나 열람하게 하여 기재 내용이 정확한지를 물어야 한다.&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;④ 진술자가 조서에 대하여 추가, 삭제 또는 변경의 청구를 한 때에는 그 진술내용을 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;
+⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;
+⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;동법 제49조(검증 등의 조서)&lt;/strong&gt; ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;
+②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;
+③압수조서에는 품종, 외형상의 특징과 수량을 기재하여야 한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>민법에서의 취소권</title>
+      <link>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</link>
+      <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
+      <guid>http://localhost:1313/post/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</guid>
+      <description>&lt;p&gt;민법에서 보장하고 있는 취소에 대한 권리에 대해서 알아본다.&lt;/p&gt;
+&lt;h2 id=&#34;취소권자&#34;&gt;취소권자&lt;/h2&gt;
+&lt;h3 id=&#34;1-제한능력자&#34;&gt;1. 제한능력자&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;제한능력자는 자기가 한 것으로서 취소할 수 있는 행위를 스스로 단독으로 취소할 수 있으며, 그것은 확정적으로 효력을 발생한다.
+&lt;ul&gt;
+&lt;li&gt;미성년자 / 피성년후견인 / 피한정후견인(동의 위반)는 취소할 수 있다.&lt;/li&gt;
+&lt;li&gt;피한정후견인의 경우 동의가 필요한 법률행위에 대하여 피한정후견인이 한정후견인의 동의 없이 법률행위를 한 경우에는 취소할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;민법 제10조(피성년후견인의 행위와 취소)&lt;/strong&gt; ① 피성년후견인의 법률행위는 취소할 수 있다.&lt;br&gt;
+② 제1항에도 불구하고 가정법원은 취소할 수 없는 피성년후견인의 법률행위의 범위를 정할 수 있다.&lt;br&gt;
+③ 가정법원은 본인, 배우자, 4촌 이내의 친족, 성년후견인, 성년후견감독인, 검사 또는 지방자치단체의 장의 청구에 의하여 제2항의 범위를 변경할 수 있다.&lt;br&gt;
+④ 제1항에도 불구하고 일용품의 구입 등 일상생활에 필요하고 그 대가가 과도하지 아니한 법률행위는 성년후견인이 취소할 수 없다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>교제 관계에서의 범죄에 대하여</title>
