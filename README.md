@@ -1,15 +1,21 @@
 # dev-hyunsang.github.io
 
 ## GET STARTED
+
 - `config.yml`에 아래 코드를 추가하길 바람.
 
 ```yml
 module:
   imports:
-  - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/adityatelange/hugo-PaperMod
+```
+
+```shel
+hugo server -D
 ```
 
 ### 새로운 블로그 글 만들기
+
 ```shell
 hugo new --kind post ./content/post/<filename>
 ```
@@ -80,8 +86,7 @@ jobs:
           path: |
             ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
+          restore-keys: hugo-
       - name: Configure Git
         run: git config core.quotepath false
       - name: Build with Hugo
@@ -119,6 +124,7 @@ jobs:
 ## ETC
 
 ## Why not basic command Update?
+
 - `sudo apt update` & `sudo apt upgrade`로 Hugo Version 업데이트가 안 되는 현상이 있음.
 - [GitHub - Hugo](https://github.com/gohugoio/hugo)를 보면 관련된 내용이 있음.
 
