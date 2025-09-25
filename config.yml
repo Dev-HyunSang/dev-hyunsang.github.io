@@ -139,7 +139,7 @@ menu:
       weight: 50
     - identifier: TIL
       name: TIL
-      url: /TIL
+      url: https://hyunsang.dev/TIL
       weight: 60
     # - identifier: example
     #   name: example.org
