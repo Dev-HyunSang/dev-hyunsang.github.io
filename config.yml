@@ -19,7 +19,7 @@ module:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: HyunSang Park
-  description: "Cyber Security"
+  description: "Cyber Security. | Software Enginner"
   keywords: [Blog, Portfolio, Software Enginner, Cyber Security]
   author: HyunSang Park
   # author: ["Me", "You"] # multiple authors
@@ -137,6 +137,10 @@ menu:
       name: resume
       url: /resume
       weight: 50
+    - identifier: TIL
+      name: TIL
+      url: /TIL
+      weight: 60
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
