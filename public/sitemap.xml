@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%EA%B8%B0%EB%A1%9D/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/%EA%B5%B0%EC%83%9D%ED%99%9C/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
@@ -25,15 +34,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%EA%B8%B0%EB%A1%9D/</loc>
-    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
@@ -113,7 +113,7 @@
     <loc>http://localhost:1313/tags/%EA%B5%B0-%EB%B3%B5%EB%AC%B4/</loc>
     <lastmod>2024-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/gdg-golang-korea/</loc>
+    <loc>http://localhost:1313/post/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gdg-golang-korea/</loc>
@@ -122,7 +122,7 @@
     <loc>http://localhost:1313/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</loc>
     <lastmod>2024-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/interview-army-infomation-security-mos/</loc>
+    <loc>http://localhost:1313/post/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/</loc>
     <lastmod>2024-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

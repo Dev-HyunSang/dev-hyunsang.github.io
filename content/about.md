@@ -27,10 +27,6 @@ TocOpen: false
 > **_Was mich nicht umbringt, macht mich stärker_**
 > 프리드리히 니체, 《우상의 황혼》 중
 
-> **_내 언어의 한계는 내 세계의 한계를 의미한다._**  
-> **_Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt._**  
-> 루트비히 비트겐슈타인, 《논리철학 논고》 중
-
 ## 고견을 여쭙습니다.
 
 법학과 정보보호학 관련된 다양한 고견을 여쭙고자 노력하고 있습니다.  
