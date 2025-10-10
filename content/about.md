@@ -27,6 +27,10 @@ TocOpen: false
 > **_Was mich nicht umbringt, macht mich stärker_**
 > 프리드리히 니체, 《우상의 황혼》 중
 
+> **살아야 할 이유를 가지고 있는 사람은 그 어떤 방식으로든 견뎌낼 수 있다.**  
+> **Hat man sein warum? des Lebens, so verträgt man sich fast mit jedem wie?**
+> 프리드리히 니체, 《우상의 황혼》 중
+
 ## 고견을 여쭙습니다.
 
 법학과 정보보호학 관련된 다양한 고견을 여쭙고자 노력하고 있습니다.  
