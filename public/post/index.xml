@@ -11,8 +11,21 @@
     </image>
     <generator>Hugo -- 0.151.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>왜 판례가 중요할까?</title>
+      <link>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</guid>
+      <description>&lt;p&gt;민사법 혹은 형사법을 공부하다 보면 수많은 대법원 판례가 나옵니다. &lt;br&gt;
+이러한 대법원의 판례(판결)가 어떠한 구속력이 있지 등을 알보고자 합니다.&lt;/p&gt;
+&lt;h2 id=&#34;판례判例란&#34;&gt;판례(判例)란?&lt;/h2&gt;
+&lt;p&gt;판례(判例)란 법원이 어떠한 법적 사안에 대한 해석(법적 판단)을 내린 것으로서, 판결로서의 선례를 뜻합니다.&lt;br&gt;
+우리나라 사법부의 역할을 성문법(成文法)을 해석한 다음 구체적 사안에 적용하여 합당한 결론(법률효과의 부여)을 내립니다.&lt;br&gt;
+엄밀히 말하면 모든 사안들은 각기 다른 특수성을 가지므로 법의 해석과 적용은 매번 다르게 이루어진다고 보아야 합니다. 하지만 현실적으로 유사한 사안들이 일종의 군을 형성하게 되고, 이들에 대하여 같은 방식의 법해석이 이루어지는 경우가 종종 발생하게 됩니다.&lt;br&gt;
+특히 대법원과 헌법재판소에서의 종국적 판단(판결)을 내린는 사법기관에서 동일한 법해서이 반복되어 판례를 형성하게 되면 &amp;lsquo;사실상의 강제력&amp;rsquo;이 발생하게 됩니다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025년 기록</title>
       <link>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
