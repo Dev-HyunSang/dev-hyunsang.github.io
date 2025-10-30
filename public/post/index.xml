@@ -9,27 +9,14 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>왜 판례가 중요할까?</title>
-      <link>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</link>
-      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</guid>
-      <description>&lt;p&gt;민사법 혹은 형사법을 공부하다 보면 수많은 대법원 판례가 나옵니다. &lt;br&gt;
-이러한 대법원의 판례(판결)가 어떠한 구속력이 있지 등을 알보고자 합니다.&lt;/p&gt;
-&lt;h2 id=&#34;판례判例란&#34;&gt;판례(判例)란?&lt;/h2&gt;
-&lt;p&gt;판례(判例)란 법원이 어떠한 법적 사안에 대한 해석(법적 판단)을 내린 것으로서, 판결로서의 선례를 뜻합니다.&lt;br&gt;
-우리나라 사법부의 역할을 성문법(成文法)을 해석한 다음 구체적 사안에 적용하여 합당한 결론(법률효과의 부여)을 내립니다.&lt;br&gt;
-엄밀히 말하면 모든 사안들은 각기 다른 특수성을 가지므로 법의 해석과 적용은 매번 다르게 이루어진다고 보아야 합니다. 하지만 현실적으로 유사한 사안들이 일종의 군을 형성하게 되고, 이들에 대하여 같은 방식의 법해석이 이루어지는 경우가 종종 발생하게 됩니다.&lt;br&gt;
-특히 대법원과 헌법재판소에서의 종국적 판단(판결)을 내린는 사법기관에서 동일한 법해서이 반복되어 판례를 형성하게 되면 &amp;lsquo;사실상의 강제력&amp;rsquo;이 발생하게 됩니다.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>2025년 기록</title>
       <link>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
       <description>&lt;h2 id=&#34;2025년에-읽은-책&#34;&gt;2025년에 읽은 책&lt;/h2&gt;
 &lt;ol&gt;
@@ -76,6 +63,19 @@
 &lt;p&gt;살아 있는 자들을 위한 죽음 수업 / 이호 저&lt;/p&gt;</description>
     </item>
     <item>
+      <title>왜 판례가 중요할까?</title>
+      <link>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</guid>
+      <description>&lt;p&gt;민사법 혹은 형사법을 공부하다 보면 수많은 대법원 판례가 나옵니다. &lt;br&gt;
+이러한 대법원의 판례(판결)가 어떠한 구속력이 있지 등을 알아보고자 합니다.&lt;/p&gt;
+&lt;h2 id=&#34;판례判例란&#34;&gt;판례(判例)란?&lt;/h2&gt;
+&lt;p&gt;판례(判例)란 법원이 어떠한 법적 사안에 대한 해석(법적 판단)을 내린 것으로서, 판결로서의 선례를 뜻합니다.&lt;br&gt;
+우리나라 사법부의 역할을 성문법(成文法)을 해석한 다음 구체적 사안에 적용하여 합당한 결론(법률효과의 부여)을 내립니다.&lt;br&gt;
+엄밀히 말하면 모든 사안들은 각기 다른 특수성을 가지므로 법의 해석과 적용은 매번 다르게 이루어진다고 보아야 합니다. 하지만 현실적으로 유사한 사안들이 일종의 군을 형성하게 되고, 이들에 대하여 같은 방식의 법해석이 이루어지는 경우가 종종 발생하게 됩니다.&lt;br&gt;
+특히 대법원과 헌법재판소에서의 종국적 판단(판결)을 내린는 사법기관에서 동일한 법해서이 반복되어 판례를 형성하게 되면 &amp;lsquo;사실상의 강제력&amp;rsquo;이 발생하게 됩니다.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>육군 정보보호병 24-1기 회고</title>
       <link>http://localhost:1313/post/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
@@ -84,7 +84,8 @@
 2024.03.18. 논산 육군훈련소로 정보보호병(175.104)로 입대하여, 2025.09.17. 제대하였습니다.&lt;br&gt;
 저는 육군본부에서 군복무를 하였고, 군생활하면서 본부 병력 통합관리로 인해서 근무지 조회를 하면 계룡대근무지원단으로 떴지만 근무지는 육군본부였습니다.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&#34;내 전역복&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/post/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/%EB%82%B4-%EC%A0%84%EC%97%AD%EB%B3%B5.jpeg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;내가-했던-업무와-경험들&#34;&gt;내가 했던 업무와 경험들&lt;/h2&gt;
 &lt;p&gt;육군훈련소와 정보통신학교에서의 기본적인 훈련과 교육을 마치고 자대인 육군본부로 배치 받았습니다.
@@ -124,7 +125,8 @@
 &lt;strong&gt;⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;
 ⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;
 ⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;
-&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;동법 제49조(검증 등의 조서)&lt;/strong&gt; ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;
 ②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;
@@ -179,7 +181,8 @@
 법(형사법)을 공부하면서 압수물 중 디지털 정보자료에 대한 법적 근거와 해석이 궁금하여 법조항과 함께 판례를 통해서 공부한 글입니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;법리적 해석에 있어서 전문적인 의견이 아니므로, 해석이 올바르지 않을 수도 있습니다.&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;실제 소송 등에서는 사용하지 마십시오.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;strong&gt;실제 소송 등에서는 사용하지 마십시오.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;들어가기-앞써서--법적-근거&#34;&gt;들어가기 앞써서 : 법적 근거&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;형사소송법 제106조(압수)&lt;/strong&gt; ①법원은 필요한 때에는 피고사건과 관계가 있다고 인정할 수 있는 것에 한정하여 증거물 또는 몰수할 것으로 사료하는 물건을 압수할 수 있다. 단, 법률에 다른 규정이 있는 때에는 예외로 한다. &amp;lt;개정 2011. 7. 18.&amp;gt;&lt;br&gt;

@@ -9,14 +9,14 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.151.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025년 기록</title>
       <link>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
       <description>&lt;h2 id=&#34;2025년에-읽은-책&#34;&gt;2025년에 읽은 책&lt;/h2&gt;
 &lt;ol&gt;
@@ -54,13 +54,13 @@
 &lt;p&gt;사람을 남기는 사람 / 정지우 저&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;헌법의 풍경 / 김두식 저&lt;/p&gt;
+&lt;p&gt;말의 품격 / 정지우 저&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;루소와 불테르 / 강대석 저&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;살아 있는 자들을 위한 죽음 수업 / 이호 저&lt;/p&gt;</description>
+&lt;blockquote&gt;
+&lt;p&gt;침묵은 말실수를 줄이는 지름길이다. 말은 생각과 감정을 담아내는 그릇이다. 그걸 아무 생각 없이 대화라는 식탁 위에 올려놓다 보면 꼭 사달이 일어난다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>왜 판례가 중요할까?</title>
@@ -84,7 +84,8 @@
 2024.03.18. 논산 육군훈련소로 정보보호병(175.104)로 입대하여, 2025.09.17. 제대하였습니다.&lt;br&gt;
 저는 육군본부에서 군복무를 하였고, 군생활하면서 본부 병력 통합관리로 인해서 근무지 조회를 하면 계룡대근무지원단으로 떴지만 근무지는 육군본부였습니다.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt=&#34;내 전역복&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/post/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/%EB%82%B4-%EC%A0%84%EC%97%AD%EB%B3%B5.jpeg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;내가-했던-업무와-경험들&#34;&gt;내가 했던 업무와 경험들&lt;/h2&gt;
 &lt;p&gt;육군훈련소와 정보통신학교에서의 기본적인 훈련과 교육을 마치고 자대인 육군본부로 배치 받았습니다.
@@ -124,7 +125,8 @@
 &lt;strong&gt;⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;
 ⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;
 ⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;
-&lt;/ol&gt;&lt;/blockquote&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;동법 제49조(검증 등의 조서)&lt;/strong&gt; ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;
 ②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;
@@ -179,7 +181,8 @@
 법(형사법)을 공부하면서 압수물 중 디지털 정보자료에 대한 법적 근거와 해석이 궁금하여 법조항과 함께 판례를 통해서 공부한 글입니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;법리적 해석에 있어서 전문적인 의견이 아니므로, 해석이 올바르지 않을 수도 있습니다.&lt;/strong&gt;&lt;br&gt;
-&lt;strong&gt;실제 소송 등에서는 사용하지 마십시오.&lt;/strong&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;strong&gt;실제 소송 등에서는 사용하지 마십시오.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;들어가기-앞써서--법적-근거&#34;&gt;들어가기 앞써서 : 법적 근거&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;형사소송법 제106조(압수)&lt;/strong&gt; ①법원은 필요한 때에는 피고사건과 관계가 있다고 인정할 수 있는 것에 한정하여 증거물 또는 몰수할 것으로 사료하는 물건을 압수할 수 있다. 단, 법률에 다른 규정이 있는 때에는 예외로 한다. &amp;lt;개정 2011. 7. 18.&amp;gt;&lt;br&gt;
