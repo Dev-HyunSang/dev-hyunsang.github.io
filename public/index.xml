@@ -21,6 +21,8 @@
       <description>&lt;p&gt;제가 인공지능(LLM)를 쓰면서 느꼈던 것들은 이러한 인공지능 도구를 잘 쓰면 완전 효율적으로 코드를 작성할 수 있을 것 같다라는 생각을 하게 되었습니다.&lt;/p&gt;
 &lt;p&gt;Claude Pro를 유로로 구독하면서 Claude Code의 능력에 큰 충격을 받게 되었습니다.&lt;br&gt;
 프롬프트에 몇 줄이면 좋은 기술들을 사용해서 몇백줄, 몇천줄의 코드를 작성해 주는 것을 보고 뭔가 무서운&lt;/p&gt;
+&lt;h2 id=&#34;mcp&#34;&gt;MCP&lt;/h2&gt;
+&lt;p&gt;AI 에이전트가 외부 도구, 데이터, 시스템과 표준화된 방식으로 연결되도록 하는 오픈소스 프로토콜입니다.&lt;/p&gt;
 &lt;h2 id=&#34;무슨-mcp를-써야할까&#34;&gt;무슨 MCP를 써야할까?&lt;/h2&gt;
 &lt;h3 id=&#34;context7&#34;&gt;context7&lt;/h3&gt;
 &lt;h3 id=&#34;brave-search&#34;&gt;brave-search&lt;/h3&gt;
