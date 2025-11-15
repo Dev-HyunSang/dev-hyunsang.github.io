@@ -27,12 +27,12 @@ TocOpen: false
 ## Motto
 
 > **_나를 죽이지 못하는 고통은 나를 더 강하게 만든다_**  
-> **_Was mich nicht umbringt, macht mich stärker_**
+> **_Was mich nicht umbringt, macht mich stärker_**  
 > 프리드리히 니체, 《우상의 황혼》 중
 
-> **살아야 할 이유를 가지고 있는 사람은 그 어떤 방식으로든 견뎌낼 수 있다.**  
-> **Hat man sein warum? des Lebens, so verträgt man sich fast mit jedem wie?**
-> 프리드리히 니체, 《우상의 황혼》 중
+> ***너가 그런 고통을 겪는 것은 당연하다. 너는 오늘 좋은 사람이 되고자 하기보다는 내일 되고자 하기 때문에.***  
+> ***Δικαίως ταῦτα πάσχεις: μᾶλλον δὲ θέλεις ἀγαθὸς αὔριον γενέσθαι ἢ σήμερον εἶναι.***
+> 마르쿠스 아우렐리우스, 《명상록 8권 22절》
 
 ## 고견을 여쭙습니다.
 
