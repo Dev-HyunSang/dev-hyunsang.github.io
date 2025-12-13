@@ -133,13 +133,6 @@ menu:
       name: about
       url: /about
       weight: 40
-    - identifier: resume
-      name: resume
-      url: /resume
-      weight: 50
-    - identifier: TIL
-      name: TIL
-      url: https://hyunsang.dev/TIL
       weight: 60
     # - identifier: example
     #   name: example.org
