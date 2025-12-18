@@ -3,7 +3,7 @@ title: "올바른 디지털 포렌식의 형사법적 절차"
 date: 2025-05-18T11:16:14Z
 categories: ["법학", "형사법"]
 tags: ["형사법", "디지털 포렌식", "법학"]
-author: "HyunSang Eval Park"
+author: "HyunSang Park"
 showToc: true
 TocOpen: true
 draft: false

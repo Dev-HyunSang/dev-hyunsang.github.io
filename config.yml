@@ -133,7 +133,10 @@ menu:
       name: about
       url: /about
       weight: 40
-      weight: 60
+    - identifier: Resume
+      name: resume
+      url: https://hyunsang.dev
+      weight: 50
     # - identifier: example
     #   name: example.org
     #   url: https://example.org

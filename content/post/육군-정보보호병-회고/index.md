@@ -3,7 +3,7 @@ title: "육군 정보보호병 24-1기 회고"
 date: 2025-09-13
 categories: ["정보보호병"]
 tags: ["군생활", "정보보호병"]
-author: "HyunSang Eval Park"
+author: "HyunSang Park"
 showToc: true
 TocOpen: true
 draft: false
