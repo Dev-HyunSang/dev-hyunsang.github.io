@@ -137,10 +137,9 @@ menu:
       name: resume
       url: https://hyunsang.dev
       weight: 50
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
+    - identifier: Study
+      url: https://til.hyunsang.dev
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
