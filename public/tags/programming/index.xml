@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Hyunsang Park</title>
+    <link>http://localhost:52457/tags/programming/</link>
+    <description>Recent content in Programming on Hyunsang Park</description>
+    <generator>Hugo</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52457/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>좋은 코드는 읽기 쉬운 코드다</title>
+      <link>http://localhost:52457/highlights/2026-01-clean-code/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52457/highlights/2026-01-clean-code/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;좋은 코드는 읽기 쉬운 코드다.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;출처&#34;&gt;출처&lt;/h2&gt;&#xA;&lt;p&gt;Clean Code, Robert C. Martin&lt;/p&gt;&#xA;&lt;h2 id=&#34;생각&#34;&gt;생각&lt;/h2&gt;&#xA;&lt;p&gt;코드는 작성하는 것보다 읽는 시간이 훨씬 더 많다. 따라서 좋은 코드는 다른 사람이, 그리고 미래의 나 자신이 읽기 쉬운 코드여야 한다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

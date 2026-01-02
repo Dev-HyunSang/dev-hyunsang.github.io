@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Page Header -->
+    <header class="mb-12">
+        <h1 class="text-4xl font-bold text-gray-100 mb-4">{{ .Title }}</h1>
+        <p class="text-gray-400">모든 {{ .Title | lower }}의 목록입니다.</p>
+    </header>
+
+    <!-- Tags/Categories Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {{ range .Data.Terms.ByCount }}
+        <a href="{{ .Page.Permalink }}"
+           class="group bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
+            <div class="flex items-center justify-between">
+                <div class="flex-1">
+                    <h2 class="text-xl font-bold text-gray-100 group-hover:text-blue-400 transition-colors mb-2">
+                        {{ if eq $.Title "Tags" }}#{{ end }}{{ .Page.Title }}
+                    </h2>
+                    <p class="text-gray-500 text-sm">
+                        {{ .Count }}개의 포스트
+                    </p>
+                </div>
+                <div class="ml-4">
+                    <svg class="w-8 h-8 text-gray-600 group-hover:text-blue-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {{ if eq $.Title "Tags" }}
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                        {{ else }}
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/>
+                        {{ end }}
+                    </svg>
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- Empty State -->
+    {{ if eq (len .Data.Terms) 0 }}
+    <div class="text-center py-16">
+        <svg class="w-16 h-16 mx-auto text-gray-600 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"/>
+        </svg>
+        <p class="text-gray-500 text-lg">아직 {{ .Title | lower }}가 없습니다.</p>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

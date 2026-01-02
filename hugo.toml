@@ -1,0 +1,68 @@
+baseURL = 'https://example.org/'
+languageCode = 'ko-kr'
+title = 'Hyunsang Park'
+theme = ''
+
+[params]
+  description = '개발 블로그'
+  author = 'Hyunsang Park'
+  profileImage = '/images/profile.jpeg'
+  bio = '사이버 보안을 전공하고 있습니다. 문학과 철학을 애증합니다.'
+
+  [[params.social]] 
+    name = 'Website'
+    url = 'https://hyunsang.dev'
+  [[params.social]]
+    name = 'GitHub'
+    url = 'https://github.com/dev-hyunsang'
+
+  [[params.social]]
+    name = 'LinkedIn'
+    url = 'https://linkedin.com/in/parkhyunsang'
+
+  [[params.social]]
+    name = 'Email'
+    url = 'mailto:me@hyunsang.dev'
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+    style = 'monokai'
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 2
+
+  [[menu.main]]
+    name = 'Categories'
+    url = '/categories/'
+    weight = 3
+
+  [[menu.main]]
+    name = '밑줄 친 문장들'
+    url = '/highlights/'
+    weight = 4
