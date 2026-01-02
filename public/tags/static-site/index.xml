@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Site on Hyunsang Park</title>
-    <link>http://localhost:58164/tags/static-site/</link>
+    <link>http://localhost:52457/tags/static-site/</link>
     <description>Recent content in Static Site on Hyunsang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 01 Jan 2026 20:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:58164/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:52457/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo 블로그 시작하기</title>
-      <link>http://localhost:58164/posts/example-post/</link>
+      <link>http://localhost:52457/posts/example-post/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:00 +0900</pubDate>
-      <guid>http://localhost:58164/posts/example-post/</guid>
+      <guid>http://localhost:52457/posts/example-post/</guid>
       <description>&lt;h2 id=&#34;개요&#34;&gt;개요&lt;/h2&gt;&#xA;&lt;p&gt;Hugo는 Go 언어로 작성된 빠른 정적 사이트 생성기입니다. 이 글에서는 Hugo를 사용하여 블로그를 만드는 방법을 소개합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugo의-장점&#34;&gt;Hugo의 장점&lt;/h2&gt;&#xA;&lt;p&gt;Hugo를 선택하는 이유는 다음과 같습니다:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;빠른 빌드 속도&lt;/strong&gt; - Go 언어로 작성되어 매우 빠릅니다&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;간단한 설정&lt;/strong&gt; - 복잡한 설정 없이 바로 시작할 수 있습니다&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;다양한 테마&lt;/strong&gt; - 커뮤니티에서 제공하는 많은 테마가 있습니다&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;마크다운 지원&lt;/strong&gt; - 글 작성이 편리합니다&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;설치-방법&#34;&gt;설치 방법&lt;/h2&gt;&#xA;&lt;p&gt;Hugo를 설치하는 방법은 운영체제마다 다릅니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;macos&#34;&gt;macOS&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt-get install hugo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;windows&#34;&gt;Windows&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;choco&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-confirm&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;새-사이트-만들기&#34;&gt;새 사이트 만들기&lt;/h2&gt;&#xA;&lt;p&gt;다음 명령어로 새로운 Hugo 사이트를 생성할 수 있습니다:&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'ko-kr'
 title = 'Hyunsang Park'
-theme = ''
 
 [params]
   description = '개발 블로그'
