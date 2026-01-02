@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hyunsang Park</title>
-    <link>http://localhost:52457/tags/</link>
+    <link>http://localhost:63621/tags/</link>
     <description>Recent content in Tags on Hyunsang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Thu, 01 Jan 2026 20:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:52457/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63621/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go</title>
-      <link>http://localhost:52457/tags/go/</link>
+      <link>http://localhost:63621/tags/go/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:00 +0900</pubDate>
-      <guid>http://localhost:52457/tags/go/</guid>
+      <guid>http://localhost:63621/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:52457/tags/hugo/</link>
+      <link>http://localhost:63621/tags/hugo/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:00 +0900</pubDate>
-      <guid>http://localhost:52457/tags/hugo/</guid>
+      <guid>http://localhost:63621/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Static Site</title>
-      <link>http://localhost:52457/tags/static-site/</link>
+      <link>http://localhost:63621/tags/static-site/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:00 +0900</pubDate>
-      <guid>http://localhost:52457/tags/static-site/</guid>
+      <guid>http://localhost:63621/tags/static-site/</guid>
       <description></description>
     </item>
     <item>
       <title>웹개발</title>
-      <link>http://localhost:52457/tags/%EC%9B%B9%EA%B0%9C%EB%B0%9C/</link>
+      <link>http://localhost:63621/tags/%EC%9B%B9%EA%B0%9C%EB%B0%9C/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:00 +0900</pubDate>
-      <guid>http://localhost:52457/tags/%EC%9B%B9%EA%B0%9C%EB%B0%9C/</guid>
+      <guid>http://localhost:63621/tags/%EC%9B%B9%EA%B0%9C%EB%B0%9C/</guid>
       <description></description>
     </item>
   </channel>

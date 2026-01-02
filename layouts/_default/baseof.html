@@ -29,6 +29,8 @@
             }
         }
     </style>
+    {{ $style := resources.Get "css/style.css" }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 </head>
 <body class="bg-gray-900">
     <!-- Navigation Bar -->
