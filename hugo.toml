@@ -44,7 +44,7 @@ enableRobotsTXT = true
   description = "HyunSang's Software Engineering Blog"
   author = 'Hyunsang Park'
   profileImage = '/images/profile.jpeg'
-  bio = '사이버 보안을 전공하고 있습니다. 문학과 철학을 애증합니다.'
+  bio = '사이버 보안을 전공하며, 법학을 부전공하고 있습니다. 문학과 철학을 애증합니다.'
 
   [[params.social]] 
     name = 'Website'
@@ -101,6 +101,6 @@ enableRobotsTXT = true
     weight = 3
 
   [[menu.main]]
-    name = '밑줄 친 문장들'
+    name = '밑줄 친 문장들 📚'
     url = '/highlights/'
     weight = 4
