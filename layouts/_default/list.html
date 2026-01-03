@@ -1,77 +1,38 @@
 {{ define "main" }}
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <!-- Page Header -->
-    <header class="mb-12">
-        <h1 class="text-3xl font-bold text-gray-100 mb-4">{{ .Title }}</h1>
-        {{ if .Content }}
-        <div class="text-sm text-gray-400">
-            {{ .Content }}
-        </div>
-        {{ end }}
-    </header>
+<div class="list-page">
+    <h1>{{ .Title }}</h1>
+    {{ if .Content }}
+    <div class="page-description">
+        {{ .Content }}
+    </div>
+    {{ end }}
 
-    <!-- Posts Grouped by Year-Month -->
-    <div class="space-y-12">
+    <div class="posts-list">
         {{ range .Pages.GroupByDate "2006.01" }}
         <section class="month-group">
-            <!-- Month Header -->
-            <h2 class="text-2xl font-bold text-gray-100 mb-6 pb-3 border-b-2 border-blue-500">
-                {{ .Key }}
-            </h2>
-
-            <!-- Posts in this month -->
-            <div class="space-y-4">
-                {{ range .Pages }}
-                <article class="group bg-gray-800 rounded-lg p-6 border border-gray-700 hover:border-blue-500 transition-all duration-300">
-                    <div class="flex flex-col md:flex-row md:items-center gap-4">
-                        <!-- Date -->
-                        <div class="flex-shrink-0">
-                            <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-gray-400 font-mono text-xs">
-                                {{ .Date.Format "2006.01.02" }}
-                            </time>
-                        </div>
-
-                        <!-- Separator -->
-                        <div class="hidden md:block text-gray-600">-</div>
-
-                        <!-- Title and Subtitle -->
-                        <div class="flex-1">
-                            <h3 class="text-lg font-bold text-gray-100 group-hover:text-blue-400 transition-colors mb-1">
-                                <a href="{{ .Permalink }}" class="hover:underline">
-                                    {{ .Title }}
-                                </a>
-                            </h3>
-                            {{ if .Params.subtitle }}
-                            <p class="text-gray-400 text-xs">
-                                {{ .Params.subtitle }}
-                            </p>
-                            {{ end }}
-
-                            <!-- Categories and Tags -->
-                            <div class="flex flex-wrap gap-2 mt-3">
-                                {{ if .Params.categories }}
-                                {{ range .Params.categories }}
-                                <a href="{{ "/categories/" | relURL }}{{ . | urlize }}"
-                                   class="px-2 py-1 bg-blue-900 text-blue-200 rounded text-xs font-medium hover:bg-blue-600 transition-colors">
-                                    {{ . }}
-                                </a>
-                                {{ end }}
-                                {{ end }}
-
-                                {{ if .Params.tags }}
-                                {{ range .Params.tags }}
-                                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}"
-                                   class="px-2 py-1 bg-gray-700 text-gray-300 rounded text-xs font-medium hover:bg-gray-600 transition-colors">
-                                    #{{ . }}
-                                </a>
-                                {{ end }}
-                                {{ end }}
-                            </div>
-                        </div>
+            <h2>{{ .Key }}</h2>
+            {{ range .Pages }}
+            <article class="post-summary">
+                <div class="post-date">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+                </div>
+                <div class="post-info">
+                    <h3>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    {{ if .Params.subtitle }}
+                    <p class="subtitle">{{ .Params.subtitle }}</p>
+                    {{ end }}
+                    {{ if .Params.categories }}
+                    <div class="post-meta categories">
+                        {{ range .Params.categories }}
+                        <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                        {{ end }}
                     </div>
-                </article>
-                {{ end }}
-            </div>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
         </section>
         {{ end }}
     </div>

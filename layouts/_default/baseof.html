@@ -7,71 +7,29 @@
     <meta name="description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
 </head>
 
-<body class="bg-gray-900">
-    <!-- Navigation Bar -->
-    <nav class="bg-gray-800 shadow-lg sticky top-0 z-50 border-b border-gray-700">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex-shrink-0">
-                    <a href="{{ "/" | relURL }}"
-                        class="text-xl font-bold text-gray-100 hover:text-blue-400 transition">
-                        {{ .Site.Title }}
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    {{ range .Site.Menus.main }}
-                    <a href="{{ .URL | relURL }}"
-                        class="text-sm text-gray-300 hover:text-blue-400 transition font-medium">{{ .Name }}</a>
-                    {{ end }}
-                </div>
-                <!-- Mobile menu button -->
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-gray-300 hover:text-blue-400 focus:outline-none">
-                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-700">
-            <div class="px-2 pt-2 pb-3 space-y-1">
+<body>
+    <header>
+        <nav>
+            <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+            <div class="nav-links">
                 {{ range .Site.Menus.main }}
-                <a href="{{ .URL | relURL }}"
-                    class="block px-3 py-2 text-gray-300 hover:text-blue-400 hover:bg-gray-700 rounded-md">{{ .Name
-                    }}</a>
+                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
                 {{ end }}
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <main class="min-h-screen">
+    <main>
         {{ block "main" . }}{{ end }}
     </main>
 
-    <footer class="bg-gray-800 border-t border-gray-700 mt-20">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <p class="text-center text-gray-400">&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.
-            </p>
-        </div>
+    <footer>
+        <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
     </footer>
 
-    <script>
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (mobileMenuButton && mobileMenu) {
-            mobileMenuButton.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
-        }
-    </script>
 </body>
 
 </html>
