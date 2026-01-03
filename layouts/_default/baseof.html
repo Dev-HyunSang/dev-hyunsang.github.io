@@ -13,7 +13,15 @@
 <body>
     <header>
         <nav>
-            <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+            <a href="{{ "/" | relURL }}" class="nav-logo">{{ .Site.Title }}</a>
+            <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation">
+                <svg class="hamburger" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
             <div class="nav-links">
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | relURL }}">{{ .Name }}</a>
@@ -37,6 +45,30 @@
                 toc.classList.toggle('collapsed');
             }
         }
+
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('nav-open');
+        }
+
+        // Close nav when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navToggle = document.querySelector('.nav-toggle');
+
+            if (nav.classList.contains('nav-open') &&
+                !nav.contains(event.target) &&
+                !navToggle.contains(event.target)) {
+                nav.classList.remove('nav-open');
+            }
+        });
+
+        // Close nav when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav').classList.remove('nav-open');
+            });
+        });
     </script>
 </body>
 

@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="HyunSang&#39;s Software Engineering Blog">
     <title>2026년 밑줄 친 문장들 - HyunSang Park</title>
-    <link rel="stylesheet" href="/css/style.css?v=1767431362">
+    <link rel="stylesheet" href="/css/style.css?v=1767432791">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/">HyunSang Park</a>
+            <a href="/" class="nav-logo">HyunSang Park</a>
+            <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation">
+                <svg class="hamburger" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
             <div class="nav-links">
                 
                 <a href="/posts/">Posts</a>
@@ -42,14 +50,21 @@
 
     
     <div class="toc">
-        <h2>목차</h2>
-        <nav id="TableOfContents">
+        <div class="toc-header" onclick="toggleTOC()">
+            <h2>목차</h2>
+            <svg class="toc-toggle" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+        </div>
+        <div class="toc-content">
+            <nav id="TableOfContents">
   <ul>
     <li><a href="#-시지프-신화-">『 시지프 신화 』</a></li>
     <li><a href="#-신에-관하여-">『 신에 관하여 』</a></li>
     <li><a href="#-이방인-">『 이방인 』</a></li>
   </ul>
 </nav>
+        </div>
     </div>
     
 
@@ -112,6 +127,38 @@
         <p>&copy; 2026 Hyunsang Park. All rights reserved.</p>
     </footer>
 
+    <script>
+        function toggleTOC() {
+            const toc = document.querySelector('.toc');
+            if (toc) {
+                toc.classList.toggle('collapsed');
+            }
+        }
+
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('nav-open');
+        }
+
+        
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navToggle = document.querySelector('.nav-toggle');
+
+            if (nav.classList.contains('nav-open') &&
+                !nav.contains(event.target) &&
+                !navToggle.contains(event.target)) {
+                nav.classList.remove('nav-open');
+            }
+        });
+
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav').classList.remove('nav-open');
+            });
+        });
+    </script>
 </body>
 
 </html>

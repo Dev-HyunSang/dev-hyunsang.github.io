@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="HyunSang&#39;s Software Engineering Blog">
     <title>Posts - HyunSang Park</title>
-    <link rel="stylesheet" href="/css/style.css?v=1767431362">
+    <link rel="stylesheet" href="/css/style.css?v=1767432845">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/">HyunSang Park</a>
+            <a href="/" class="nav-logo">HyunSang Park</a>
+            <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation">
+                <svg class="hamburger" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
             <div class="nav-links">
                 
                 <a href="/posts/">Posts</a>
@@ -30,307 +38,581 @@
 
     <main>
         
-<div class="list-page">
-    <h1>Posts</h1>
-    
-    <div class="page-description">
-        <p>모든 블로그 글을 확인할 수 있습니다.</p>
+<div class="list-page posts-page">
+    <div class="page-header">
+        <h1>Posts</h1>
+        <p class="post-count">총 13개의 글</p>
+        
+        <div class="page-description">
+            <p>제가 작성한 모든 글을 보실 수 있습니다.</p>
 
+        </div>
+        
     </div>
-    
 
-    <div class="posts-list">
+    <div class="posts-timeline">
         
-        <section class="month-group">
-            <h2>2026.01</h2>
+        <section class="year-group">
+            <div class="year-header">
+                <h2>2026년</h2>
+                <span class="year-count">1개</span>
+            </div>
             
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2026-01-01">2026.01.01</time>
+            <div class="month-group">
+                <h3 class="month-header">01월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2026-01-01">
+                                01.01
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/">2026년 기록</a>
+                            </h4>
+                            
+                            <p class="post-subtitle">2026년 제가 경험한 것들에 대해 서술합니다.</p>
+                            
+                            
+                            <p class="post-excerpt"> 올해부턴 제가 읽은 책들을 보다 깔끔하게 정리하고자 &ldquo;밑줄 친 문장들&quot;이란 페이지를 만들어서 관리하고 있습니다. 제가 읽는 책들이 궁금하시다면 확인해 주세요. 2026년 목표 2026년에 읽은 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%ED%9A%8C%EA%B3%A0" class="category-badge">회고</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#기록</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
                 </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/">2026년 기록</a>
-                    </h3>
-                    
-                    <p class="subtitle">2026년 제가 경험한 것들에 대해 서술합니다.</p>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%ED%9A%8C%EA%B3%A0">회고</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
+            </div>
             
         </section>
         
-        <section class="month-group">
-            <h2>2025.12</h2>
+        <section class="year-group">
+            <div class="year-header">
+                <h2>2025년</h2>
+                <span class="year-count">10개</span>
+            </div>
             
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-12-29">2025.12.29</time>
+            <div class="month-group">
+                <h3 class="month-header">12월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-12-29">
+                                12.29
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/">2025년 기록</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">2025년의 저는 2025년 9월 17일에 군 복무를 안전하게 마무리하고 전역하였습니다.
+정보보호병으로 군 복무하면서 많은 것을 배우고 느낄 수 있었습니다. 앞으로 어떻게 살아가야할지에 대해서 많은 부분 배운 점들도 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%ED%9A%8C%EA%B3%A0" class="category-badge">회고</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#기록</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
                 </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/">2025년 기록</a>
-                    </h3>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">11월</h3>
+                <div class="month-posts">
                     
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%ED%9A%8C%EA%B3%A0">회고</a>
-                        
-                    </div>
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-11-07">
+                                11.07
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/">Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">
+문제점 macOS Tahoe 26.0 → 26.1으로 업데이트 하였음. 그 이후로 Homebrew로 설치했던 응용 프로그램, 개발 환경 패키지들이 실행이 안 되는 현상을 발견함. Sequoia 15 → Tahoe …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EA%B0%9C%EB%B0%9C" class="category-badge">개발</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#개발 환경</span>
+                                    
+                                    <span class="tag-mini">#이슈</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
                     
                 </div>
-            </article>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">10월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-10-11">
+                                10.11
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/">왜 판례가 중요할까?</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">민사법 혹은 형사법을 공부하다 보면 수많은 대법원 판례가 나옵니다. 이러한 대법원의 판례(판결)가 어떠한 구속력이 있지 등을 알아보고자 합니다.
+판례(判例)란? 판례(判例)란 법원이 어떠한 법적 사안에 대한 해석(법 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EB%B2%95%ED%95%99" class="category-badge">법학</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#판례</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">09월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-09-13">
+                                09.13
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/">육군 정보보호병 24-1기 회고</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">안녕하세요. 박현상입니다.
+2024.03.18. 논산 육군훈련소로 정보보호병(175.104)로 입대하여, 2025.09.17. 제대하였습니다.
+저는 육군본부에서 군복무를 하였고, 군생활하면서 본부 병력 통합관리로 인 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91" class="category-badge">정보보호병</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#군생활</span>
+                                    
+                                    <span class="tag-mini">#정보보호병</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">07월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-07-19">
+                                07.19
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/">긍정적, 그리고 겸손함</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">나는 살아감에 있어서 항상 긍정적으로 살아가고자 한다. 그게 누가 되었건, 내가 싫어하는 사람에게 조차도 긍정적인 마인드로 대하고자 한다. 항상 긍정적으로 누군가를 대하면, 좋은 결과가 있으리라 믿는다.
+우리 옛말엔 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EC%97%90%EC%84%B8%EC%9D%B4" class="category-badge">에세이</a>
+                                    
+                                    <a href="/categories/%EC%83%9D%EA%B0%81" class="category-badge">생각</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#에세이</span>
+                                    
+                                    <span class="tag-mini">#생각</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-07-12">
+                                07.12
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/">수사단계에서의 진술조서</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt"> 본 글은 수사(조사)단계에서의 진술조서, 압수수색검증조서에 대해서 서술하며, 판결을 참고하여 작성한다. 본 글은 작성자는 변호사가 아니며, 법적인 변호가 필요한 경우에는 법무사, 변호인 등에게 도움을 받길 바란다. …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EB%B2%95%ED%95%99" class="category-badge">법학</a>
+                                    
+                                    <a href="/categories/%ED%98%95%EB%B2%95" class="category-badge">형법</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#증거</span>
+                                    
+                                    <span class="tag-mini">#조서</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">06월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-06-30">
+                                06.30
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/">민법에서의 취소권</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">민법에서 보장하고 있는 취소에 대한 권리에 대해서 알아본다.
+취소권자 1. 제한능력자 제한능력자는 자기가 한 것으로서 취소할 수 있는 행위를 스스로 단독으로 취소할 수 있으며, 그것은 확정적으로 효력을 발생한다. 미 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EB%AF%BC%EB%B2%95-%EC%B4%9D%EC%B9%99" class="category-badge">민법 총칙</a>
+                                    
+                                    <a href="/categories/%EB%AF%BC%EB%B2%95" class="category-badge">민법</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#민법</span>
+                                    
+                                    <span class="tag-mini">#권리</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-06-13">
+                                06.13
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/">민법에서의 권리와 권리행사</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">법률관계 우리의 생활관계는 언제나 사회적 각종 규범으로부터 규율되는 것이지만 그중에서도 법에 의하여 규율되는 관계. 생활관계에서 당사자가 의도하는 효과가 법의 힘에 의하여 보장되고 실현된다는 점에서 단순한 도덕, 종 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EB%B2%95%ED%95%99" class="category-badge">법학</a>
+                                    
+                                    <a href="/categories/%EB%AF%BC%EB%B2%95" class="category-badge">민법</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#민법 기본원칙</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+            
+            <div class="month-group">
+                <h3 class="month-header">05월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-05-18">
+                                05.18
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/">올바른 디지털 포렌식의 형사법적 절차</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">안녕하세요. 박현상입니다.
+법(형사법)을 공부하면서 압수물 중 디지털 정보자료에 대한 법적 근거와 해석이 궁금하여 법조항과 함께 판례를 통해서 공부한 글입니다.
+법리적 해석에 있어서 전문적인 의견이 아니므로, 해석이 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EB%B2%95%ED%95%99" class="category-badge">법학</a>
+                                    
+                                    <a href="/categories/%ED%98%95%EC%82%AC%EB%B2%95" class="category-badge">형사법</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#형사법</span>
+                                    
+                                    <span class="tag-mini">#디지털 포렌식</span>
+                                    
+                                    <span class="tag-mini">#법학</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2025-05-14">
+                                05.14
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/">우리가 자주 접하는 방화벽은 어떻게 동작할까?</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">안녕하세요. 박현상입니다. 오늘은 제가 군 복무를 하면서 많이 다루는 방화벽에 대해서 무득 어떻게 동작하는지 궁금해서 찾아보고 공부한 내용을 정리해 보았습니다. 보안 관제에서의 관점에서도 일부 내용을 작성하였습니다. …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8" class="category-badge">정보보호</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#사이버 보안</span>
+                                    
+                                    <span class="tag-mini">#보안장비</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
             
         </section>
         
-        <section class="month-group">
-            <h2>2025.11</h2>
+        <section class="year-group">
+            <div class="year-header">
+                <h2>2024년</h2>
+                <span class="year-count">2개</span>
+            </div>
             
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-11-07">2025.11.07</time>
+            <div class="month-group">
+                <h3 class="month-header">06월</h3>
+                <div class="month-posts">
+                    
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2024-06-27">
+                                06.27
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/">1년 동안 GDG 커뮤니티 활동을 하면서</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">안녕하세요. 박현상입니다.
+2023년, 한 해 동안 Google Developers Group Golang Korea에서 오거나이저로서 활동하면서 경험했던, 그리고 제가 성장할 수 있던 내용을 적어보고자 합니다.
+현 …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0" class="category-badge">커뮤니티</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#GDG Golang Korea</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    
                 </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/">Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EA%B0%9C%EB%B0%9C">개발</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
+            </div>
             
-        </section>
-        
-        <section class="month-group">
-            <h2>2025.10</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-10-11">2025.10.11</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/">왜 판례가 중요할까?</a>
-                    </h3>
+            <div class="month-group">
+                <h3 class="month-header">01월</h3>
+                <div class="month-posts">
                     
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EB%B2%95%ED%95%99">법학</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2025.09</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-09-13">2025.09.13</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/">육군 정보보호병 24-1기 회고</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91">정보보호병</a>
-                        
-                    </div>
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="2024-01-20">
+                                01.20
+                            </time>
+                            <h4 class="post-title">
+                                <a href="http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/">육군 정보보호병 2024년도 1회차 합격 후기</a>
+                            </h4>
+                            
+                            
+                            <p class="post-excerpt">안녕하세요. 박현상입니다.
+육군 정보보호병으로 군 복무하시길 희망하시는 분들을 위하여 작성해 봅니다.
+2024년 1회차 육군 정보보호병으로 최종합격하여, 2024년 03월 18일 육군 논산훈련소를 통하여 입대합니다. …</p>
+                            
+                            <div class="post-footer-info">
+                                
+                                <div class="post-categories">
+                                    
+                                    <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91" class="category-badge">정보보호병</a>
+                                    
+                                </div>
+                                
+                                
+                                <div class="post-tags-preview">
+                                    
+                                    <span class="tag-mini">#군 복무</span>
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </article>
                     
                 </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2025.07</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-07-19">2025.07.19</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/">긍정적, 그리고 겸손함</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EC%97%90%EC%84%B8%EC%9D%B4">에세이</a>
-                        
-                        <a href="/categories/%EC%83%9D%EA%B0%81">생각</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-07-12">2025.07.12</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/">수사단계에서의 진술조서</a>
-                    </h3>
-                    
-                    
-                </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2025.06</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-06-30">2025.06.30</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/">민법에서의 취소권</a>
-                    </h3>
-                    
-                    
-                </div>
-            </article>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-06-13">2025.06.13</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/">민법에서의 권리와 권리행사</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EB%B2%95%ED%95%99">법학</a>
-                        
-                        <a href="/categories/%EB%AF%BC%EB%B2%95">민법</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2025.05</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-05-18">2025.05.18</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/">올바른 디지털 포렌식의 형사법적 절차</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EB%B2%95%ED%95%99">법학</a>
-                        
-                        <a href="/categories/%ED%98%95%EC%82%AC%EB%B2%95">형사법</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2025-05-14">2025.05.14</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/">우리가 자주 접하는 방화벽은 어떻게 동작할까?</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8">정보보호</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2024.06</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2024-06-27">2024.06.27</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/">1년 동안 GDG 커뮤니티 활동을 하면서</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0">커뮤니티</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
-            
-        </section>
-        
-        <section class="month-group">
-            <h2>2024.01</h2>
-            
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="2024-01-20">2024.01.20</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/">육군 정보보호병 2024년도 1회차 합격 후기</a>
-                    </h3>
-                    
-                    
-                    <div class="post-meta categories">
-                        
-                        <a href="/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91">정보보호병</a>
-                        
-                    </div>
-                    
-                </div>
-            </article>
+            </div>
             
         </section>
         
@@ -343,6 +625,38 @@
         <p>&copy; 2026 Hyunsang Park. All rights reserved.</p>
     </footer>
 
+    <script>
+        function toggleTOC() {
+            const toc = document.querySelector('.toc');
+            if (toc) {
+                toc.classList.toggle('collapsed');
+            }
+        }
+
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('nav-open');
+        }
+
+        
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navToggle = document.querySelector('.nav-toggle');
+
+            if (nav.classList.contains('nav-open') &&
+                !nav.contains(event.target) &&
+                !navToggle.contains(event.target)) {
+                nav.classList.remove('nav-open');
+            }
+        });
+
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav').classList.remove('nav-open');
+            });
+        });
+    </script>
 </body>
 
 </html>

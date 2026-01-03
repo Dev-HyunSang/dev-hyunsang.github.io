@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HyunSang Park</title>
-    <link>https://blog.hyunsang.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on HyunSang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.hyunsang.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026년 밑줄 친 문장들</title>
-      <link>https://blog.hyunsang.dev/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/</link>
+      <link>http://localhost:1313/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/</guid>
+      <guid>http://localhost:1313/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/</guid>
       <description>&lt;h2 id=&#34;-시지프-신화-&#34;&gt;『 시지프 신화 』&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;저자 알베르 카뮈 / 번역 김화영&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;참으로 진지한 철학적 문제는 오직 하나뿐이다. 그것은 바로 자살이다. 인생이 살 가치가 있느냐 없느냐를 판단하는 것이야말로 철학의 근본 문제에 답하는 것이다. 그 밖의, 세계가 3차원으로 되어 있는가, 이성(理性)의 범주가 아홉 가지인가 열두 가지인가 하는 문제는 그 다음 일이다.&lt;/strong&gt;&lt;/em&gt; (p.15)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;자살과 같은 행위는 마치 어떤 위대한 작품과 마찬가지로 마음의 침묵 속에서 준비된다. 당사자 자신은 그것을 알지 못한다. (p.17)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;그러나 정신의 선택이 죽음 쪽으로 기울어지는 정확한 순간, 그 미묘한 과정을 고집어 말하기는 어렵지만 자살이라는 행동 자체에서 그 행동이 가정하는 결과를 이끌어 내는 것은 보다 용이한 일이다. 자살은 어떤 의미에서 그리고 멜로드라마에서처럼 하나의 고백이다. 그것은 삶을 감당할 길이 없음을 혹은 삶을 이해할 수 없음을 고하는 것이다. (p.18)&lt;/p&gt;</description>
     </item>
     <item>
       <title>2026년 기록</title>
-      <link>https://blog.hyunsang.dev/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
+      <link>http://localhost:1313/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
+      <guid>http://localhost:1313/posts/2026%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;올해부턴 제가 읽은 책들을 보다 깔끔하게 정리하고자 &amp;ldquo;밑줄 친 문장들&amp;quot;이란 페이지를 만들어서 관리하고 있습니다. 제가 읽는 책들이 궁금하시다면 확인해 주세요.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;2026년-목표&#34;&gt;2026년 목표&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2026년에-읽은-논문&#34;&gt;2026년에 읽은 논문&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2026년에-인상-깊게-읽은-글&#34;&gt;2026년에 인상 깊게 읽은 글&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2025년에-읽은-판결&#34;&gt;2025년에 읽은 판결&lt;/h2&gt;&#xA;&lt;h3 id=&#34;헌법재판&#34;&gt;헌법재판&lt;/h3&gt;&#xA;&lt;h3 id=&#34;형사재판&#34;&gt;형사재판&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;대법원 2025. 4. 15. 선고 2024도16921 판결 [업무방해]&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[1] 업무방해죄에서 ‘위력’의 의미 및 위력에 해당하는지 판단하는 기준&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[1] 업무방해죄의 ‘위력’이란 사람의 자유의사를 제압·혼란하게 할 만한 일체의 세력으로 유형적이든 무형적이든 묻지 아니한다. 또한 위력이 행사되었다고 하기 위해 현실적으로 피해자의 자유의사가 제압되어야만 하는 것은 아니지만, 범인의 위세, 사람 수, 주위의 상황 등에 비추어 피해자의 자유의사를 제압하기 족한 정도가 되어야 한다. 그러한 위력에 해당하는지는 범행의 일시·장소, 범행의 동기, 목적, 인원수, 세력의 태양, 업무의 종류, 피해자의 지위 등 여러 사정을 고려하여 객관적으로 판단하여야 하고, 피해자 등의 의사에 의해 결정되는 것은 아니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025년 기록</title>
-      <link>https://blog.hyunsang.dev/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
+      <link>http://localhost:1313/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</link>
       <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
-      <description>&lt;h2 id=&#34;2025년의-저는&#34;&gt;2025년의 저는&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2025년 9월 17일에 군 복무를 안전하게 마무리하고 전역하였습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;정보보호병으로 군 복무하면서 많은 것을 배우고 느낄 수 있었습니다. 앞으로 어떻게 살아가야할지에 대해서 많은 부분 배운 점들도 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;전역 직전에 2025 사이버공격방어대회(국가정보원 주최 · 국가보안기술연구소 주관) 공공부 본선에 진출하여 참가할 수 있었습니다.&lt;/li&gt;&#xA;&lt;li&gt;군 복무 도중 제가 경험한 내용은 &lt;a href=&#34;https://blog.hyunsang.dev/post/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/&#34;&gt;육군 정보보호병 24-1기 회고&lt;/a&gt;에서 보실 수 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;군 복무 중 모은 적금으로 국내 · 외 여행을 다녔습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;lsquo;25.10.17 ~ 10.28 - 프랑스 파리 · 스페인 바르셀로나&#xA;&lt;ul&gt;&#xA;&lt;li&gt;혼자 유럽 여행을 처음으로 다녀오면서 많은 점들을 느꼈습니다. 19세기 건물들을 보면서 충격을 받았습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&amp;lsquo;25.12.04 ~ 12.06 - 일본 오사카 · 교토&lt;/li&gt;&#xA;&lt;li&gt;&amp;lsquo;25.12.31 ~ &amp;lsquo;26.01.01 - 강릉&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;꾸준하게 무언가를 읽고 듣고 보면서 제가 부족한 부분이 무엇인지 찾아보고자 노력했습니다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/2025%EB%85%84-%EA%B8%B0%EB%A1%9D/</guid>
+      <description>&lt;h2 id=&#34;2025년의-저는&#34;&gt;2025년의 저는&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;2025년 9월 17일에 군 복무를 안전하게 마무리하고 전역하였습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;정보보호병으로 군 복무하면서 많은 것을 배우고 느낄 수 있었습니다. 앞으로 어떻게 살아가야할지에 대해서 많은 부분 배운 점들도 있습니다.&lt;/li&gt;&#xA;&lt;li&gt;전역 직전에 2025 사이버공격방어대회(국가정보원 주최 · 국가보안기술연구소 주관) 공공부 본선에 진출하여 참가할 수 있었습니다.&lt;/li&gt;&#xA;&lt;li&gt;군 복무 도중 제가 경험한 내용은 &lt;a href=&#34;http://localhost:1313/post/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/&#34;&gt;육군 정보보호병 24-1기 회고&lt;/a&gt;에서 보실 수 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;군 복무 중 모은 적금으로 국내 · 외 여행을 다녔습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;lsquo;25.10.17 ~ 10.28 - 프랑스 파리 · 스페인 바르셀로나&#xA;&lt;ul&gt;&#xA;&lt;li&gt;혼자 유럽 여행을 처음으로 다녀오면서 많은 점들을 느꼈습니다. 19세기 건물들을 보면서 충격을 받았습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&amp;lsquo;25.12.04 ~ 12.06 - 일본 오사카 · 교토&lt;/li&gt;&#xA;&lt;li&gt;&amp;lsquo;25.12.31 ~ &amp;lsquo;26.01.01 - 강릉&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;꾸준하게 무언가를 읽고 듣고 보면서 제가 부족한 부분이 무엇인지 찾아보고자 노력했습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈</title>
-      <link>https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</link>
+      <link>http://localhost:1313/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</guid>
+      <guid>http://localhost:1313/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;./System-Setting.png&#34; alt=&#34;업데이트를 완료한 모습&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제점&#34;&gt;문제점&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;macOS Tahoe 26.0 → 26.1으로 업데이트 하였음.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그 이후로 Homebrew로 설치했던 응용 프로그램, 개발 환경 패키지들이 실행이 안 되는 현상을 발견함.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Sequoia 15 → Tahoe 26.0으로 업데이트 할 때도 날라갔던 적이 있었음.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그 때도 해결 방법은 동일했음&amp;hellip;ㅠ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;Last login: Fri Nov  &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; 19:11:12 on ttys003&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;/Users/park.hyunsang/.zshrc:15: &lt;span class=&#34;nb&#34;&gt;command&lt;/span&gt; not found: pyenv&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;기존에 Hombrew를 통해서 pyenv 설치 되었으나, 맥북 소프트웨어 업데이트 이후 날라감.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;➜  /opt ls -a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;.  ..&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;소프트웨어 업데이트 이후 &lt;code&gt;/opt/homebrew&lt;/code&gt; 디렉토리가 날라감.&lt;/li&gt;&#xA;&lt;li&gt;변경된 내용도 확인할 수 없음. 응용 프로그램에 설치되어 있는 프로그램들도 날라감.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;몇 개는 공식 홈페이지에서 &lt;code&gt;.dmg&lt;/code&gt; 파일을 통해서 설치하였는데도 날라감.&lt;/li&gt;&#xA;&lt;li&gt;몇 개는 Homebrew를 통해서 설치한 프로그램들도 날라감.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;결론&#34;&gt;결론&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;해외 맥 커뮤니티 혹은 해외 개발자 커뮤니티에서 확인한 결과,  인텔 CPU를 사용하는 맥북에서만 이러한 증상이 발현되는 것을 발견하였음&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.itech4mac.net/2025/10/fixing-homebrew-issues-after-macos-upgrades-a-comprehensive-guide/&#34;&gt;Fixing Homebrew Issues After macOS Upgrades: A Comprehensive Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/MacOS/comments/1nva1m1/macos_2600_wiped_out_homebrew_relocated_a_bunch/&#34;&gt;macOS 26.0.0 wiped out Homebrew, relocated a bunch of apps. Then macOS 26.0.1 just DID IT AGAIN!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://forums.macrumors.com/threads/all-apps-are-moved-by-tahoe-update.2464530/&#34;&gt;All apps are moved by Tahoe update&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://discussions.apple.com/thread/256182816?sortBy=rank&#34;&gt;Apps and preferences moved to &amp;ldquo;moved items&amp;rdquo; after installing Tahoe on Intel/T2 Mac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;복구 시키는 방법은 없는 것 같음. 디렉토리 자체가 없어졌고, 디렉토리가 어떻게 되었는지 등은 찾을 수 없었음.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;맥북 초기화 후 개발 환경을 다시 설정하였음.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>왜 판례가 중요할까?</title>
-      <link>https://blog.hyunsang.dev/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</link>
+      <link>http://localhost:1313/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</guid>
+      <guid>http://localhost:1313/posts/%ED%8C%90%EB%A1%80%EA%B0%80-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%A0%EA%B9%8C/</guid>
       <description>&lt;p&gt;민사법 혹은 형사법을 공부하다 보면 수많은 대법원 판례가 나옵니다. &lt;br&gt;&#xA;이러한 대법원의 판례(판결)가 어떠한 구속력이 있지 등을 알아보고자 합니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;판례判例란&#34;&gt;판례(判例)란?&lt;/h2&gt;&#xA;&lt;p&gt;판례(判例)란 법원이 어떠한 법적 사안에 대한 해석(법적 판단)을 내린 것으로서, 판결로서의 선례를 뜻합니다.&lt;br&gt;&#xA;우리나라 사법부의 역할을 성문법(成文法)을 해석한 다음 구체적 사안에 적용하여 합당한 결론(법률효과의 부여)을 내립니다.&lt;br&gt;&#xA;엄밀히 말하면 모든 사안들은 각기 다른 특수성을 가지므로 법의 해석과 적용은 매번 다르게 이루어진다고 보아야 합니다. 하지만 현실적으로 유사한 사안들이 일종의 군을 형성하게 되고, 이들에 대하여 같은 방식의 법해석이 이루어지는 경우가 종종 발생하게 됩니다.&lt;br&gt;&#xA;특히 대법원과 헌법재판소에서의 종국적 판단(판결)을 내린는 사법기관에서 동일한 법해서이 반복되어 판례를 형성하게 되면 &amp;lsquo;사실상의 강제력&amp;rsquo;이 발생하게 됩니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>육군 정보보호병 24-1기 회고</title>
-      <link>https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/</link>
+      <link>http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/</guid>
-      <description>&lt;p&gt;안녕하세요. 박현상입니다.&lt;br&gt;&#xA;2024.03.18. 논산 육군훈련소로 정보보호병(175.104)로 입대하여, 2025.09.17. 제대하였습니다.&lt;br&gt;&#xA;저는 육군본부에서 군복무를 하였고, 군생활하면서 본부 병력 통합관리로 인해서 근무지 조회를 하면 계룡대근무지원단으로 떴지만 근무지는 육군본부였습니다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.hyunsang.dev/%EB%82%B4-%EC%A0%84%EC%97%AD%EB%B3%B5.jpeg&#34; alt=&#34;내 전역복&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;내가-했던-업무와-경험들&#34;&gt;내가 했던 업무와 경험들&lt;/h2&gt;&#xA;&lt;p&gt;육군훈련소와 정보통신학교에서의 기본적인 훈련과 교육을 마치고 자대인 육군본부로 배치 받았습니다.&#xA;육군훈련소에서 면접을 통해 선발되었으며, 육군본부로 배치받게 되었습니다.&lt;/p&gt;&#xA;&lt;p&gt;제가 했던 업무는 CERT(Computer Emergency Response Team) 업무였으며, 저희 사무실은 24시간 연중무휴로 돌아가고 있습니다.&lt;br&gt;&#xA;그러다 보니 다소 피곤했던 날들도 많았지만, 누군가는 제가 하고 있는 업무를 해야하며 누군가에게 도움이 되고 있다는 생각을 하면서 기쁜 마음으로 임무수행 했던 것 같습니다.&lt;br&gt;&#xA;&amp;lsquo;25년 신년을 저는 사무실에서 지냈으며, 타종도 사무실에서 들었습니다.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0-%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91-%ED%9A%8C%EA%B3%A0/</guid>
+      <description>&lt;p&gt;안녕하세요. 박현상입니다.&lt;br&gt;&#xA;2024.03.18. 논산 육군훈련소로 정보보호병(175.104)로 입대하여, 2025.09.17. 제대하였습니다.&lt;br&gt;&#xA;저는 육군본부에서 군복무를 하였고, 군생활하면서 본부 병력 통합관리로 인해서 근무지 조회를 하면 계룡대근무지원단으로 떴지만 근무지는 육군본부였습니다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;업무상 취득하였던 군사보안 관련된 정보는 작성하지 않았습니다.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/%EB%82%B4-%EC%A0%84%EC%97%AD%EB%B3%B5.jpeg&#34; alt=&#34;내 전역복&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;내가-했던-업무와-경험들&#34;&gt;내가 했던 업무와 경험들&lt;/h2&gt;&#xA;&lt;p&gt;육군훈련소와 정보통신학교에서의 기본적인 훈련과 교육을 마치고 자대인 육군본부로 배치 받았습니다.&#xA;육군훈련소에서 면접을 통해 선발되었으며, 육군본부로 배치받게 되었습니다.&lt;/p&gt;&#xA;&lt;p&gt;제가 했던 업무는 CERT(Computer Emergency Response Team) 업무였으며, 저희 사무실은 24시간 연중무휴로 돌아가고 있습니다.&lt;br&gt;&#xA;그러다 보니 다소 피곤했던 날들도 많았지만, 누군가는 제가 하고 있는 업무를 해야하며 누군가에게 도움이 되고 있다는 생각을 하면서 기쁜 마음으로 임무수행 했던 것 같습니다.&lt;br&gt;&#xA;&amp;lsquo;25년 신년을 저는 사무실에서 지냈으며, 타종도 사무실에서 들었습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>긍정적, 그리고 겸손함</title>
-      <link>https://blog.hyunsang.dev/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</link>
+      <link>http://localhost:1313/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</guid>
+      <guid>http://localhost:1313/posts/%EA%B8%8D%EC%A0%95%EC%A0%81-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EA%B2%B8%EC%86%90%ED%95%A8/</guid>
       <description>&lt;p&gt;나는 살아감에 있어서 항상 긍정적으로 살아가고자 한다. 그게 누가 되었건, 내가 싫어하는 사람에게 조차도 긍정적인 마인드로 대하고자 한다. 항상 긍정적으로 누군가를 대하면, 좋은 결과가 있으리라 믿는다.&lt;/p&gt;&#xA;&lt;p&gt;우리 옛말엔 &amp;ldquo;웃는 얼굴에 침 못 뱉는다&amp;quot;라는 말이 있듯이 내가 긍정적으로 누군가에게 힘과 도움이 된다면, 그것으로 내 긍정의 임무는 완수되었다라고 생각한다.&lt;/p&gt;&#xA;&lt;p&gt;내 자신에게 긍정적이지 않고 우울하고 내 자신을 믿지 못하고 자책한다면 발전할 수 없지 않을까?&lt;br&gt;&#xA;우리 인간은 때로 이미 경험을 한 누군가의 조언이 필요하고, 그러한 조언을 얻기 위해선, 그 사람에게 신뢰를 얻고 긍정적이고 겸손하게 다가야한다고 생각한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>수사단계에서의 진술조서</title>
-      <link>https://blog.hyunsang.dev/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</link>
+      <link>http://localhost:1313/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</link>
       <pubDate>Sat, 12 Jul 2025 01:03:29 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</guid>
+      <guid>http://localhost:1313/posts/%EC%88%98%EC%82%AC%EB%8B%A8%EA%B3%84%EC%97%90%EC%84%9C%EC%9D%98-%EC%A7%84%EC%88%A0%EC%A1%B0%EC%84%9C/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;본 글은 수사(조사)단계에서의 진술조서, 압수수색검증조서에 대해서 서술하며, 판결을 참고하여 작성한다.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;본 글은 작성자는 변호사가 아니며, 법적인 변호가 필요한 경우에는 법무사, 변호인 등에게 도움을 받길 바란다.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;조서의-작성방법&#34;&gt;조서의 작성방법&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;형사소송법 제48조(조서의 작성 방법)&lt;/strong&gt; ① 피고인, 피의자, 증인, 감정인, 통역인 또는 번역인을 신문(訊問)하는 때에는 신문에 참여한 법원사무관등이 조서를 작성하여야 한다.&lt;br&gt;&#xA;② 조서에는 다음 각 호의 사항을 기재하여야 한다.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;피고인, 피의자, 증인, 감정인, 통역인 또는 번역인의 진술&lt;/li&gt;&#xA;&lt;li&gt;증인, 감정인, 통역인 또는 번역인이 선서를 하지 아니한 때에는 그 사유&lt;br&gt;&#xA;&lt;strong&gt;③ 조서는 진술자에게 읽어 주거나 열람하게 하여 기재 내용이 정확한지를 물어야 한다.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;④ 진술자가 조서에 대하여 추가, 삭제 또는 변경의 청구를 한 때에는 그 진술내용을 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;⑤ 신문에 참여한 검사, 피고인, 피의자 또는 변호인이 조서 기재 내용의 정확성에 대하여 이의(異議)를 진술한 때에는 그 진술의 요지를 조서에 기재하여야 한다.&lt;/strong&gt;&lt;br&gt;&#xA;⑥ 제5항의 경우 재판장이나 신문한 법관은 그 진술에 대한 의견을 기재하게 할 수 있다.&lt;br&gt;&#xA;⑦ 조서에는 진술자로 하여금 간인(間印)한 후 서명날인하게 하여야 한다. 다만, 진술자가 서명날인을 거부한 때에는 그 사유를 기재하여야 한다.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;동법 제49조(검증 등의 조서)&lt;/strong&gt; ①검증, 압수 또는 수색에 관하여는 조서를 작성하여야 한다.&lt;br&gt;&#xA;②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.&lt;br&gt;&#xA;③압수조서에는 품종, 외형상의 특징과 수량을 기재하여야 한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>민법에서의 취소권</title>
-      <link>https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</link>
+      <link>http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</link>
       <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</guid>
+      <guid>http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EC%B7%A8%EC%86%8C%EA%B6%8C/</guid>
       <description>&lt;p&gt;민법에서 보장하고 있는 취소에 대한 권리에 대해서 알아본다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;취소권자&#34;&gt;취소권자&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-제한능력자&#34;&gt;1. 제한능력자&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;제한능력자는 자기가 한 것으로서 취소할 수 있는 행위를 스스로 단독으로 취소할 수 있으며, 그것은 확정적으로 효력을 발생한다.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;미성년자 / 피성년후견인 / 피한정후견인(동의 위반)는 취소할 수 있다.&lt;/li&gt;&#xA;&lt;li&gt;피한정후견인의 경우 동의가 필요한 법률행위에 대하여 피한정후견인이 한정후견인의 동의 없이 법률행위를 한 경우에는 취소할 수 있다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;민법 제10조(피성년후견인의 행위와 취소)&lt;/strong&gt; ① 피성년후견인의 법률행위는 취소할 수 있다.&lt;br&gt;&#xA;② 제1항에도 불구하고 가정법원은 취소할 수 없는 피성년후견인의 법률행위의 범위를 정할 수 있다.&lt;br&gt;&#xA;③ 가정법원은 본인, 배우자, 4촌 이내의 친족, 성년후견인, 성년후견감독인, 검사 또는 지방자치단체의 장의 청구에 의하여 제2항의 범위를 변경할 수 있다.&lt;br&gt;&#xA;④ 제1항에도 불구하고 일용품의 구입 등 일상생활에 필요하고 그 대가가 과도하지 아니한 법률행위는 성년후견인이 취소할 수 없다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>민법에서의 권리와 권리행사</title>
-      <link>https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/</link>
+      <link>http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/</link>
       <pubDate>Fri, 13 Jun 2025 09:39:24 +0900</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/</guid>
+      <guid>http://localhost:1313/posts/%EB%AF%BC%EB%B2%95%EC%97%90%EC%84%9C%EC%9D%98-%EA%B6%8C%EB%A6%AC%EC%99%80-%EA%B6%8C%EB%A6%AC%ED%96%89%EC%82%AC/</guid>
       <description>&lt;h2 id=&#34;법률관계&#34;&gt;법률관계&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;우리의 생활관계는 언제나 사회적 각종 규범으로부터 규율되는 것이지만 그중에서도 법에 의하여 규율되는 관계.&lt;/li&gt;&#xA;&lt;li&gt;생활관계에서 당사자가 의도하는 효과가 법의 힘에 의하여 보장되고 실현된다는 점에서 단순한 도덕, 종교 등의 힘으로만 보장되는 생활관계와는 다름.&lt;/li&gt;&#xA;&lt;li&gt;예시) 당사자 간의 신사약정(紳士約定)이나 호의동승관계(好意同乘關係), 호의적으로 지급한 상여금 등은 단순한 호의이지만, 거듭 반복성을 가짐으로써 단순한 호의관계에서 벗어나 법적 구속을 가지는 법률관계로 파악됨.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;신사약정(紳士約定) :  당사자가 어떤 약정을 하면서 법적 구속을 배제하기로 특약을 하는 것.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;상대방에게 이행청구나 불이행 시 손해배상을 청구할 수 없으나 이미 급부받은 것을 정당하게 보유할 수 있게 됨으로서 부당이득 반환 청구를 면하게 됨.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;회사와 노동조합 사이에 쟁의행위 중에 발생한 구속 및 고소, 고발자에 대하여 “징계를 하지 않는다”라는 문구 대신 “최대한 선처하겠다”라고 합의한 경우, 이는 회사가 구속자에 대한 형사처벌이 감경되도록 노력하겠다는 취지로 해석되고 구속자들을 징계하지 않겠다는 내용의 합의로는 볼 수 없다고 한 사례. / 대법원 1993. 5. 11. 선고 93다1503 판결 [해고무효확인]&lt;/p&gt;</description>
     </item>
     <item>
       <title>올바른 디지털 포렌식의 형사법적 절차</title>
-      <link>https://blog.hyunsang.dev/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/</link>
+      <link>http://localhost:1313/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/</guid>
+      <guid>http://localhost:1313/posts/%EC%98%AC%EB%B0%94%EB%A5%B8-%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D%EC%9D%98-%ED%98%95%EC%82%AC%EB%B2%95%EC%A0%81-%EC%A0%88%EC%B0%A8/</guid>
       <description>&lt;p&gt;안녕하세요. 박현상입니다.&lt;br&gt;&#xA;법(형사법)을 공부하면서 압수물 중 디지털 정보자료에 대한 법적 근거와 해석이 궁금하여 법조항과 함께 판례를 통해서 공부한 글입니다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;법리적 해석에 있어서 전문적인 의견이 아니므로, 해석이 올바르지 않을 수도 있습니다.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;실제 소송 등에서는 사용하지 마십시오.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;들어가기-앞써서--법적-근거&#34;&gt;들어가기 앞써서 : 법적 근거&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;형사소송법 제106조(압수)&lt;/strong&gt; ①법원은 필요한 때에는 피고사건과 관계가 있다고 인정할 수 있는 것에 한정하여 증거물 또는 몰수할 것으로 사료하는 물건을 압수할 수 있다. 단, 법률에 다른 규정이 있는 때에는 예외로 한다. &amp;lt;개정 2011. 7. 18.&amp;gt;&lt;br&gt;&#xA;② 법원은 압수할 물건을 지정하여 소유자, 소지자 또는 보관자에게 제출을 명할 수 있다.&lt;br&gt;&#xA;&lt;strong&gt;③ 법원은 압수의 목적물이 컴퓨터용디스크, 그 밖에 이와 비슷한 정보저장매체(이하 이 항에서 “정보저장매체등”이라 한다)인 경우에는 기억된 정보의 범위를 정하여 출력하거나 복제하여 제출받아야 한다. 다만, 범위를 정하여 출력 또는 복제하는 방법이 불가능하거나 압수의 목적을 달성하기에 현저히 곤란하다고 인정되는 때에는 정보저장매체등을 압수할 수 있다.&lt;/strong&gt; &amp;lt;신설 2011. 7. 18.&amp;gt;&#xA;④ 법원은 제3항에 따라 정보를 제공받은 경우 「개인정보 보호법」 제2조제3호에 따른 정보주체에게 해당 사실을 지체 없이 알려야 한다. &amp;lt;신설 2011. 7. 18.&amp;gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>우리가 자주 접하는 방화벽은 어떻게 동작할까?</title>
-      <link>https://blog.hyunsang.dev/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/</link>
+      <link>http://localhost:1313/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/</link>
       <pubDate>Wed, 14 May 2025 10:46:24 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/</guid>
+      <guid>http://localhost:1313/posts/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%9E%90%EC%A3%BC-%EC%A0%91%ED%95%98%EB%8A%94-%EB%B0%A9%ED%99%94%EB%B2%BD%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8F%99%EC%9E%91%ED%95%A0%EA%B9%8C/</guid>
       <description>&lt;p&gt;안녕하세요. 박현상입니다.&#xA;오늘은 제가 군 복무를 하면서 많이 다루는 방화벽에 대해서 무득 어떻게 동작하는지 궁금해서 찾아보고 공부한 내용을 정리해 보았습니다. 보안 관제에서의 관점에서도 일부 내용을 작성하였습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Firewall.png/250px-Firewall.png&#34; alt=&#34;위키백과 방화벽 그림 설명&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;방화벽이란&#34;&gt;방화벽이란?&lt;/h2&gt;&#xA;&lt;p&gt;방화벽(Firewall)은 미리 정의된 보안규칙에 기반하여, 들어오고 나가는 네트워크 트래픽을 모니터링하고 제어하는 네트워크 보안 시스템입니다.&lt;/p&gt;&#xA;&lt;p&gt;일반적으로 신뢰할 수 있는 내부 네트워크와 신뢰할 수 없는 외부 네트워크 간의 장벽을 구성하여서 서로 다른 네트워크를 지나가는 데이터를 허용 및 거부, 검열 등의 기능을 갖춘 소프트웨어 또는 하드웨어 장치를 말합니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1년 동안 GDG 커뮤니티 활동을 하면서</title>
-      <link>https://blog.hyunsang.dev/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/</link>
+      <link>http://localhost:1313/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/</guid>
+      <guid>http://localhost:1313/posts/1%EB%85%84_%EB%8F%99%EC%95%88_gdg_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%99%9C%EB%8F%99%EC%9D%84_%ED%95%98%EB%A9%B4%EC%84%9C/</guid>
       <description>&lt;p&gt;안녕하세요. 박현상입니다.&lt;br&gt;&#xA;2023년, 한 해 동안 Google Developers Group Golang Korea에서 오거나이저로서 활동하면서 경험했던, 그리고 제가 성장할 수 있던 내용을 적어보고자 합니다.&lt;br&gt;&#xA;현재는 군복무로 인해서 활동을 잠시 중단하고 있습니다. 전역 이후에는 다시 함께 다양한 커뮤니티 활동을 할 예정입니다 :)&lt;/p&gt;&#xA;&lt;h2 id=&#34;어떻게-커뮤니티-활동을-하게-되었는가&#34;&gt;어떻게 커뮤니티 활동을 하게 되었는가&lt;/h2&gt;&#xA;&lt;p&gt;스타트업에서 백엔드 개발 업무를 할 당시에 업무와 관련된 발표를 우연히 GDG Golang Korea에서 발표할 기회를 가지게 되었습니다.&lt;br&gt;&#xA;처음으로 제가 만든 솔루션을 다른 분들에게 설명드리고 어떻게 개발하였는지 이야기 하는 경험을 가지게 되었습니다.&lt;br&gt;&#xA;저는 발표를 통해서 다른 분들과 소통하면서 제가 아직 부족한 부분이 무엇이 있는지 찾아가는 경로이었습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>육군 정보보호병 2024년도 1회차 합격 후기</title>
-      <link>https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/</link>
+      <link>http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.hyunsang.dev/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/</guid>
+      <guid>http://localhost:1313/posts/%EC%9C%A1%EA%B5%B0_%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91_2024%EB%85%84%EB%8F%84_1%ED%9A%8C%EC%B0%A8_%ED%95%A9%EA%B2%A9_%ED%9B%84%EA%B8%B0/</guid>
       <description>&lt;p&gt;안녕하세요. 박현상입니다.&lt;br&gt;&#xA;육군 정보보호병으로 군 복무하시길 희망하시는 분들을 위하여 작성해 봅니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2024년 1회차 육군 정보보호병으로 최종합격하여, 2024년 03월 18일 육군 논산훈련소를 통하여 입대합니다.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;육군-정보보호병-전문특기-신청하기&#34;&gt;육군 정보보호병 전문특기 신청하기&lt;/h2&gt;&#xA;&lt;p&gt;육군 정보보호병은 해군, 공군 정보보호병과는 다른 특기가 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;공군과 해군의 경우 대학교 1학년 수료 이상부터 지원이 되지만 육군 정보보호병은 &lt;strong&gt;학년에 상관없이 정보보호 관련 학과 전공자&lt;/strong&gt;이면 신청이 가능합니다.&lt;/p&gt;&#xA;&lt;p&gt;자세한 사항은 &lt;a href=&#34;https://www.mma.go.kr/contents.do?mc=mma0000516&#34;&gt;&lt;strong&gt;병무청 육군 정보보호병(175104)&lt;/strong&gt;&lt;/a&gt;를 확인하시면 좋겠습니다.&lt;/p&gt;&#xA;&lt;p&gt;또한 육군 정보보호병 특기의 경우 23년에는 특기 모집을 하지 않았고, 24년 3월 입대를 기준으로 모집하고 있습니다.&lt;/p&gt;</description>
     </item>
   </channel>

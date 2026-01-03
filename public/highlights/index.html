@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="ko-kr">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="HyunSang&#39;s Software Engineering Blog">
     <title>밑줄 친 문장들 📚 - HyunSang Park</title>
-    <link rel="stylesheet" href="/css/style.css?v=1767431362">
+    <link rel="stylesheet" href="/css/style.css?v=1767432845">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="/">HyunSang Park</a>
+            <a href="/" class="nav-logo">HyunSang Park</a>
+            <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation">
+                <svg class="hamburger" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="close" width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
             <div class="nav-links">
                 
                 <a href="/posts/">Posts</a>
@@ -43,7 +51,7 @@
         
         <article class="post-summary">
             <h3>
-                <a href="https://blog.hyunsang.dev/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/">2026년 밑줄 친 문장들</a>
+                <a href="http://localhost:1313/highlights/2026%EB%85%84-%EB%B0%91%EC%A4%84-%EC%B9%9C-%EB%AC%B8%EC%9E%A5%EB%93%A4/">2026년 밑줄 친 문장들</a>
             </h3>
             <div class="post-meta">
                 <time datetime="2026-01-02">마지막 업데이트 - 2026.01.02</time>
@@ -59,6 +67,38 @@
         <p>&copy; 2026 Hyunsang Park. All rights reserved.</p>
     </footer>
 
+    <script>
+        function toggleTOC() {
+            const toc = document.querySelector('.toc');
+            if (toc) {
+                toc.classList.toggle('collapsed');
+            }
+        }
+
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('nav-open');
+        }
+
+        
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const navToggle = document.querySelector('.nav-toggle');
+
+            if (nav.classList.contains('nav-open') &&
+                !nav.contains(event.target) &&
+                !navToggle.contains(event.target)) {
+                nav.classList.remove('nav-open');
+            }
+        });
+
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('nav').classList.remove('nav-open');
+            });
+        });
+    </script>
 </body>
 
 </html>

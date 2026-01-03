@@ -1,37 +1,66 @@
 {{ define "main" }}
-<div class="list-page">
-    <h1>{{ .Title }}</h1>
-    {{ if .Content }}
-    <div class="page-description">
-        {{ .Content }}
+<div class="list-page posts-page">
+    <div class="page-header">
+        <h1>{{ .Title }}</h1>
+        <p class="post-count">총 {{ len .Pages }}개의 글</p>
+        {{ if .Content }}
+        <div class="page-description">
+            {{ .Content }}
+        </div>
+        {{ end }}
     </div>
-    {{ end }}
 
-    <div class="posts-list">
-        {{ range .Pages.GroupByDate "2006.01" }}
-        <section class="month-group">
-            <h2>{{ .Key }}</h2>
-            {{ range .Pages }}
-            <article class="post-summary">
-                <div class="post-date">
-                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
-                </div>
-                <div class="post-info">
-                    <h3>
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
-                    </h3>
-                    {{ if .Params.subtitle }}
-                    <p class="subtitle">{{ .Params.subtitle }}</p>
+    <div class="posts-timeline">
+        {{ range .Pages.GroupByDate "2006년" }}
+        <section class="year-group">
+            <div class="year-header">
+                <h2>{{ .Key }}</h2>
+                <span class="year-count">{{ len .Pages }}개</span>
+            </div>
+            {{ range .Pages.GroupByDate "01월" }}
+            <div class="month-group">
+                <h3 class="month-header">{{ .Key }}</h3>
+                <div class="month-posts">
+                    {{ range .Pages }}
+                    <article class="timeline-post">
+                        <div class="timeline-dot"></div>
+                        <div class="post-card">
+                            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                                {{ .Date.Format "01.02" }}
+                            </time>
+                            <h4 class="post-title">
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </h4>
+                            {{ if .Params.subtitle }}
+                            <p class="post-subtitle">{{ .Params.subtitle }}</p>
+                            {{ end }}
+                            {{ if .Summary }}
+                            <p class="post-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
+                            {{ end }}
+                            <div class="post-footer-info">
+                                {{ if .Params.categories }}
+                                <div class="post-categories">
+                                    {{ range .Params.categories }}
+                                    <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="category-badge">{{ . }}</a>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                                {{ if .Params.tags }}
+                                <div class="post-tags-preview">
+                                    {{ range first 3 .Params.tags }}
+                                    <span class="tag-mini">#{{ . }}</span>
+                                    {{ end }}
+                                    {{ if gt (len .Params.tags) 3 }}
+                                    <span class="tag-more">+{{ sub (len .Params.tags) 3 }}</span>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </article>
                     {{ end }}
-                    {{ if .Params.categories }}
-                    <div class="post-meta categories">
-                        {{ range .Params.categories }}
-                        <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-                        {{ end }}
-                    </div>
-                    {{ end }}
                 </div>
-            </article>
+            </div>
             {{ end }}
         </section>
         {{ end }}
