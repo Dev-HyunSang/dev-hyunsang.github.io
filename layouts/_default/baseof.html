@@ -7,8 +7,7 @@
     <meta name="description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-    {{ $css := resources.Get "css/main.css" | css.PostCSS | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 
 <body class="bg-gray-900">
