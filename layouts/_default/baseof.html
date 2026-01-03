@@ -7,30 +7,8 @@
     <meta name="description"
         content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    typography: {
-                        DEFAULT: {
-                            css: {
-                                maxWidth: 'none',
-                            },
-                        },
-                    },
-                }
-            }
-        }
-    </script>
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .prose {
-                color: #374151;
-                max-width: none;
-            }
-        }
-    </style>
+    {{ $css := resources.Get "css/main.css" | css.PostCSS | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 </head>
 
 <body class="bg-gray-900">

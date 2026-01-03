@@ -1,0 +1,11 @@
+# Hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# Node
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store

@@ -2,6 +2,15 @@ baseURL = 'https://blog.hyunsang.dev/'
 languageCode = 'ko-kr'
 title = 'Hyunsang Park'
 
+[build]
+  writeStats = true
+  [[build.cachebusters]]
+    source = "assets/.*\\.(js|ts|jsx|tsx|css)"
+    target = "(css|js)"
+  [[build.cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+
 [params]
   description = '개발 블로그'
   author = 'Hyunsang Park'
