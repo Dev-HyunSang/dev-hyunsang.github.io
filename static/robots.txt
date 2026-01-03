@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# 크롤링 제외 경로
+Disallow: /highlights/
+Disallow: /*@*
+
+# RSS 피드
+Allow: /index.xml
+Allow: /posts/index.xml
+Allow: /tags/index.xml
+Allow: /categories/index.xml
+
+# Sitemap
+Sitemap: https://blog.hyunsang.dev/sitemap.xml
