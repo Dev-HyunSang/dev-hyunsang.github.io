@@ -30,6 +30,14 @@
         <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
     </footer>
 
+    <script>
+        function toggleTOC() {
+            const toc = document.querySelector('.toc');
+            if (toc) {
+                toc.classList.toggle('collapsed');
+            }
+        }
+    </script>
 </body>
 
 </html>

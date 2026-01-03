@@ -11,8 +11,15 @@
 
     {{ if .TableOfContents }}
     <div class="toc">
-        <h2>목차</h2>
-        {{ .TableOfContents }}
+        <div class="toc-header" onclick="toggleTOC()">
+            <h2>목차</h2>
+            <svg class="toc-toggle" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+        </div>
+        <div class="toc-content">
+            {{ .TableOfContents }}
+        </div>
     </div>
     {{ end }}
 
