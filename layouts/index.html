@@ -5,12 +5,26 @@
         <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
             <!-- Profile Image -->
             <div class="flex-shrink-0">
-                <img
-                    src="{{ .Site.Params.profileImage | relURL }}"
-                    alt="{{ .Site.Params.author }}"
-                    class="w-32 h-32 rounded-full object-cover border-4 border-blue-500"
-                    onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22128%22 height=%22128%22%3E%3Crect width=%22128%22 height=%22128%22 fill=%22%234B5563%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2248%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22%3E{{ substr .Site.Params.author 0 1 }}%3C/text%3E%3C/svg%3E'"
-                >
+                {{ $profileImage := resources.Get .Site.Params.profileImage }}
+                {{ if $profileImage }}
+                    {{ $profileImageResized := $profileImage.Resize "256x256 webp" }}
+                    <img
+                        src="{{ $profileImageResized.RelPermalink }}"
+                        alt="{{ .Site.Params.author }}"
+                        class="w-32 h-32 rounded-full object-cover border-4 border-blue-500"
+                        width="128"
+                        height="128"
+                        loading="eager"
+                    >
+                {{ else }}
+                    <img
+                        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Crect width='128' height='128' fill='%234B5563'/%3E%3Ctext x='50%25' y='50%25' font-size='48' fill='white' text-anchor='middle' dy='.3em'%3E{{ substr .Site.Params.author 0 1 }}%3C/text%3E%3C/svg%3E"
+                        alt="{{ .Site.Params.author }}"
+                        class="w-32 h-32 rounded-full object-cover border-4 border-blue-500"
+                        width="128"
+                        height="128"
+                    >
+                {{ end }}
             </div>
 
             <!-- Profile Info -->

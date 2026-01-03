@@ -12,6 +12,9 @@ enableRobotsTXT = true
 
 [build]
   writeStats = true
+  # 빌드 성능 최적화
+  useResourceCacheWhen = "always"
+
   [[build.cachebusters]]
     source = "assets/.*\\.(js|ts|jsx|tsx|css)"
     target = "(css|js)"
@@ -19,10 +22,28 @@ enableRobotsTXT = true
     source = "(postcss|tailwind)\\.config\\.js"
     target = "css"
 
+# 캐시 설정
+[caches]
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = "8760h"  # 1년
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "8760h"
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "8760h"
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = "8760h"
+  [caches.modules]
+    dir = ":cacheDir/modules"
+    maxAge = "8760h"
+
 [params]
   description = "HyunSang's Software Engineering Blog"
   author = 'Hyunsang Park'
-  profileImage = '/images/profile.jpeg'
+  profileImage = 'images/profile.jpeg'
   bio = '사이버 보안을 전공하고 있습니다. 문학과 철학을 애증합니다.'
 
   [[params.social]] 
