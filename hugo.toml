@@ -1,6 +1,6 @@
 baseURL = 'https://blog.hyunsang.dev/'
 languageCode = 'ko-kr'
-title = 'Hyunsang Park'
+title = 'HyunSang Park'
 
 [build]
   writeStats = true
@@ -12,7 +12,7 @@ title = 'Hyunsang Park'
     target = "css"
 
 [params]
-  description = '개발 블로그'
+  description = "HyunSang's Software Engineering Blog"
   author = 'Hyunsang Park'
   profileImage = '/images/profile.jpeg'
   bio = '사이버 보안을 전공하고 있습니다. 문학과 철학을 애증합니다.'
