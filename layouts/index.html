@@ -57,18 +57,28 @@
         <h2>최근 글</h2>
         <div class="posts-list">
             {{ range first 10 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
-            <article class="post-summary">
-                <h3>
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h3>
-                {{ if .Params.subtitle }}
-                <p class="subtitle">{{ .Params.subtitle }}</p>
-                {{ end }}
-                <div class="post-meta">
-                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
-                </div>
-            </article>
+            <a href="{{ .Permalink }}" class="post-summary-link">
+                <article class="post-summary">
+                    <h3>{{ .Title }}</h3>
+                    {{ if .Params.subtitle }}
+                    <p class="subtitle">{{ .Params.subtitle }}</p>
+                    {{ end }}
+                    <div class="post-meta">
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
+                    </div>
+                </article>
+            </a>
             {{ end }}
+        </div>
+
+        <!-- View All Posts Button -->
+        <div class="view-all-posts">
+            <a href="/posts/" class="view-all-button">
+                <span>더 다양한 글 보러가기</span>
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                </svg>
+            </a>
         </div>
     </div>
 </div>
