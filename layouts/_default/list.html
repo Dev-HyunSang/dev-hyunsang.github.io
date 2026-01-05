@@ -34,9 +34,6 @@
                             {{ if .Params.subtitle }}
                             <p class="post-subtitle">{{ .Params.subtitle }}</p>
                             {{ end }}
-                            {{ if .Summary }}
-                            <p class="post-excerpt">{{ .Summary | plainify | truncate 120 }}</p>
-                            {{ end }}
                             <div class="post-footer-info">
                                 {{ if .Params.categories }}
                                 <div class="post-categories">
