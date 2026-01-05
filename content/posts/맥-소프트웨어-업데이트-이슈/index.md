@@ -1,5 +1,6 @@
 ---
 title: "Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈"
+subtitle: "Intel 기반의 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈에 대해 서술합니다."
 date: 2025-11-07
 categories: ["개발"]
 tags: ["개발 환경", "이슈"]
