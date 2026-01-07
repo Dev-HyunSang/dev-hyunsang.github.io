@@ -1,51 +1,50 @@
 {{ define "main" }}
-<article class="post-content">
-    <div class="post-header">
-        <h1>{{ .Title }}</h1>
-        {{ if .Params.subtitle }}
-        <p class="subtitle">{{ .Params.subtitle }}</p>
-        {{ end }}
-        <div class="post-meta">
-            <span>{{ .Site.Params.author }}</span>
-            <span>•</span>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
-            {{ if .Params.categories }}
-            <span>•</span>
-            <span class="categories">
-                {{ range .Params.categories }}
-                <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+<div class="post-layout">
+    <article class="post-content">
+        <div class="post-header">
+            <h1>{{ .Title }}</h1>
+            {{ if .Params.subtitle }}
+            <p class="subtitle">{{ .Params.subtitle }}</p>
+            {{ end }}
+            <div class="post-meta">
+                <span>{{ .Site.Params.author }}</span>
+                <span>•</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
+                {{ if .Params.categories }}
+                <span>•</span>
+                <span class="categories">
+                    {{ range .Params.categories }}
+                    <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </span>
                 {{ end }}
-            </span>
-            {{ end }}
+            </div>
         </div>
-    </div>
 
-    {{ if .TableOfContents }}
-    <div class="toc">
-        <div class="toc-header" onclick="toggleTOC()">
-            <h2>목차</h2>
-            <svg class="toc-toggle" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-            </svg>
+        <div class="post-body">
+            {{ .Content }}
         </div>
-        <div class="toc-content">
-            {{ .TableOfContents }}
+
+        {{ if .Params.tags }}
+        <div class="post-footer">
+            <div class="tags">
+                {{ range .Params.tags }}
+                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">#{{ . }}</a>
+                {{ end }}
+            </div>
         </div>
-    </div>
+        {{ end }}
+    </article>
+
+    {{ if and .TableOfContents (ne .Params.toc false) }}
+    <aside class="toc-sidebar">
+        <div class="toc-wrapper">
+            <strong class="toc-title">목차</strong>
+            <nav class="toc-nav">
+                {{ .TableOfContents }}
+            </nav>
+        </div>
+    </aside>
     {{ end }}
-
-    <div class="post-content">
-        {{ .Content }}
-    </div>
-
-    {{ if .Params.tags }}
-    <div class="post-footer">
-        <div class="tags">
-            {{ range .Params.tags }}
-            <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" class="tag">#{{ . }}</a>
-            {{ end }}
-        </div>
-    </div>
-    {{ end }}
-</article>
+</div>
 {{ end }}
