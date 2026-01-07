@@ -84,22 +84,17 @@ nav.nav-open .nav-toggle .close {
 
 /* Main Content */
 main {
-    padding: 20px;
-    max-width: 1728px;
+    padding: 40px;
+    position: relative;
 }
 
 /* Post Layout */
 .post-layout {
-    display: flex;
-    gap: 48px;
-    max-width: 1200px;
-    margin: 0 auto;
+    position: relative;
 }
 
 .post-content {
-    flex: 1;
-    min-width: 0;
-    max-width: 768px;
+    max-width: 100%;
 }
 
 /* Post Header */
@@ -140,25 +135,24 @@ main {
 
 /* Table of Contents Sidebar */
 .toc-sidebar {
+    position: fixed;
+    left: calc(50% + 900px / 2 + 40px);
+    top: 50%;
+    transform: translateY(-50%);
     width: 240px;
-    flex-shrink: 0;
+    max-height: 80vh;
+    z-index: 10;
+}
+
+@media (max-width: 1400px) {
+    .toc-sidebar {
+        display: none;
+    }
 }
 
 .toc-wrapper {
-    position: sticky;
-    top: 20px;
-    max-height: calc(100vh - 100px);
     overflow-y: auto;
-}
-
-.toc-title {
-    display: block;
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: #e0e0e0;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    padding: 0;
 }
 
 .toc-nav ul {
@@ -816,27 +810,9 @@ footer {
         align-items: flex-start;
     }
 
-    /* Post Layout - Stack on Mobile */
-    .post-layout {
-        flex-direction: column;
-        gap: 24px;
-    }
-
-    .post-content {
-        max-width: 100%;
-    }
-
+    /* TOC - Hide on Mobile */
     .toc-sidebar {
-        width: 100%;
-        order: -1;
-    }
-
-    .toc-wrapper {
-        position: static;
-        max-height: 400px;
-        background-color: #242424;
-        padding: 16px;
-        border-radius: 8px;
+        display: none;
     }
 
     /* Post Body */
