@@ -130,7 +130,6 @@ main {
 
 .post-meta .categories a:hover {
     color: #ffffff;
-    text-decoration: underline;
 }
 
 /* Table of Contents Sidebar */
@@ -226,6 +225,15 @@ main {
     line-height: 1.8;
 }
 
+.post-summary-link {
+    color: #b0b0b0;
+    text-decoration: none;
+}
+
+.post-summary-link:hover {
+    color: #ffffff;
+}
+
 .post-body h2 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -264,7 +272,6 @@ main {
 
 .post-body a:hover {
     color: #ffffff;
-    text-decoration: underline;
 }
 
 .post-body img {
@@ -494,13 +501,17 @@ main {
 }
 
 .post-title a {
-    color: #ffffff;
+    color: #e0e0e0;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 .post-title a:hover {
-    color: #b0b0b0;
+    color: #ffffff;
+}
+
+.post-title a:visited {
+    color: #e0e0e0;
 }
 
 .post-subtitle {
