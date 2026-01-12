@@ -2,94 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on HyunSang Park</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://blog.hyunsang.dev/categories/</link>
     <description>Recent content in Categories on HyunSang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.hyunsang.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>회고</title>
-      <link>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</guid>
+      <title>안드로이드 해킹</title>
+      <link>https://blog.hyunsang.dev/categories/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%95%B4%ED%82%B9/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%ED%95%B4%ED%82%B9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude Code</title>
+      <link>https://blog.hyunsang.dev/categories/claude-code/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/claude-code/</guid>
       <description></description>
     </item>
     <item>
       <title>개발</title>
-      <link>http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/</link>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/</guid>
+      <link>https://blog.hyunsang.dev/categories/%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%EA%B0%9C%EB%B0%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>회고</title>
+      <link>https://blog.hyunsang.dev/categories/%ED%9A%8C%EA%B3%A0/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>법학</title>
-      <link>http://localhost:1313/categories/%EB%B2%95%ED%95%99/</link>
+      <link>https://blog.hyunsang.dev/categories/%EB%B2%95%ED%95%99/</link>
       <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EB%B2%95%ED%95%99/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%EB%B2%95%ED%95%99/</guid>
       <description></description>
     </item>
     <item>
       <title>정보보호병</title>
-      <link>http://localhost:1313/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91/</link>
+      <link>https://blog.hyunsang.dev/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B3%91/</guid>
       <description></description>
     </item>
     <item>
       <title>생각</title>
-      <link>http://localhost:1313/categories/%EC%83%9D%EA%B0%81/</link>
+      <link>https://blog.hyunsang.dev/categories/%EC%83%9D%EA%B0%81/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%83%9D%EA%B0%81/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%EC%83%9D%EA%B0%81/</guid>
       <description></description>
     </item>
     <item>
       <title>에세이</title>
-      <link>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</link>
+      <link>https://blog.hyunsang.dev/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%EC%97%90%EC%84%B8%EC%9D%B4/</guid>
       <description></description>
     </item>
     <item>
       <title>형법</title>
-      <link>http://localhost:1313/categories/%ED%98%95%EB%B2%95/</link>
+      <link>https://blog.hyunsang.dev/categories/%ED%98%95%EB%B2%95/</link>
       <pubDate>Sat, 12 Jul 2025 01:03:29 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%ED%98%95%EB%B2%95/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%ED%98%95%EB%B2%95/</guid>
       <description></description>
     </item>
     <item>
       <title>민법</title>
-      <link>http://localhost:1313/categories/%EB%AF%BC%EB%B2%95/</link>
-      <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EB%AF%BC%EB%B2%95/</guid>
+      <link>https://blog.hyunsang.dev/categories/%EB%AF%BC%EB%B2%95/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%EB%AF%BC%EB%B2%95/</guid>
       <description></description>
     </item>
     <item>
       <title>민법 총칙</title>
-      <link>http://localhost:1313/categories/%EB%AF%BC%EB%B2%95-%EC%B4%9D%EC%B9%99/</link>
-      <pubDate>Mon, 30 Jun 2025 10:00:16 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EB%AF%BC%EB%B2%95-%EC%B4%9D%EC%B9%99/</guid>
+      <link>https://blog.hyunsang.dev/categories/%EB%AF%BC%EB%B2%95-%EC%B4%9D%EC%B9%99/</link>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%EB%AF%BC%EB%B2%95-%EC%B4%9D%EC%B9%99/</guid>
       <description></description>
     </item>
     <item>
       <title>형사법</title>
-      <link>http://localhost:1313/categories/%ED%98%95%EC%82%AC%EB%B2%95/</link>
+      <link>https://blog.hyunsang.dev/categories/%ED%98%95%EC%82%AC%EB%B2%95/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%ED%98%95%EC%82%AC%EB%B2%95/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%ED%98%95%EC%82%AC%EB%B2%95/</guid>
       <description></description>
     </item>
     <item>
       <title>정보보호</title>
-      <link>http://localhost:1313/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/</link>
-      <pubDate>Wed, 14 May 2025 10:46:24 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/</guid>
+      <link>https://blog.hyunsang.dev/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/categories/%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>커뮤니티</title>
-      <link>http://localhost:1313/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</link>
+      <link>https://blog.hyunsang.dev/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</link>
       <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</guid>
+      <guid>https://blog.hyunsang.dev/categories/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/</guid>
       <description></description>
     </item>
   </channel>

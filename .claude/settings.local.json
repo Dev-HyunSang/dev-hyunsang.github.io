@@ -26,7 +26,9 @@
       "Bash(npx postcss:*)",
       "Bash(cp:*)",
       "Bash(sips:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git checkout:*)",
+      "Bash(mv:*)"
     ]
   }
 }

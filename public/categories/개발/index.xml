@@ -6,8 +6,15 @@
     <description>Recent content in 개발 on HyunSang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.hyunsang.dev/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code와 신년맞이 블로그 리뉴얼 하기</title>
+      <link>https://blog.hyunsang.dev/posts/claude-code%EC%99%80-%EC%8B%A0%EB%85%84%EB%A7%9E%EC%9D%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A6%AC%EB%89%B4%EC%96%BC-%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.hyunsang.dev/posts/claude-code%EC%99%80-%EC%8B%A0%EB%85%84%EB%A7%9E%EC%9D%B4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A6%AC%EB%89%B4%EC%96%BC-%ED%95%98%EA%B8%B0/</guid>
+      <description>&lt;p&gt;2026년 병오년을 맞이하여 새로운 블로그 테마를 Claude Code와 함께 만들었습니다.&lt;br&gt;&#xA;모든 기능을 Claude Code를 통해서 구현하였으며, 저는 프로젝트 구성 등을 하였습니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;기능&#34;&gt;기능&lt;/h2&gt;&#xA;&lt;h3 id=&#34;밑줄-친-문장들&#34;&gt;밑줄 친 문장들&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.integer.blog/tag/books/&#34;&gt;체대 개발자 한정수님의 밑줄 친 문장들&lt;/a&gt;을 보면서서 참고하여 저도 관련된 기능을 구현하였습니다.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;예시) &lt;code&gt;/cotnent/highlights/2026년-밑줄-친-문장들/index.md&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;일반적인 개발 관련 글들을 &lt;code&gt;/content/posts/example/index.md&lt;/code&gt; 경로에 저장되어 있습니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;목차-구현&#34;&gt;목차 구현&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://velog.io/&#34;&gt;Velog&lt;/a&gt;처럼 오른쪽 수직 중앙에 목차를 구현하였습니다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈</title>
       <link>https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</link>
