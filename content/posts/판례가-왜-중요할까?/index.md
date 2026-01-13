@@ -2,6 +2,7 @@
 title: "왜 판례가 중요할까?"
 subtitle: "민 · 형법을 공부하면서 판례의 중요성에 대해 의문점을 해결하기 위해 작성하였습니다."
 date: 2025-10-11
+draft: false
 categories: ["법학"]
 tags: ["판례"]
 ---
