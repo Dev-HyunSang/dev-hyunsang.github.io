@@ -63,17 +63,10 @@ enableRobotsTXT = true
 
 [markup]
   [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ''
-    lineAnchors = ''
-    lineNoStart = 1
-    lineNos = true
-    lineNumbersInTable = false
-    noClasses = false
-    style = 'monokai'
-    tabWidth = 4
+    codeFences = false
+    noClasses = true
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.tableOfContents]
     endLevel = 3
     ordered = false

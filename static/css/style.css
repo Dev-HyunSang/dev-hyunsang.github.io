@@ -316,20 +316,11 @@ main {
     font-size: 0.95em;
 }
 
-/* Syntax Highlighting */
-.highlight {
-    margin: 20px 0;
-}
-
-.highlight pre {
-    margin: 0;
-}
-
-/* Line numbers in code blocks */
-.chroma .lnt,
-.chroma .ln {
-    color: #7f7f7f;
-    margin-right: 15px;
+/* highlight.js overrides */
+.hljs {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 /* Tags */
