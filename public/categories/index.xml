@@ -6,12 +6,19 @@
     <description>Recent content in Categories on HyunSang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>사이드 프로젝트</title>
+      <link>http://localhost:1313/categories/%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</link>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</guid>
+      <description></description>
+    </item>
     <item>
       <title>회고</title>
       <link>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</link>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/%ED%9A%8C%EA%B3%A0/</guid>
       <description></description>
     </item>
