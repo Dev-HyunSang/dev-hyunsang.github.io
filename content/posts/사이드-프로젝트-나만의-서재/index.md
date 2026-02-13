@@ -181,7 +181,7 @@ tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
 </div>
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./임시_비밀번호_메일.png" />
+    <img src="./임시_비밀번호_메일.jpeg" />
 </div>
 
 - 사용자가 비밀번호를 잊어버린 경우 '비밀번호 찾기' 기능을 통해서 임시 비밀번호를 사용자가 생성한 계정의 메일 주소로 받아볼 수 있습니다.
