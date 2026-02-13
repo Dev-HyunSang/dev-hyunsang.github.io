@@ -193,11 +193,11 @@ tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
 
 <div style="display: flex; gap: 8px; justify-content: center;">
     <img src="./등록페이지.jpeg" style="max-width: 50%;" />
-    <img src="./등록페이지_ISBN_수동입력.jpeg" style="max-width: 50%;" />
+    <img src="./등록페이지_ISBN_수동입력.jpeg" style="max-width: 50%;" />
 </div>
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./등록페이지_ISBN_수동입력.gif" style="max-width: 50%;" />
+    <img src="./등록페이지_ISBN_수동입력.gif" style="max-width: 50%;" />
 </div>
 
 <div style="display: flex; gap: 8px; justify-content: center;">
