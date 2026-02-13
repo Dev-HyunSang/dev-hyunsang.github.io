@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>개발 on HyunSang Park</title>
-    <link>http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/</link>
+    <link>https://blog.hyunsang.dev/categories/%EA%B0%9C%EB%B0%9C/</link>
     <description>Recent content in 개발 on HyunSang Park</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.hyunsang.dev/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intel 맥북 소프트웨어 업데이트 이후 Homebrew 날라가는 이슈</title>
-      <link>http://localhost:1313/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</link>
+      <link>https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</guid>
+      <guid>https://blog.hyunsang.dev/posts/%EB%A7%A5-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%9D%B4%EC%8A%88/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;./System-Setting.png&#34; alt=&#34;업데이트를 완료한 모습&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;문제점&#34;&gt;문제점&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;macOS Tahoe 26.0 → 26.1으로 업데이트 하였음.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그 이후로 Homebrew로 설치했던 응용 프로그램, 개발 환경 패키지들이 실행이 안 되는 현상을 발견함.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Sequoia 15 → Tahoe 26.0으로 업데이트 할 때도 날라갔던 적이 있었음.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;그 때도 해결 방법은 동일했음&amp;hellip;ㅠ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Last login: Fri Nov  7 19:11:12 on ttys003&#xA;/Users/park.hyunsang/.zshrc:15: command not found: pyenv&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;기존에 Hombrew를 통해서 pyenv 설치 되었으나, 맥북 소프트웨어 업데이트 이후 날라감.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;➜  /opt ls -a&#xA;.  ..&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;소프트웨어 업데이트 이후 &lt;code&gt;/opt/homebrew&lt;/code&gt; 디렉토리가 날라감.&lt;/li&gt;&#xA;&lt;li&gt;변경된 내용도 확인할 수 없음. 응용 프로그램에 설치되어 있는 프로그램들도 날라감.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;몇 개는 공식 홈페이지에서 &lt;code&gt;.dmg&lt;/code&gt; 파일을 통해서 설치하였는데도 날라감.&lt;/li&gt;&#xA;&lt;li&gt;몇 개는 Homebrew를 통해서 설치한 프로그램들도 날라감.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;결론&#34;&gt;결론&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;해외 맥 커뮤니티 혹은 해외 개발자 커뮤니티에서 확인한 결과,  인텔 CPU를 사용하는 맥북에서만 이러한 증상이 발현되는 것을 발견하였음&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.itech4mac.net/2025/10/fixing-homebrew-issues-after-macos-upgrades-a-comprehensive-guide/&#34;&gt;Fixing Homebrew Issues After macOS Upgrades: A Comprehensive Guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/MacOS/comments/1nva1m1/macos_2600_wiped_out_homebrew_relocated_a_bunch/&#34;&gt;macOS 26.0.0 wiped out Homebrew, relocated a bunch of apps. Then macOS 26.0.1 just DID IT AGAIN!&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://forums.macrumors.com/threads/all-apps-are-moved-by-tahoe-update.2464530/&#34;&gt;All apps are moved by Tahoe update&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://discussions.apple.com/thread/256182816?sortBy=rank&#34;&gt;Apps and preferences moved to &amp;ldquo;moved items&amp;rdquo; after installing Tahoe on Intel/T2 Mac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;복구 시키는 방법은 없는 것 같음. 디렉토리 자체가 없어졌고, 디렉토리가 어떻게 되었는지 등은 찾을 수 없었음.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;맥북 초기화 후 개발 환경을 다시 설정하였음.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

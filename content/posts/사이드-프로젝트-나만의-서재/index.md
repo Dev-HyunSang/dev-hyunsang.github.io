@@ -181,7 +181,7 @@ tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
 </div>
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./임시_비밀번호_메일.jpeg" />
+    <img src="./임시_비밀번호_메일.jpeg" />
 </div>
 
 - 사용자가 비밀번호를 잊어버린 경우 '비밀번호 찾기' 기능을 통해서 임시 비밀번호를 사용자가 생성한 계정의 메일 주소로 받아볼 수 있습니다.
@@ -202,7 +202,7 @@ tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
 </div>
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./등록된_책_정보_수정.jpeg" style="max-width: 50%" />
+    <img src="./등록된_책_정보_수정.jpeg" style="max-width: 50%" />
     <img src="./홈-책-등록-수정.gif" style="max-width: 50%;" />
 </div>
 
@@ -280,8 +280,8 @@ ISBN 바코드를 통해서 정보를 가져오기 위해선 API를 사용해야
 ### 사용자 닉네임 변경
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./설정_닉네임_변경.jpeg" style="max-width: 50%" />
-    <img src="./설정_닉네임_변경.gif" style="max-width: 50%;" />
+    <img src="./설정_닉네임_변경.jpeg" style="max-width: 50%" />
+    <img src="./설정_닉네임_변경.gif" style="max-width: 50%;" />
 </div>
 
 - 저장된 닉네임을 불러옵니다. 사용자가 변경 시에만 '중복 확인' 버튼만 보입니다.
@@ -290,8 +290,8 @@ ISBN 바코드를 통해서 정보를 가져오기 위해선 API를 사용해야
 ### 비밀번호 변경
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./설정_비밀번호_변경.jpeg" style="max-width: 50%;"/>
-    <img src="./설정_비밀번호_변경.gif" style="max-width: 50%;" />
+    <img src="./설정_비밀번호_변경.jpeg" style="max-width: 50%;"/>
+    <img src="./설정_비밀번호_변경.gif" style="max-width: 50%;" />
 </div>
 
 - 사용자가 비밀번호를 변경할 수 있는 기능입니다.
@@ -299,7 +299,7 @@ ISBN 바코드를 통해서 정보를 가져오기 위해선 API를 사용해야
 ### 회원탈퇴
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./설정_회원_탈퇴.gif" style="max-width: 50%;"/>
+    <img src="./설정_회원_탈퇴.gif" style="max-width: 50%;"/>
 </div>
 
 - 회원탈퇴 기능은 회원이 '나만의 서재'를 탈퇴할 때 사용하는 기능입니다.

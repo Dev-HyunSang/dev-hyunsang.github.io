@@ -28,7 +28,9 @@
       "Bash(sips:*)",
       "Bash(rm:*)",
       "Bash(git checkout:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(xxd:*)",
+      "Bash(python3:*)"
     ]
   }
 }
