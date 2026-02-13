@@ -158,7 +158,7 @@ tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
 ### 로그인
 
 <div style="display: flex; gap: 8px; justify-content: center;">
-    <img src="./로그인_화면.jpeg" style="max-width: 50%;" />
+    <img src="./로그인_화면.jpeg" style="max-width: 50%;" />
     <img src="./로그인_화면.gif" style="max-width: 50%;"/>
 </div>
 
