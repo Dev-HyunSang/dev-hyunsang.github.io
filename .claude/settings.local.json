@@ -30,7 +30,13 @@
       "Bash(git checkout:*)",
       "Bash(mv:*)",
       "Bash(xxd:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog status)",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog log --oneline -3)",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog diff --stat)",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog add \"content/posts/사이드-프로젝트-나만의-서재/index.md\")",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog commit -m \"$\\(cat <<''EOF''\nfix: normalize Korean image paths to NFC encoding\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/park.hyunsang/dev/personal/hyunsang-blog push)"
     ]
   }
 }
