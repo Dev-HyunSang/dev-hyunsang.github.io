@@ -2,20 +2,6 @@
 <div class="home">
     <!-- Profile Section -->
     <div class="profile-section">
-        {{ $profileImage := resources.Get .Site.Params.profileImage }}
-        {{ if $profileImage }}
-            {{ $profileImageResized := $profileImage.Resize "256x256 webp" }}
-            <img
-                src="{{ $profileImageResized.RelPermalink }}"
-                alt="{{ .Site.Params.author }}"
-                class="profile-image"
-                width="128"
-                height="128"
-                loading="eager"
-                style="image-orientation: from-image;"
-            >
-        {{ end }}
-
         <h1>{{ .Site.Params.author }}</h1>
         <p class="site-description">{{ .Site.Params.bio }}</p>
 
@@ -54,7 +40,7 @@
 
     <!-- Recent Posts -->
     <div class="recent-posts">
-        <h2>최근 글</h2>
+        <h2>Recent Posts</h2>
         <div class="posts-list">
             {{ range first 10 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
             <a href="{{ .Permalink }}" class="post-summary-link">

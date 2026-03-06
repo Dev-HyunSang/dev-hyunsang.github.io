@@ -5,10 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="HyunSang&#39;s Software Engineering Blog">
+        content="HyunSang&#39;s Tech Blog">
     <title>2026년 밑줄 친 문장들 - HyunSang Park</title>
-    <link rel="stylesheet" href="/css/style.css?v=1771131425">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+    <link rel="stylesheet" href="/css/style.css?v=1772779325">
+    <link rel="stylesheet" id="hljs-theme" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css">
+    <script>
+        
+        (function() {
+            const saved = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const theme = saved || (prefersDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
 </head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7160542565140868"
      crossorigin="anonymous"></script>
@@ -35,6 +45,14 @@
                 <a href="/highlights/">밑줄 친 문장들 📚</a>
                 
             </div>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <svg class="icon-sun" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/>
+                </svg>
+                <svg class="icon-moon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+                </svg>
+            </button>
         </nav>
     </header>
 
@@ -196,22 +214,22 @@
 <p>구매 예정.</p>
 <h2 id="-싯다르타-">『 싯다르타 』</h2>
 <ul>
-<li>저자 헤르만 헤세 / 번역 박병덕</li>
+<li>저자 헤르만 헤세 / 번역 박병덕 / 2002</li>
 </ul>
 <p>구매 예정.</p>
 <h2 id="-보통-이하의-것들-">『 보통 이하의 것들 』</h2>
 <ul>
-<li>저자 조르주 페렉 / 번역 김호영</li>
+<li>저자 조르주 페렉 / 번역 김호영 / 2023</li>
 </ul>
 <p>구매 예정.</p>
 <h2 id="-내가-알던-사람-">『 내가 알던 사람 』</h2>
 <ul>
-<li>저자 샌디프 자우하르 / 번역 서정아</li>
+<li>저자 샌디프 자우하르 / 번역 서정아 / 2024</li>
 </ul>
 <p>구매 예정.</p>
 <h2 id="-파도가-바다의-일이라면-">『 파도가 바다의 일이라면 』</h2>
 <ul>
-<li>저자 김연수</li>
+<li>저자 김연수 / 2015</li>
 </ul>
 <p>구매 예정.</p>
 <h2 id="-사랑하기-좋은-계절에-">『 사랑하기 좋은 계절에 』</h2>
@@ -229,6 +247,10 @@
 <h2 id="-사랑이-사랑이기-이전에-">『 사랑이 사랑이기 이전에 』</h2>
 <ul>
 <li>저자 안리타 / 2024</li>
+</ul>
+<h2 id="-지하생활자의-수기-">『 지하생활자의 수기 』</h2>
+<ul>
+<li>저자 표도르 도스토옙스키 / 번역 이동현 / 2025</li>
 </ul>
 
         </div>
@@ -255,6 +277,7 @@
     <li><a href="#시집--사랑을-위한-되풀이-">(시집) 『 사랑을 위한 되풀이 』</a></li>
     <li><a href="#-해가-지는-곳으로-">『 해가 지는 곳으로 』</a></li>
     <li><a href="#-사랑이-사랑이기-이전에-">『 사랑이 사랑이기 이전에 』</a></li>
+    <li><a href="#-지하생활자의-수기-">『 지하생활자의 수기 』</a></li>
   </ul>
 </nav>
             </nav>
@@ -270,6 +293,27 @@
     </footer>
 
     <script>
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+
+            const hljsTheme = document.getElementById('hljs-theme');
+            hljsTheme.href = next === 'dark'
+                ? 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css'
+                : 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css';
+        }
+
+        
+        (function() {
+            const theme = document.documentElement.getAttribute('data-theme');
+            const hljsTheme = document.getElementById('hljs-theme');
+            if (theme === 'light') {
+                hljsTheme.href = 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github.min.css';
+            }
+        })();
+
         function toggleNav() {
             const nav = document.querySelector('nav');
             nav.classList.toggle('nav-open');

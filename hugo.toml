@@ -30,21 +30,14 @@ enableRobotsTXT = true
   [caches.images]
     dir = ":resourceDir/_gen"
     maxAge = "8760h"
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = "8760h"
-  [caches.getcsv]
-    dir = ":cacheDir/:project"
-    maxAge = "8760h"
-  [caches.modules]
+[caches.modules]
     dir = ":cacheDir/modules"
     maxAge = "8760h"
 
 [params]
-  description = "HyunSang's Software Engineering Blog"
+  description = "HyunSang's Tech Blog"
   author = 'HyunSang Park'
-  profileImage = '/images/profile.jpeg'
-  bio = '사이버 보안을 전공하며, 법학을 부전공하고 있습니다. 문학과 철학을 애증합니다.'
+  bio = "학부에서 사이버 보안을 전공하며, 법학을 부전공하고 있습니다.\n사이버 보안 분야에서는 웹 취약점 분석과 침해사고 대응, 성문법과 규정 등을 통한 개인정보보호 및 관리에 관심을 가지고 공부하고 있습니다.\n법학에서는 실생활에서 일어나는 다양한 사인과 사이에서의 법적 분쟁에 대해 공부하고 있습니다.\n주로 형법과 민사법(민법, 민사소송법, 민사집행법)에 관심이 많습니다."
 
   [[params.social]] 
     name = 'Website'
