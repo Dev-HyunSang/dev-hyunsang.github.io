@@ -1,11 +1,12 @@
 {{ define "main" }}
 <div class="post-layout">
     <article class="post-content">
+        <a href="javascript:history.back()" class="go-back">&lt; Go Back</a>
         <div class="post-header">
             <h1>{{ .Title }}</h1>
             <div class="post-meta">
                 <span>{{ .Site.Params.author }}</span>
-                <span>•</span>
+                <span class="meta-sep">•</span>
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
             </div>
         </div>
