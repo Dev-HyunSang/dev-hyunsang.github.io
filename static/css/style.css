@@ -169,7 +169,6 @@ nav.nav-open .nav-toggle .close {
 
 /* Main Content */
 main {
-    padding: 40px;
     position: relative;
 }
 
@@ -180,6 +179,20 @@ main {
 
 .post-content {
     max-width: 100%;
+}
+
+/* Go Back */
+.go-back {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #888;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.go-back:hover {
+    color: #fff;
 }
 
 /* Post Header */
@@ -932,6 +945,10 @@ footer {
         flex-direction: column;
         gap: 5px;
         align-items: flex-start;
+    }
+
+    .post-meta .meta-sep {
+        display: none;
     }
 
     /* TOC - Hide on Mobile */
