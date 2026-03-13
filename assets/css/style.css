@@ -51,13 +51,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
     line-height: 1.6;
     color: var(--text);
-    max-width: 900px;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: var(--bg);
@@ -780,7 +781,7 @@ main {
 }
 
 .profile-section {
-    text-align: center;
+    text-align: left;
     margin-bottom: 60px;
 }
 
