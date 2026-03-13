@@ -77,16 +77,16 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    name = 'Tags'
-    url = '/tags/'
+    name = 'Topics'
+    url = '/topics/'
     weight = 2
-
-  [[menu.main]]
-    name = 'Categories'
-    url = '/categories/'
-    weight = 3
 
   [[menu.main]]
     name = '밑줄 친 문장들 📚'
     url = '/highlights/'
+    weight = 3
+
+  [[menu.main]]
+    name = 'About me'
+    url = '/about'
     weight = 4
