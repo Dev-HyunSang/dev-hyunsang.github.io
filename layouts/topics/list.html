@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="list-page">
+    <h1>Topics</h1>
+
+    {{ with .Site.Taxonomies.categories }}
+    <section class="topics-section">
+        <h2 class="topics-section-title">Categories</h2>
+        <div class="taxonomy-grid">
+            {{ range .ByCount }}
+            <a href="{{ "/categories/" | relURL }}{{ .Page.Title | urlize }}/" class="taxonomy-item">
+                <h3>{{ .Page.Title }}</h3>
+                <p>{{ .Count }}개의 포스트</p>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    {{ with .Site.Taxonomies.tags }}
+    <section class="topics-section">
+        <h2 class="topics-section-title">Tags</h2>
+        <div class="taxonomy-grid">
+            {{ range .ByCount }}
+            <a href="{{ "/tags/" | relURL }}{{ .Page.Title | urlize }}/" class="taxonomy-item">
+                <h3>#{{ .Page.Title }}</h3>
+                <p>{{ .Count }}개의 포스트</p>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+</div>
+{{ end }}

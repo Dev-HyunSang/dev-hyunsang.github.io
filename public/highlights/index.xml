@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>밑줄 친 문장들 📚 on HyunSang Park</title>
+    <title>밑줄 친 문장들 📚 on blog.hyunsang.dev</title>
     <link>http://localhost:1313/highlights/</link>
-    <description>Recent content in 밑줄 친 문장들 📚 on HyunSang Park</description>
+    <description>Recent content in 밑줄 친 문장들 📚 on blog.hyunsang.dev</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
