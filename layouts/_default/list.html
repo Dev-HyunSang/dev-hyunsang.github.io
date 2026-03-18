@@ -25,9 +25,11 @@
                     <article class="timeline-post">
                         <div class="timeline-dot"></div>
                         <div class="post-card">
+                            {{ if ne .Params.showDate false }}
                             <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
                                 {{ .Date.Format "01.02" }}
                             </time>
+                            {{ end }}
                             <h4 class="post-title">
                                 <a href="{{ .Permalink }}">{{ .Title }}</a>
                             </h4>

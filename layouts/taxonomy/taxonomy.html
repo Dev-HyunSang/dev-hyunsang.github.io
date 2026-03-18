@@ -16,9 +16,11 @@
             <p class="subtitle">{{ .Params.subtitle }}</p>
             {{ end }}
             <div class="post-meta">
+                {{ if ne .Params.showDate false }}
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
+                {{ end }}
                 {{ if .Params.categories }}
-                <span>•</span>
+                {{ if ne .Params.showDate false }}<span>•</span>{{ end }}
                 <span class="categories">
                     {{ range .Params.categories }}
                     <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>

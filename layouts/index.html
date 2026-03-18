@@ -49,9 +49,11 @@
                     {{ if .Params.subtitle }}
                     <p class="subtitle">{{ .Params.subtitle }}</p>
                     {{ end }}
+                    {{ if ne .Params.showDate false }}
                     <div class="post-meta">
                         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
                     </div>
+                    {{ end }}
                 </article>
             </a>
             {{ end }}

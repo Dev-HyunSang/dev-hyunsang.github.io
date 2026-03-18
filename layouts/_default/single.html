@@ -8,11 +8,15 @@
             <p class="subtitle">{{ .Params.subtitle }}</p>
             {{ end }}
             <div class="post-meta">
+                {{ if ne .Params.showAuthor false }}
                 <span>{{ .Site.Params.author }}</span>
-                <span class="meta-sep">•</span>
+                {{ end }}
+                {{ if ne .Params.showDate false }}
+                {{ if ne .Params.showAuthor false }}<span class="meta-sep">•</span>{{ end }}
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006년 01월 02일" }}</time>
+                {{ end }}
                 {{ if .Params.categories }}
-                <span class="meta-sep">•</span>
+                {{ if or (ne .Params.showAuthor false) (ne .Params.showDate false) }}<span class="meta-sep">•</span>{{ end }}
                 <span class="categories">
                     {{ range .Params.categories }}
                     <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a>
