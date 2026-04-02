@@ -6,13 +6,34 @@
     <description>Recent content in Tags on blog.hyunsang.dev</description>
     <generator>Hugo</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>기록</title>
       <link>http://localhost:1313/tags/%EA%B8%B0%EB%A1%9D/</link>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/%EA%B8%B0%EB%A1%9D/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>기판력</title>
+      <link>http://localhost:1313/tags/%EA%B8%B0%ED%8C%90%EB%A0%A5/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%EA%B8%B0%ED%8C%90%EB%A0%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>민사소송법</title>
+      <link>http://localhost:1313/tags/%EB%AF%BC%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%EB%AF%BC%EC%82%AC%EC%86%8C%EC%86%A1%EB%B2%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>법학</title>
+      <link>http://localhost:1313/tags/%EB%B2%95%ED%95%99/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/%EB%B2%95%ED%95%99/</guid>
       <description></description>
     </item>
     <item>
@@ -167,13 +188,6 @@
       <link>http://localhost:1313/tags/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D/</link>
       <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/%EB%94%94%EC%A7%80%ED%84%B8-%ED%8F%AC%EB%A0%8C%EC%8B%9D/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>법학</title>
-      <link>http://localhost:1313/tags/%EB%B2%95%ED%95%99/</link>
-      <pubDate>Sun, 18 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%EB%B2%95%ED%95%99/</guid>
       <description></description>
     </item>
     <item>
