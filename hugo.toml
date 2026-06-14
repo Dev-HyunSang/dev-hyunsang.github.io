@@ -1,5 +1,5 @@
 baseURL = 'https://blog.hyunsang.dev/'
-locale = 'ko-KR'
+languageCode = 'ko-KR'
 title = 'blog.hyunsang.dev'
 
 # RSS 설정
