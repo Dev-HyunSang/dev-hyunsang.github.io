@@ -35,8 +35,8 @@ enableRobotsTXT = true
     maxAge = "8760h"
 
 [params]
-  description = "HyunSang's Tech Blog"
-  author = 'HyunSang Jeff Park'
+  description = "HyunSang's tech blog"
+  author = 'HyunSang Park'
   bio = "Information Security - B.S. / Minor in Law"
 
   [[params.social]] 

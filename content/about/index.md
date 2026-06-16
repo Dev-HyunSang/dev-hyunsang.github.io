@@ -1,5 +1,5 @@
 ---
-title: "HyunSang Jeff Park"
+title: "HyunSang Park"
 toc: false
 showDate: false
 showAuthor: false
@@ -12,6 +12,9 @@ showAuthor: false
 > 요한 볼프강 폰 괴테
 
 ## About Me
+
+- MBTI - ENTJ
+  - MBTI로 제 자신을 정의할 순 없겠지만 사고방식과 생활방식이 비슷한 부분이 많습니다.
 
 - 학부에서 정보보호학을 주전공으로, 법학을 부전공으로 전공하고 있습니다.
   - 정보보호학에선 웹 취약점 분석 / 보안관제 / 개인정보보호정책 등에 관심이 많습니다.
