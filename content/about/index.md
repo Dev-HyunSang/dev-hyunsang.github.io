@@ -31,6 +31,7 @@ showAuthor: false
   - 다양한 분들을 만나뵈면서 다양한 이야기를 나누고 제 자신이 부족한 부분을 알아가고 채우고자 노력하고 있습니다.
   - 제 자신이 좋아하고 잘하는 일을 찾고 하고자 노력하고 있습니다.
   - 어른 같은 어른이 되어가고자 노력하고 있습니다.
+  - 익숙함에 속아서 안일하게 하지 않는지 항상 생각하며 행동하고 있습니다.
 
 ## my tech gear
 
@@ -38,6 +39,8 @@ showAuthor: false
 - Sub(Server) - Apple Macbook Pro / Intel i9-9880H / 32GB / 1TB
 
 ## contact
+
+제가 작성한 블로그 포스팅 혹은 개인적인 궁금증이 있으신 경우, 편하게 메일 혹은 링크드인으로 연락주시면 감사하겠습니다.
 
 - E-mail - me@hyunsang.dev & park.hyunsang@sch.ac.kr
 - [Linkedin](https://www.linkedin.com/in/parkhyunsang/)
