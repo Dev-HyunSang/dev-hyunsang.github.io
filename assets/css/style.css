@@ -1,7 +1,7 @@
 /* =============================================
    CSS Custom Properties (Theme Variables)
    ============================================= */
-:root {
+   :root {
     /* Dark theme (default) */
     --bg: #1a1a1a;
     --bg-card: #2a2a2a;
@@ -58,7 +58,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
     line-height: 1.6;
     color: var(--text);
-    max-width: 70%;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     background-color: var(--bg);
@@ -810,7 +810,7 @@ main {
 .social-links {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -890,6 +890,19 @@ footer {
     text-align: center;
     color: var(--text-muted);
     font-size: 0.9rem;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: var(--text-muted);
+}
+
+footer a {
+    color: var(--text-muted);
+    text-decoration-color: var(--text-muted);
+}
+
+footer a:hover {
+    color: var(--text-bright);
+    text-decoration-color: var(--text-bright);
 }
 
 /* Responsive */
