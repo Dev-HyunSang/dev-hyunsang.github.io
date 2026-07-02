@@ -236,14 +236,22 @@ main {
     color: var(--text-bright);
 }
 
+/* Category filter title (home sidebar) */
+.category-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin: 0 0 10px 16px;
+}
+
 /* Table of Contents Sidebar */
 .toc-sidebar {
     position: fixed;
     left: calc(50% + 900px / 2 + 40px);
-    top: 50%;
-    transform: translateY(-50%);
+    top: 100px;
     width: 240px;
-    max-height: 80vh;
+    max-height: calc(100vh - 140px);
     z-index: 10;
 }
 

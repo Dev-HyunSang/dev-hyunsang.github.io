@@ -42,8 +42,8 @@
     <div class="recent-posts">
         <h2>Recent Posts</h2>
         <div class="posts-list">
-            {{ range first 10 (where .Site.RegularPages "Type" "in" (slice "posts" "post")) }}
-            <a href="{{ .Permalink }}" class="post-summary-link">
+            {{ range where .Site.RegularPages "Type" "in" (slice "posts" "post") }}
+            <a href="{{ .Permalink }}" class="post-summary-link" data-categories="{{ range .Params.categories }}{{ . | urlize }} {{ end }}">
                 <article class="post-summary">
                     <h3>{{ .Title }}</h3>
                     {{ if .Params.subtitle }}
@@ -69,5 +69,37 @@
             </a>
         </div>
     </div>
+
+    <!-- Category Filter (TOC-style sidebar) -->
+    <aside class="toc-sidebar category-sidebar">
+        <div class="toc-wrapper">
+            <nav class="toc-nav">
+                <ul>
+                    <li><p class="category-title">Categories</p></li>
+                    <li><a href="#" data-cat="" class="active">전체</a></li>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                    <li><a href="#" data-cat="{{ $name | urlize }}">{{ $name }} ({{ len $taxonomy.Pages }})</a></li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </aside>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const links = document.querySelectorAll('.category-sidebar a[data-cat]');
+        const posts = document.querySelectorAll('.posts-list .post-summary-link');
+        if (!links.length) return;
+        links.forEach(link => link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const cat = this.dataset.cat;
+            posts.forEach(p => {
+                const cats = (p.dataset.categories || '').trim().split(' ');
+                p.style.display = (!cat || cats.includes(cat)) ? '' : 'none';
+            });
+            links.forEach(l => l.classList.toggle('active', l === this));
+        }));
+    });
+</script>
 {{ end }}
