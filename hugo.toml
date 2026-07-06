@@ -82,7 +82,7 @@ enableRobotsTXT = true
     weight = 2
 
   [[menu.main]]
-    name = '밑줄 친 문장들 📚'
+    name = 'Highlights'
     url = '/highlights/'
     weight = 3
 
