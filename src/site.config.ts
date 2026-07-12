@@ -1,5 +1,5 @@
 export const site = {
-  title: 'blog.hyunsang.dev',
+  title: 'HyunSang Park',
   description: "HyunSang's tech blog",
   author: 'HyunSang Park',
   bio: 'Information Security - B.S. / Minor in Law',
