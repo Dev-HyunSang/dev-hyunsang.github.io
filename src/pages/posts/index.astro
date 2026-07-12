@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDateShort, isoDate, yearKey, monthKey } from '../../lib/date';
+import { urlize } from '../../lib/slug';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+type YearGroup = { key: string; posts: typeof posts; months: { key: string; posts: typeof posts }[] };
+
+const years: YearGroup[] = [];
+for (const post of posts) {
+  const yk = yearKey(post.data.date);
+  const mk = monthKey(post.data.date);
+  let year = years.find((y) => y.key === yk);
+  if (!year) {
+    year = { key: yk, posts: [], months: [] };
+    years.push(year);
+  }
+  year.posts.push(post);
+  let month = year.months.find((m) => m.key === mk);
+  if (!month) {
+    month = { key: mk, posts: [] };
+    year.months.push(month);
+  }
+  month.posts.push(post);
+}
+---
+
+<BaseLayout title="Posts" description="제가 작성한 모든 글을 보실 수 있습니다.">
+    <div class="list-page posts-page">
+        <div class="page-header">
+            <h1>Posts</h1>
+            <p class="post-count">총 {posts.length}개의 글</p>
+            <div class="page-description">
+                <p>제가 작성한 모든 글을 보실 수 있습니다.</p>
+            </div>
+        </div>
+
+        <div class="posts-timeline">
+            {years.map((year) => (
+                <section class="year-group">
+                    <div class="year-header">
+                        <h2>{year.key}</h2>
+                        <span class="year-count">{year.posts.length}개</span>
+                    </div>
+                    {year.months.map((month) => (
+                        <div class="month-group">
+                            <h3 class="month-header">{month.key}</h3>
+                            <div class="month-posts">
+                                {month.posts.map((post) => (
+                                    <article class="timeline-post">
+                                        <div class="timeline-dot"></div>
+                                        <div class="post-card">
+                                            {post.data.showDate !== false && (
+                                                <time class="post-date" datetime={isoDate(post.data.date)}>
+                                                    {formatDateShort(post.data.date)}
+                                                </time>
+                                            )}
+                                            <h4 class="post-title">
+                                                <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+                                            </h4>
+                                            {post.data.subtitle && <p class="post-subtitle">{post.data.subtitle}</p>}
+                                            <div class="post-footer-info">
+                                                {post.data.categories && post.data.categories.length > 0 && (
+                                                    <div class="post-categories">
+                                                        {post.data.categories.map((c) => (
+                                                            <a href={`/categories/${urlize(c)}/`} class="category-badge">{c}</a>
+                                                        ))}
+                                                    </div>
+                                                )}
+                                                {post.data.tags && post.data.tags.length > 0 && (
+                                                    <div class="post-tags-preview">
+                                                        {post.data.tags.slice(0, 3).map((t) => (
+                                                            <span class="tag-mini">#{t}</span>
+                                                        ))}
+                                                        {post.data.tags.length > 3 && (
+                                                            <span class="tag-more">+{post.data.tags.length - 3}</span>
+                                                        )}
+                                                    </div>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </article>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
+                </section>
+            ))}
+        </div>
+    </div>
+</BaseLayout>

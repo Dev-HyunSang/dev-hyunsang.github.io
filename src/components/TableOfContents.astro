@@ -1,0 +1,36 @@
+---
+import type { MarkdownHeading } from 'astro';
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props;
+
+// Mirrors Hugo's markup.tableOfContents (startLevel=2, endLevel=3)
+const items = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+{items.length > 0 && (
+  <ul>
+    {items.map((h, i) => {
+      if (h.depth === 3) return null;
+      const children = [];
+      for (let j = i + 1; j < items.length && items[j].depth === 3; j++) {
+        children.push(items[j]);
+      }
+      return (
+        <li>
+          <a href={`#${h.slug}`}>{h.text}</a>
+          {children.length > 0 && (
+            <ul>
+              {children.map((c) => (
+                <li><a href={`#${c.slug}`}>{c.text}</a></li>
+              ))}
+            </ul>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+)}

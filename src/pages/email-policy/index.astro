@@ -1,0 +1,14 @@
+---
+import SingleLayout from '../../layouts/SingleLayout.astro';
+import { Content, frontmatter } from '../../data/email-policy.md';
+---
+
+<SingleLayout
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+    showDate={frontmatter.showDate}
+    showAuthor={frontmatter.showAuthor}
+    toc={frontmatter.toc}
+>
+    <Content />
+</SingleLayout>

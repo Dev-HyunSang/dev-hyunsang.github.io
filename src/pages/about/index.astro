@@ -1,0 +1,13 @@
+---
+import SingleLayout from '../../layouts/SingleLayout.astro';
+import { Content, frontmatter } from '../../data/about.md';
+---
+
+<SingleLayout
+    title={frontmatter.title}
+    showDate={frontmatter.showDate}
+    showAuthor={frontmatter.showAuthor}
+    toc={frontmatter.toc}
+>
+    <Content />
+</SingleLayout>

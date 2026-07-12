@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDateKo, isoDate } from '../../lib/date';
+import { urlize } from '../../lib/slug';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const byTag = new Map<string, { name: string; posts: typeof posts }>();
+  for (const post of posts) {
+    for (const t of post.data.tags ?? []) {
+      const slug = urlize(t);
+      if (!byTag.has(slug)) byTag.set(slug, { name: t, posts: [] });
+      byTag.get(slug)!.posts.push(post);
+    }
+  }
+  return [...byTag.entries()].map(([slug, { name, posts: tagPosts }]) => ({
+    params: { tag: slug },
+    props: { tag: name, posts: tagPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()) },
+  }));
+}
+
+const { tag, posts } = Astro.props;
+---
+
+<BaseLayout title={`#${tag}`}>
+    <div class="list-page">
+        <h1>#{tag}</h1>
+        <p class="page-description">{posts.length}개의 포스트</p>
+
+        <div class="posts-list">
+            {posts.map((post) => (
+                <article class="post-summary">
+                    <h3>
+                        <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+                    </h3>
+                    {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
+                    <div class="post-meta">
+                        {post.data.showDate !== false && (
+                            <time datetime={isoDate(post.data.date)}>{formatDateKo(post.data.date)}</time>
+                        )}
+                        {post.data.categories && post.data.categories.length > 0 && (
+                            <>
+                                {post.data.showDate !== false && <span>•</span>}
+                                <span class="categories">
+                                    {post.data.categories.map((c) => <a href={`/categories/${urlize(c)}/`}>{c}</a>)}
+                                </span>
+                            </>
+                        )}
+                    </div>
+                </article>
+            ))}
+        </div>
+    </div>
+</BaseLayout>

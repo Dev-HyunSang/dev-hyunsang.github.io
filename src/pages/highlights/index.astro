@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDateDot, isoDate } from '../../lib/date';
+
+const highlights = (await getCollection('highlights'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title="밑줄 친 문장들 📚">
+    <div class="list-page">
+        <h1>밑줄 친 문장들 📚</h1>
+        <div class="page-description">
+            <p>문학과 철학을 애증하고 있습니다. 한 해 동안 다양한 서적들을 읽고 밑줄 친 문장들을 남깁니다.</p>
+        </div>
+
+        <div class="posts-list">
+            {highlights.map((entry) => (
+                <article class="post-summary">
+                    <h3>
+                        <a href={`/highlights/${entry.slug}/`}>{entry.data.title}</a>
+                    </h3>
+                    {entry.data.showDate !== false && (
+                        <div class="post-meta">
+                            <time datetime={isoDate(entry.data.date)}>마지막 업데이트 - {formatDateDot(entry.data.date)}</time>
+                        </div>
+                    )}
+                </article>
+            ))}
+        </div>
+    </div>
+</BaseLayout>

@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import SingleLayout from '../../layouts/SingleLayout.astro';
+
+export async function getStaticPaths() {
+  const highlights = await getCollection('highlights');
+  return highlights.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+---
+
+<SingleLayout
+    title={entry.data.title}
+    date={entry.data.date}
+    showDate={entry.data.showDate}
+    showAuthor={entry.data.showAuthor}
+    toc={entry.data.toc}
+    headings={headings}
+>
+    <Content />
+</SingleLayout>

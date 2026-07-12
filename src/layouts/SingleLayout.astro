@@ -1,0 +1,85 @@
+---
+import type { MarkdownHeading } from 'astro';
+import BaseLayout from './BaseLayout.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { site } from '../site.config';
+import { formatDateKo, isoDate } from '../lib/date';
+import { urlize } from '../lib/slug';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  date?: Date;
+  categories?: string[];
+  tags?: string[];
+  showDate?: boolean;
+  showAuthor?: boolean;
+  toc?: boolean;
+  headings?: MarkdownHeading[];
+}
+
+const {
+  title,
+  subtitle,
+  date,
+  categories,
+  tags,
+  showDate = true,
+  showAuthor = true,
+  toc = true,
+  headings = [],
+} = Astro.props;
+
+const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
+---
+
+<BaseLayout title={title} description={subtitle}>
+    <div class="post-layout">
+        <article class="post-content">
+            <a href="javascript:history.back()" class="go-back">&lt; Go Back</a>
+            <div class="post-header">
+                <h1>{title}</h1>
+                {subtitle && <p class="subtitle">{subtitle}</p>}
+                <div class="post-meta">
+                    {showAuthor && <span>{site.author}</span>}
+                    {showDate && showAuthor && <span class="meta-sep">•</span>}
+                    {showDate && date && (
+                        <time datetime={isoDate(date)}>
+                            {formatDateKo(date)}
+                        </time>
+                    )}
+                    {categories && categories.length > 0 && (
+                        <>
+                            {(showAuthor || showDate) && <span class="meta-sep">•</span>}
+                            <span class="categories">
+                                {categories.map((c) => <a href={`/categories/${urlize(c)}/`}>{c}</a>)}
+                            </span>
+                        </>
+                    )}
+                </div>
+            </div>
+
+            <div class="post-body">
+                <slot />
+            </div>
+
+            {tags && tags.length > 0 && (
+                <div class="post-footer">
+                    <div class="tags">
+                        {tags.map((t) => <a href={`/tags/${urlize(t)}/`} class="tag">#{t}</a>)}
+                    </div>
+                </div>
+            )}
+        </article>
+
+        {showToc && (
+            <aside class="toc-sidebar">
+                <div class="toc-wrapper">
+                    <nav class="toc-nav">
+                        <TableOfContents headings={headings} />
+                    </nav>
+                </div>
+            </aside>
+        )}
+    </div>
+</BaseLayout>

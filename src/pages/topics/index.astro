@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { urlize } from '../../lib/slug';
+
+const posts = await getCollection('posts', ({ data }) => !data.draft);
+
+const categoryCounts = new Map<string, number>();
+const tagCounts = new Map<string, number>();
+for (const post of posts) {
+  for (const c of post.data.categories ?? []) categoryCounts.set(c, (categoryCounts.get(c) ?? 0) + 1);
+  for (const t of post.data.tags ?? []) tagCounts.set(t, (tagCounts.get(t) ?? 0) + 1);
+}
+const categories = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]);
+const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Topics">
+    <div class="list-page">
+        <h1>Topics</h1>
+
+        {categories.length > 0 && (
+            <section class="topics-section">
+                <h2 class="topics-section-title">Categories</h2>
+                <div class="taxonomy-grid">
+                    {categories.map(([name, count]) => (
+                        <a href={`/categories/${urlize(name)}/`} class="taxonomy-item">
+                            <h3>{name}</h3>
+                            <p>{count}개의 포스트</p>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
+
+        {tags.length > 0 && (
+            <section class="topics-section">
+                <h2 class="topics-section-title">Tags</h2>
+                <div class="taxonomy-grid">
+                    {tags.map(([name, count]) => (
+                        <a href={`/tags/${urlize(name)}/`} class="taxonomy-item">
+                            <h3>#{name}</h3>
+                            <p>{count}개의 포스트</p>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
+    </div>
+</BaseLayout>
