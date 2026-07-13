@@ -67,7 +67,6 @@ body {
 
 /* Header and Navigation */
 header {
-    margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 2px solid var(--border);
 }
@@ -812,7 +811,35 @@ main {
     font-size: 1.2rem;
     color: var(--text-subtle);
     margin-bottom: 30px;
-    white-space: pre-line;
+}
+
+.site-description p {
+    margin: 0 0 10px;
+}
+
+.site-description h2,
+.site-description h3 {
+    font-size: 1.1rem;
+    color: var(--text);
+    margin: 20px 0 10px;
+}
+
+.site-description ul,
+.site-description ol {
+    margin: 0 0 10px 24px;
+}
+
+.site-description li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+}
+
+.site-description > :last-child {
+    margin-bottom: 0;
+}
+
+.site-description a {
+    color: var(--accent);
 }
 
 .social-links {
@@ -925,7 +952,7 @@ footer a:hover {
 
     /* Header & Navigation */
     header {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     nav {
