@@ -2,7 +2,6 @@ export const site = {
   title: 'HyunSang Park',
   description: "HyunSang's tech blog",
   author: 'HyunSang Park',
-  bio: 'Information Security - B.S. / Minor in Law',
   languageCode: 'ko-KR',
 };
 

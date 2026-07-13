@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { site, social } from '../site.config';
 import { formatDateKo } from '../lib/date';
 import { urlize } from '../lib/slug';
+import { Content as Intro } from '../data/intro.md';
 
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -21,7 +22,9 @@ for (const post of posts) {
         <!-- Profile Section -->
         <div class="profile-section">
             <h1>{site.author}</h1>
-            <p class="site-description">{site.bio}</p>
+            <div class="site-description">
+                <Intro />
+            </div>
 
             <!-- Social Links -->
             <div class="social-links">
