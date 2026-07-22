@@ -18,7 +18,7 @@ const highlights = (await getCollection('highlights'))
             {highlights.map((entry) => (
                 <article class="post-summary">
                     <h3>
-                        <a href={`/highlights/${entry.slug}/`}>{entry.data.title}</a>
+                        <a href={`/highlights/${entry.id}/`}>{entry.data.title}</a>
                     </h3>
                     {entry.data.showDate !== false && (
                         <div class="post-meta">

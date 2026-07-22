@@ -32,7 +32,7 @@ const { tag, posts } = Astro.props;
             {posts.map((post) => (
                 <article class="post-summary">
                     <h3>
-                        <a href={`/posts/${post.slug}/`}>{post.data.title}</a>
+                        <a href={`/posts/${post.id}/`}>{post.data.title}</a>
                     </h3>
                     {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
                     <div class="post-meta">

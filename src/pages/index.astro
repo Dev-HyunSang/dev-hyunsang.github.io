@@ -65,7 +65,7 @@ for (const post of posts) {
             <h2>Recent Posts</h2>
             <div class="posts-list">
                 {posts.map((post) => (
-                    <a href={`/posts/${post.slug}/`} class="post-summary-link" data-categories={(post.data.categories ?? []).map(urlize).join(' ')}>
+                    <a href={`/posts/${post.id}/`} class="post-summary-link" data-categories={(post.data.categories ?? []).map(urlize).join(' ')}>
                         <article class="post-summary">
                             <h3>{post.data.title}</h3>
                             {post.data.subtitle && <p class="subtitle">{post.data.subtitle}</p>}
