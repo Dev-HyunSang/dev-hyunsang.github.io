@@ -1,5 +1,5 @@
 ---
-title: "HyunSang Park"
+title: "박현상, HyunSang Park"
 toc: false
 showDate: false
 showAuthor: false
@@ -15,7 +15,6 @@ showAuthor: false
 
 - MBTI - ENTJ
   - MBTI로 제 자신을 정의할 순 없겠지만 사고방식과 생활방식이 비슷한 부분이 많습니다.
-
 - 학부에서 정보보호학을 주전공으로, 법학을 부전공으로 전공하고 있습니다.
   - 정보보호학에선 웹 취약점 분석 / 보안관제 / 개인정보보호정책 등에 관심이 많습니다.
     - 웹 취약점 분석에선 웹 애플리케이션의 취약점을 분석하고, 이를 해결하기 위한 방안을 배우고 있습니다.
