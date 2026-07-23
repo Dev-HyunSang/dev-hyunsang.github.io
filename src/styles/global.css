@@ -250,7 +250,6 @@ main {
     left: calc(50% + 900px / 2 + 40px);
     top: 180px;
     width: 240px;
-    max-height: calc(100vh - 220px);
     z-index: 10;
 }
 
@@ -261,6 +260,7 @@ main {
 }
 
 .toc-wrapper {
+    max-height: calc(100vh - 220px);
     overflow-y: auto;
     padding: 0;
 }

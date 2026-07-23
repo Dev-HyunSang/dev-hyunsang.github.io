@@ -146,12 +146,28 @@ const pageTitle = isHome
                 }
 
                 // Update active state
+                let activeLink = null;
                 tocLinks.forEach(link => {
                     link.classList.remove('active');
                     if (link.getAttribute('href') === '#' + current) {
                         link.classList.add('active');
+                        activeLink = link;
                     }
                 });
+
+                // Keep the active item in view within the scrollable TOC box
+                if (activeLink) {
+                    const wrapper = activeLink.closest('.toc-wrapper');
+                    if (wrapper) {
+                        const linkTop = activeLink.offsetTop;
+                        const linkBottom = linkTop + activeLink.offsetHeight;
+                        if (linkTop < wrapper.scrollTop) {
+                            wrapper.scrollTop = linkTop;
+                        } else if (linkBottom > wrapper.scrollTop + wrapper.clientHeight) {
+                            wrapper.scrollTop = linkBottom - wrapper.clientHeight;
+                        }
+                    }
+                }
             }
 
             // Throttle scroll event
