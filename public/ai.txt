@@ -1,0 +1,7 @@
+# ai.txt - AI 학습/수집 opt-out 선언
+# https://site.spawning.ai/ai-txt 규격 참고
+
+User-agent: *
+Disallow: /
+
+# 개인정보(이메일 등)를 포함한 콘텐츠의 AI 모델 학습 데이터 수집을 허용하지 않습니다.
