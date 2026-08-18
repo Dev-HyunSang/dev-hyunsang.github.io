@@ -83,3 +83,58 @@ const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
         )}
     </div>
 </BaseLayout>
+
+{showToc && (
+    <script>
+        const tocWrapper = document.querySelector<HTMLElement>('.toc-wrapper');
+        const tocLinks = Array.from(
+            document.querySelectorAll<HTMLAnchorElement>('.toc-nav a'),
+        );
+        const headingEls = tocLinks
+            .map((link) => document.getElementById(decodeURIComponent(link.hash.slice(1))))
+            .filter((el): el is HTMLElement => el !== null);
+
+        if (tocWrapper && tocLinks.length > 0 && headingEls.length > 0) {
+            let activeLink: HTMLAnchorElement | null = null;
+
+            const setActive = (id: string) => {
+                const link = tocLinks.find((a) => decodeURIComponent(a.hash.slice(1)) === id);
+                if (!link || link === activeLink) return;
+
+                activeLink?.classList.remove('active');
+                link.classList.add('active');
+                activeLink = link;
+
+                const linkTop = link.offsetTop;
+                const linkBottom = linkTop + link.offsetHeight;
+                const viewTop = tocWrapper.scrollTop;
+                const viewBottom = viewTop + tocWrapper.clientHeight;
+
+                if (linkTop < viewTop || linkBottom > viewBottom) {
+                    tocWrapper.scrollTo({
+                        top: linkTop - tocWrapper.clientHeight / 2 + link.offsetHeight / 2,
+                        behavior: 'smooth',
+                    });
+                }
+            };
+
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    const visible = entries
+                        .filter((e) => e.isIntersecting)
+                        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+
+                    if (visible.length > 0) {
+                        setActive(visible[0].target.id);
+                    }
+                },
+                {
+                    rootMargin: '-96px 0px -70% 0px',
+                    threshold: 0,
+                },
+            );
+
+            headingEls.forEach((el) => observer.observe(el));
+        }
+    </script>
+)}
