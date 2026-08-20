@@ -5,6 +5,7 @@ date: 2026-08-17
 draft: false
 categories: ["개발자 커뮤니티 활동", "회고"]
 tags: ["PyCon Korea", "PyCon Korea 2026"]
+aiSummary: "저자가 파이콘준비위원회 신설 미디어팀 리드로서 PyCon Korea 2026을 준비하며 겪은 장비·송출·촬영 운영 경험과, 그 과정에서 성장한 커뮤니케이션 역량을 돌아보는 회고."
 ---
 
 안녕하세요. 박현상입니다.  

@@ -2,6 +2,7 @@
 import type { MarkdownHeading } from 'astro';
 import BaseLayout from './BaseLayout.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import AISummary from '../components/AISummary.astro';
 import { site } from '../site.config';
 import { formatDateKo, isoDate } from '../lib/date';
 import { urlize } from '../lib/slug';
@@ -16,6 +17,7 @@ interface Props {
   showAuthor?: boolean;
   toc?: boolean;
   headings?: MarkdownHeading[];
+  aiSummary?: string;
 }
 
 const {
@@ -28,6 +30,7 @@ const {
   showAuthor = true,
   toc = true,
   headings = [],
+  aiSummary,
 } = Astro.props;
 
 const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
@@ -58,6 +61,8 @@ const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
                     )}
                 </div>
             </div>
+
+            {aiSummary && <AISummary summary={aiSummary} />}
 
             <div class="post-body">
                 <slot />
