@@ -1,15 +1,9 @@
-*Back-End Software Engineer*  
-*Infomation Security - B.S. / Minor Law @SCHU* 
+안녕하세요. 박현상입니다.  
+제 블로그에 찾아주셔서 감사합니다. 저는 하기와 같은 분야에 관심이 많습니다.  
 
-### What I’m interested in
+- **Back-End Engineering -** Golang · TypeScript(Nest) · Python(Django)
+- **Cyber Security -** 성문법/제도를 통한 개인정보보호 · 웹 취약점 분석 및 침해사고분석
+- **법학 -** 헌법(기본권) · 형법 · 민사법(파산/회생)
 
-- Backend Development Using Golang and Nest(TypeScript)
-- DevSecOps - Kubernetes, AWS, Azure, GitHub Action, ETC
-- Web Vulnerability Research / Data Privacy - GDPR, Law, ETC
-- Agentic AI(Claude Code · Codex) - Code Optimization, Clean Code
-
-### Community Contributed by
-
-- [GDG Golang Korea](https://gdg.community.dev/gdg-golang-korea/) (2023.02 ~ 2024.02)
-    - [GopherCon Korea 2023](https://2023.gophercon.kr/)
-- [PyCon Korea 2026](https://2026.pycon.kr) (2026.03 ~ Current)
+다양한 분들과 이야기 나누는 것을 좋아합니다. 공학 뿐만 아니라 다양한 이야기를 나누는 것을 좋아합니다.
+제 블로그를 보시고 저와 이야기를 나누고 싶으시면 메일 혹은 링크드인으로 연락주시면 감사하겠습니다 :-)
