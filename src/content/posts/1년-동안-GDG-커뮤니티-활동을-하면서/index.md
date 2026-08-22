@@ -3,6 +3,7 @@ title: "1년 동안 GDG 커뮤니티 활동을 하면서"
 date: 2024-06-27
 categories: ["커뮤니티"]
 tags: ["GDG Golang Korea"]
+aiSummary: "2023년 한 해 동안 GDG Golang Korea 오거나이저로 활동하며 Go to Everywhere 프로젝트와 GopherCon Korea 2023 미디어팀 리드를 맡았던 경험을 돌아보는 글. 발표와 행사 기획을 통해 커뮤니케이션 능력과 다양한 관점에서 생각하는 힘을 키울 수 있었다는 성장 회고를 담고 있다."
 ---
 
 안녕하세요. 박현상입니다.  

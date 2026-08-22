@@ -4,6 +4,7 @@ subtitle: "맥북 기변으로 인한 Intel 맥북을 홈서버로 구축해보�
 date: 2026-07-01
 categories: ["홈서버"]
 tags: ["홈서버", "VPN", "Tailscale"]
+aiSummary: "기존에 쓰던 Intel 맥북을 홈 서버로 재활용하면서 Tailscale을 이용해 포트포워딩 없이 안전하게 외부에서 접근하는 방법을 정리한 글. Grafana·Prometheus 모니터링과 Exit Node 기능을 활용한 트래픽 라우팅 구성도 함께 소개한다."
 ---
 
 안녕하세요. 박현상입니다.  

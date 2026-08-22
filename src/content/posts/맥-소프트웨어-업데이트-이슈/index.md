@@ -4,6 +4,7 @@ subtitle: "Intel 기반의 맥북 소프트웨어 업데이트 이후 Homebrew �
 date: 2025-11-07
 categories: ["개발"]
 tags: ["개발 환경", "이슈"]
+aiSummary: "Intel 맥북에서 macOS Tahoe 26.0→26.1 업데이트 후 Homebrew와 설치된 앱들이 사라진 이슈를 다룬 트러블슈팅 글. 원인은 Intel 기반 맥에서만 발생하는 알려진 macOS 버그로 확인되었고, 결국 맥북을 초기화해 개발 환경을 재구성했다는 결론을 담고 있다."
 ---
 
 ![업데이트를 완료한 모습](./System-Setting.png)

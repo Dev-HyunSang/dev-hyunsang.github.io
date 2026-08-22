@@ -4,6 +4,7 @@ subtitle: "'어떻게 하면 집에 있는 책을 효율적으로 관리하고 �
 date: 2026-02-13
 categories: ["사이드 프로젝트"]
 tags: ["Golang", "Azure", "MySQL", "Redis", "Flutter"]
+aiSummary: "집에 있는 책을 효율적으로 기록·관리하기 위해 Claude Code로 바이브 코딩하여 개발한 개인 서재 서비스 '나만의 서재' 개발기. Golang·Flutter·Azure·MySQL·Redis로 구성한 아키텍처와 회원가입, ISBN 바코드 등록, 책 리뷰 등 주요 기능을 상세히 소개한다."
 ---
 
 안녕하세요. 박현상입니다.  

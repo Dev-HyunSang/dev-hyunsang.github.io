@@ -5,6 +5,7 @@ date: 2026-07-01
 draft: true
 categories: ["홈 서버"]
 tags: ["GitHub Action", "Tailscale", "Docker"]
+aiSummary: "홈 서버 구축 이후 외부 노출 없이 서비스를 배포하는 방법을 고민하며, Tailscale과 GitHub Actions를 활용한 Docker 기반 CI/CD 구성을 다루기 시작한 글. (작성 중)"
 ---
 
 안녕하세요. 박현상입니다.  
