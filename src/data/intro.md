@@ -1,9 +1,1 @@
-안녕하세요. 박현상입니다.  
-제 블로그에 찾아주셔서 감사합니다. 저는 하기와 같은 분야에 관심이 많습니다.  
-
-- **Back-End Engineering -** Golang · TypeScript(Nest) · Python(Django)
-- **Cyber Security -** 성문법/제도를 통한 개인정보보호 · 웹 취약점 분석 및 침해사고분석
-- **법학 -** 헌법(기본권) · 형법 · 민사법(파산/회생)
-
-다양한 분들과 이야기 나누는 것을 좋아합니다. 공학 뿐만 아니라 다양한 이야기를 나누는 것을 좋아합니다.
-제 블로그를 보시고 저와 이야기를 나누고 싶으시면 메일 혹은 링크드인으로 연락주시면 감사하겠습니다 :-)
+Software Engineer(Full Stack · Physical Computing)
