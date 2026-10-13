@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Rows from '../../components/Rows.astro';
 import { urlize } from '../../lib/slug';
 
 const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -18,14 +19,11 @@ const terms = [...counts.entries()].sort((a, b) => b[1] - a[1]);
         <h1>#Tags</h1>
         <p class="page-description">모든 tags의 목록입니다.</p>
 
-        <div class="taxonomy-grid">
-            {terms.map(([name, count]) => (
-                <a href={`/tags/${urlize(name)}/`} class="taxonomy-item">
-                    <h2>#{name}</h2>
-                    <p>{count}개의 포스트</p>
-                </a>
-            ))}
-        </div>
+        <Rows rows={terms.map(([name, count]) => ({
+            href: `/tags/${urlize(name)}/`,
+            label: `${count}개`,
+            title: `#${name}`,
+        }))} />
 
         {terms.length === 0 && (
             <div class="empty-state">

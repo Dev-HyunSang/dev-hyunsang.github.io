@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Rows from '../../components/Rows.astro';
 import { urlize } from '../../lib/slug';
 
 const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -20,30 +21,24 @@ const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
         <h1>Topics</h1>
 
         {categories.length > 0 && (
-            <section class="topics-section">
-                <h2 class="topics-section-title">Categories</h2>
-                <div class="taxonomy-grid">
-                    {categories.map(([name, count]) => (
-                        <a href={`/categories/${urlize(name)}/`} class="taxonomy-item">
-                            <h3>{name}</h3>
-                            <p>{count}개의 포스트</p>
-                        </a>
-                    ))}
-                </div>
+            <section>
+                <h2 class="rows-title">Categories</h2>
+                <Rows rows={categories.map(([name, count]) => ({
+                    href: `/categories/${urlize(name)}/`,
+                    label: `${count}개`,
+                    title: name,
+                }))} />
             </section>
         )}
 
         {tags.length > 0 && (
-            <section class="topics-section">
-                <h2 class="topics-section-title">Tags</h2>
-                <div class="taxonomy-grid">
-                    {tags.map(([name, count]) => (
-                        <a href={`/tags/${urlize(name)}/`} class="taxonomy-item">
-                            <h3>#{name}</h3>
-                            <p>{count}개의 포스트</p>
-                        </a>
-                    ))}
-                </div>
+            <section>
+                <h2 class="rows-title">Tags</h2>
+                <Rows rows={tags.map(([name, count]) => ({
+                    href: `/tags/${urlize(name)}/`,
+                    label: `${count}개`,
+                    title: `#${name}`,
+                }))} />
             </section>
         )}
     </div>

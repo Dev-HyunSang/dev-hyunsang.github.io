@@ -18,10 +18,6 @@ export function yearKey(date: Date) {
   return `${date.getUTCFullYear()}년`;
 }
 
-export function monthKey(date: Date) {
-  return `${pad(date.getUTCMonth() + 1)}월`;
-}
-
 export function isoDate(date: Date) {
   return date.toISOString().slice(0, 10);
 }

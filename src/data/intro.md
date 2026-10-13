@@ -1,1 +1,1 @@
-Software Engineer(Full Stack · Physical Computing)
+Software Engineer  

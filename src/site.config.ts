@@ -8,7 +8,7 @@ export const site = {
 export const social = [
   { name: 'Website', url: 'https://hyunsang.dev' },
   { name: 'GitHub', url: 'https://github.com/dev-hyunsang' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/parkhyunsang' },
+  { name: 'Linkedin', url: 'https://linkedin.com/in/parkhyunsang' },
   { name: 'Email', url: 'mailto:me@hyunsang.dev' },
 ];
 

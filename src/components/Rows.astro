@@ -1,0 +1,16 @@
+---
+interface Props {
+  rows: { href: string; label?: string; title: string; categories?: string }[];
+}
+
+const { rows } = Astro.props;
+---
+
+<ul class="rows">
+  {rows.map((r) => (
+    <li data-categories={r.categories}>
+      <span class="row-label">{r.label}</span>
+      <a href={r.href}>{r.title}</a>
+    </li>
+  ))}
+</ul>
