@@ -20,26 +20,58 @@ const tags = [...tagCounts.entries()].sort((a, b) => b[1] - a[1]);
     <div class="list-page">
         <h1>Topics</h1>
 
-        {categories.length > 0 && (
-            <section>
-                <h2 class="rows-title">Categories</h2>
-                <Rows rows={categories.map(([name, count]) => ({
-                    href: `/categories/${urlize(name)}/`,
-                    label: `${count}개`,
-                    title: name,
-                }))} />
-            </section>
-        )}
+        <!-- ponytail: radio + :has() tabs, no JS -->
+        <div class="topic-tabs" role="radiogroup" aria-label="Topics 보기">
+            <label><input type="radio" name="topic-tab" value="categories" checked /> Categories ({categories.length})</label>
+            <label><input type="radio" name="topic-tab" value="tags" /> Tags ({tags.length})</label>
+        </div>
 
-        {tags.length > 0 && (
-            <section>
-                <h2 class="rows-title">Tags</h2>
-                <Rows rows={tags.map(([name, count]) => ({
-                    href: `/tags/${urlize(name)}/`,
-                    label: `${count}개`,
-                    title: `#${name}`,
-                }))} />
-            </section>
-        )}
+        <section class="topic-panel" data-panel="categories">
+            <Rows rows={categories.map(([name, count]) => ({
+                href: `/categories/${urlize(name)}/`,
+                label: `${count}개`,
+                title: name,
+            }))} />
+        </section>
+
+        <section class="topic-panel" data-panel="tags">
+            <Rows rows={tags.map(([name, count]) => ({
+                href: `/tags/${urlize(name)}/`,
+                label: `${count}개`,
+                title: `#${name}`,
+            }))} />
+        </section>
     </div>
 </BaseLayout>
+
+<style>
+    .topic-tabs {
+        display: flex;
+        gap: 1.5rem;
+        margin: 24px 0 8px;
+        font-weight: 700;
+    }
+    .topic-tabs label {
+        cursor: pointer;
+        color: var(--muted);
+        padding-bottom: 4px;
+        border-bottom: 2px solid transparent;
+    }
+    .topic-tabs label:has(input:checked) {
+        color: inherit;
+        border-bottom-color: currentColor;
+    }
+    .topic-tabs label:has(input:focus-visible) {
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+    }
+    .topic-tabs input {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .list-page:has(input[value="categories"]:checked) [data-panel="tags"],
+    .list-page:has(input[value="tags"]:checked) [data-panel="categories"] {
+        display: none;
+    }
+</style>
