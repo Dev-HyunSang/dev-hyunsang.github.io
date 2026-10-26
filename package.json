@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/Dev-HyunSang/dev-hyunsang.github.io#readme",
   "dependencies": {
-    "astro": "^7.2.8",
-    "@astrojs/sitemap": "^3.2.1"
+    "@astrojs/markdown-remark": "^7.2.4",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^7.2.8"
   }
 }
