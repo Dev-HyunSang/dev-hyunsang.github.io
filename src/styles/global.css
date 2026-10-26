@@ -227,11 +227,21 @@ header nav a:hover,
 
 .post-body ul,
 .post-body ol {
-    margin: 0 0 20px 24px;
+    margin: 0 0 20px;
+    padding-left: 1.5em;
 }
 
 .post-body li {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+}
+
+.post-body li > ul,
+.post-body li > ol {
+    margin: 4px 0 0;
+}
+
+.post-body li > p {
+    margin-bottom: 4px;
 }
 
 .post-body img {
