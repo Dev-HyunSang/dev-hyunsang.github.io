@@ -3,6 +3,7 @@ import type { MarkdownHeading } from 'astro';
 import BaseLayout from './BaseLayout.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import AISummary from '../components/AISummary.astro';
+import Giscus from '../components/Giscus.astro';
 import { site } from '../site.config';
 import { formatDateKo, isoDate } from '../lib/date';
 import { urlize } from '../lib/slug';
@@ -18,6 +19,7 @@ interface Props {
   toc?: boolean;
   headings?: MarkdownHeading[];
   aiSummary?: string;
+  comments?: boolean;
 }
 
 const {
@@ -31,6 +33,7 @@ const {
   toc = true,
   headings = [],
   aiSummary,
+  comments = false,
 } = Astro.props;
 
 const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
@@ -75,6 +78,8 @@ const showToc = toc && headings.some((h) => h.depth >= 2 && h.depth <= 3);
                     </div>
                 </div>
             )}
+
+            {comments && <Giscus />}
         </article>
 
         {showToc && (

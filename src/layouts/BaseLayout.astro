@@ -126,6 +126,9 @@ const pageTitle = isHome
         document.documentElement.setAttribute("data-theme", next);
         localStorage.setItem("theme", next);
 
+        document.querySelector("iframe.giscus-frame")?.contentWindow
+          ?.postMessage({ giscus: { setConfig: { theme: next } } }, "https://giscus.app");
+
         const hljsTheme = document.getElementById("hljs-theme");
         hljsTheme.href =
           next === "dark"
