@@ -18,7 +18,7 @@ showAuthor: false
 
 - **Community Experience:**
     - Organizer [@PyCon Korea](https://pycon.kr) (2026.03 ~ Current)
-        - PyCon Korea 2023 to Be Held
+        - PyCon Korea 2026 to Be Held
     - Organizer [@GDG Golang Korea](https://gdg.community.dev/gdg-golang-korea/) (2023.03 ~ 2024.03)
         - GopherCon Korea 2023 to Be Held
 
