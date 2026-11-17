@@ -1,7 +1,7 @@
 export const site = {
-  title: 'HyunSang Park',
-  description: "HyunSang's tech blog",
-  author: '박현상, HyunSang Park',
+  title: 'Hyunsang Park',
+  description: "Hyunsang's tech blog",
+  author: 'Hyunsang Park',
   languageCode: 'ko-KR',
 };
 
