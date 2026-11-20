@@ -24,10 +24,10 @@ showAuthor: false
 
 - **Education:**
     - Minor in Law [@Department of Law, Soonchunhyang University](https://home.sch.ac.kr/law/index.jsp)
-    - Bachelor of Engineering - BE [@Department Infomation Security, Soonchunhyang University](https://home.sch.ac.kr/security/index.jsp)
+    - Bachelor of Engineering - BE [@Department of Information Security, Soonchunhyang University](https://home.sch.ac.kr/security/index.jsp)
     - Trainees [@Mokpo National University Institute for Gifted Education in Information Security](https://dream.mokpo.ac.kr/dream/index.do)
         - Elementary, Intermediate, and Advanced High School Programs
 
 - **Contact for me:**
     - [Linkedin](https://linkedin.com/in/parkhyunsang) / [GitHub](https://github.com/dev-hyunsang)
-    - Email - [me@hyunsang.dev](mailto:hyunsang.dev)
+    - Email - [me@hyunsang.dev](mailto:me@hyunsang.dev)
