@@ -2,6 +2,7 @@
 title: "Mac mini에서 Local LLM를 사용해 보자!"
 subtitle: "Mac mini에서 Local LLM를 사용하면서 어떻게 설정하는지와 효율적으로 사용할 수 있는 방법에 대해 서술합니다."
 date: 2026-11-16
+draft: true
 categories: ["LLM", "Local LLM"]
 tags: ["Mac mini", "Local"]
 aiSummary: ""
