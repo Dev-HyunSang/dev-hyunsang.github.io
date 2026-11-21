@@ -2,8 +2,8 @@
 title: "내부망 2.5Gbps 구성해보기"
 subtitle: "Mac mini와 Macbook Pro를 내부망으로 2.5Gbps로 구성해보기"
 date: 2026-11-17
-categories: ["LLM", "Local LLM"]
-tags: ["Mac mini", "Local"]
+categories: ["Networks"]
+tags: ["Mac mini", "Macbook Pro", "Local", "Networks"]
 aiSummary: "Mac mini(M6)의 2.5Gbps 이더넷 포트를 활용해 MacBook Pro(M5)와 2.5Gbps 스위치로 집 내부망을 구성한 과정을 정리한 글. CAT.8 랜선, 2.5Gbps USB-C 허브, 스위치 등 준비물과 네트워크 구성도를 소개하고, 외부망 속도 측정과 iperf3 내부망 속도 테스트 결과를 공유한다."
 ---
 
