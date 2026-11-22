@@ -260,6 +260,17 @@ header nav a:hover,
     color: var(--muted);
 }
 
+.post-body hr {
+    border: 0;
+    border-top: 1px solid var(--line);
+    margin: 40px 0;
+}
+
+/* hr 바로 다음 요소(h2 등)의 margin-top이 위아래 간격을 어긋나게 하지 않도록 */
+.post-body hr + * {
+    margin-top: 0;
+}
+
 .post-body code {
     background-color: var(--soft);
     padding: 2px 6px;
