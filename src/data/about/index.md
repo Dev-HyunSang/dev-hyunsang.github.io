@@ -5,10 +5,10 @@ showDate: false
 showAuthor: false
 ---
 
-![My Profile Photo](./profile.jpeg)
+![My Profile Photo](./profile.jpg)
 
 > **_인간은 노력하는 한, 방황하느니._**  
-> **_Es irrt der Mensch, solang' er strebt._**  
+> **_Es irrt der Mensch, solang' er strebt._**
 > 요한 볼프강 폰 괴테
 
 ---
