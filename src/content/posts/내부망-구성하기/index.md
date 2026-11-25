@@ -39,7 +39,7 @@ aiSummary: "Mac mini(M6)의 2.5Gbps 이더넷 포트를 활용해 MacBook Pro(M5
 
 ### 외부망
 
-![맥 미니 외부망 속도 테스트](./mac-mini-external-network-speed.pngexternal-network-speed.png)
+![맥 미니 외부망 속도 테스트](./mac-mini-external-network-speed.png)
 
 ![맥북 외부망 속도 테스트](./mac-book-external-network-speed.png)
 
