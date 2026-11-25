@@ -5,7 +5,7 @@ showDate: false
 showAuthor: false
 ---
 
-![My Profile Photo](./profile.jpg)
+![My Profile Photo](./profile.JPG)
 
 > **_인간은 노력하는 한, 방황하느니._**  
 > **_Es irrt der Mensch, solang' er strebt._**
