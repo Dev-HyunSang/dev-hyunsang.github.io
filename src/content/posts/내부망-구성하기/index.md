@@ -39,9 +39,14 @@ aiSummary: "Mac mini(M6)의 2.5Gbps 이더넷 포트를 활용해 MacBook Pro(M5
 
 ### 외부망
 
-![외부망 속도 테스트](./external-network-speed.png)
+![맥 미니 외부망 속도 테스트](./mac-mini-external-network-speed.pngexternal-network-speed.png)
+
+![맥북 외부망 속도 테스트](./mac-book-external-network-speed.png)
 
 저는 LG U+ 1Gbps의 인터넷망을 사용하고 있습니다. 속도 측정을 해보니 거의 비슷한 속도로 나오는 것을 볼 수 있습니다.
+
+- 상단 - 맥 미니
+- 하단 - 맥북 프로
 
 ### 내부망
 
